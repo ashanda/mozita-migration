@@ -55,4 +55,177 @@
 	<?php wp_body_open(); ?>
 	<div class="boxed_wrapper home_one">
 
-	<?php get_template_part('preloader'); ?>
+		<?php get_template_part('preloader'); ?>
+
+
+		<!-- main header -->
+		<header class="main-header">
+			<!-- header-top -->
+			<div class="header-top">
+				<div class="outer-container">
+					<div class="top-inner">
+						<div class="top-left">
+							<ul class="info clearfix">
+								<li><i class="icon-1"></i><a href="mailto:info@yourmail.com">info@yourmail.com</a></li>
+								<li><i class="icon-2"></i>12 Queen Park, LA, USA</li>
+								<li><i class="icon-3"></i>Mon _ Sat: 9.00 to 18.00</li>
+							</ul>
+						</div>
+						<div class="top-right">
+							<ul class="social-links clearfix">
+								<li><a href="index.html"><i class="icon-4"></i></a></li>
+								<li><a href="index.html"><i class="icon-5"></i></a></li>
+								<li><a href="index.html"><i class="icon-6"></i></a></li>
+								<li><a href="index.html"><i class="icon-7"></i></a></li>
+							</ul>
+							<div class="search-form">
+								<form action="index.html" method="post">
+									<div class="form-group">
+										<input type="search" name="search-field" placeholder="Search ..." required>
+										<button type="submit"><i class="icon-8"></i></button>
+									</div>
+								</form>
+							</div>
+							<div class="btn-box">
+								<a href="index.html"><span>Appointment</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- header-lower -->
+			<div class="header-lower">
+				<div class="outer-box clearfix">
+					<div class="logo-box">
+						<figure class="logo"><a href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt=""></a></figure>
+					</div>
+					<div class="nav-outer">
+						<div class="menu-area clearfix">
+							<!--Mobile Navigation Toggler-->
+							<div class="mobile-nav-toggler">
+								<i class="icon-bar"></i>
+								<i class="icon-bar"></i>
+								<i class="icon-bar"></i>
+							</div>
+							<!-- <nav class="main-menu navbar-expand-md navbar-light">
+								<div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+									<ul class="navigation clearfix">
+										<li class="dropdown"><a href="index.html">Home</a>
+											<ul>
+												<li><a href="index.html">Home Page 01</a></li>
+												<li><a href="index-2.html">Home Page 02</a></li>
+												<li><a href="index-3.html">Home Page 03</a></li>
+												<li><a href="index-4.html">Home Page 04</a></li>
+												<li><a href="index-onepage.html">OnePage Home</a></li>
+												<li><a href="index-rtl.html">RTL Home</a></li>
+												<li class="dropdown"><a href="index.html">Header Style</a>
+													<ul>
+														<li><a href="index.html">Header Style 01</a></li>
+														<li><a href="index-2.html">Header Style 02</a></li>
+														<li><a href="index-3.html">Header Style 03</a></li>
+														<li><a href="index-4.html">Header Style 04</a></li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+										<li class="dropdown"><a href="index.html">About</a>
+											<ul>
+												<li class="dropdown"><a href="index.html">Team</a>
+													<ul>
+														<li><a href="team.html">Our Team</a></li>
+														<li><a href="team-details.html">Team Details</a></li>
+													</ul>
+												</li>
+												<li><a href="about.html">About Us</a></li>
+												<li><a href="faq.html">Faq’s</a></li>
+												<li><a href="error.html">404</a></li>
+											</ul>
+										</li>
+										<li><a href="contact.html">Contact Us</a></li>
+									</ul>
+								</div>
+							</nav> -->
+
+							<nav class="main-menu navbar-expand-md navbar-light">
+								<?php
+								wp_nav_menu(array(
+									'theme_location' => 'primary-menu', // Replace 'primary-menu' with your menu location
+									'container' => 'div',
+									'container_class' => 'collapse navbar-collapse show clearfix',
+									'container_id' => 'navbarSupportedContent',
+									'menu_class' => 'navigation clearfix',
+									'fallback_cb' => false,
+								));
+								?>
+							</nav>
+							<script>
+								jQuery(document).ready(function($) {
+									// Toggle sub-menus on click
+									$('.navigation .menu-item-has-children').on('click', '.dropdown-btn', function(e) {
+										e.preventDefault();
+										$(this).siblings('.sub-menu').toggle();
+										$(this).toggleClass('open');
+									});
+								});
+							</script>
+
+						</div>
+						<div class="support-box">
+							<figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/support-1.jpg" alt=""></figure>
+							<span>Enquiries</span>
+							<a href="tel:188845678901">+1-888-456-78-901</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!--sticky Header-->
+			<div class="sticky-header">
+				<div class="auto-container">
+					<div class="outer-box">
+						<div class="logo-box">
+							<figure class="logo"><a href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt=""></a></figure>
+						</div>
+						<div class="menu-area clearfix">
+							<nav class="main-menu clearfix">
+								<!--Keep This Empty / Menu will come through Javascript-->
+							</nav>
+						</div>
+						<div class="support-box">
+							<figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/support-1.jpg" alt=""></figure>
+							<span>Enquiries</span>
+							<a href="tel:188845678901">+1-888-456-78-901</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- main-header end -->
+
+		<!-- Mobile Menu  -->
+		<div class="mobile-menu">
+			<div class="menu-backdrop"></div>
+			<div class="close-btn"><i class="fas fa-times"></i></div>
+
+			<nav class="menu-box">
+				<div class="nav-logo"><a href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-2.png" alt="" title=""></a></div>
+				<div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
+				<div class="contact-info">
+					<h4>Contact Info</h4>
+					<ul>
+						<li>Chicago 12, Melborne City, USA</li>
+						<li><a href="tel:+8801682648101">+88 01682648101</a></li>
+						<li><a href="mailto:info@example.com">info@example.com</a></li>
+					</ul>
+				</div>
+				<div class="social-links">
+					<ul class="clearfix">
+						<li><a href="index.html"><span class="fab fa-twitter"></span></a></li>
+						<li><a href="index.html"><span class="fab fa-facebook-square"></span></a></li>
+						<li><a href="index.html"><span class="fab fa-pinterest-p"></span></a></li>
+						<li><a href="index.html"><span class="fab fa-instagram"></span></a></li>
+						<li><a href="index.html"><span class="fab fa-youtube"></span></a></li>
+					</ul>
+				</div>
+			</nav>
+		</div><!-- End Mobile Menu -->
