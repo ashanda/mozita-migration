@@ -67,7 +67,9 @@
 						<div class="top-left">
 							<ul class="info clearfix">
 								<li><i class="icon-1"></i><a href="mailto:info@yourmail.com">info@yourmail.com</a></li>
-								<li><i class="icon-2"></i>12 Queen Park, LA, USA</li>
+								<li><i class="icon-2"></i>101 Springs Rd,
+Hornby,
+Christchurch 8042.II</li>
 								<li><i class="icon-3"></i>Mon _ Sat: 9.00 to 18.00</li>
 							</ul>
 						</div>
@@ -173,7 +175,7 @@
 						<div class="support-box">
 							<figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/support-1.jpg" alt=""></figure>
 							<span>Enquiries</span>
-							<a href="tel:188845678901">+1-888-456-78-901</a>
+							<a href="tel:0800820820">0800 820 820</a>
 						</div>
 					</div>
 				</div>
@@ -194,7 +196,7 @@
 						<div class="support-box">
 							<figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/support-1.jpg" alt=""></figure>
 							<span>Enquiries</span>
-							<a href="tel:188845678901">+1-888-456-78-901</a>
+							<a href="tel:0800820820">0800 820 820</a>
 						</div>
 					</div>
 				</div>

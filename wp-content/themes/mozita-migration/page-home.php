@@ -86,59 +86,165 @@ get_header(); // Include the header
     <div class="auto-container">
         <div class="sec-title centred mb_50">
             <span class="sub-title">Visa Categories</span>
-            <h2>Assisting you in fulfilling your eligibility <br />for immigrant registration.</h2>
+            <h2>Embark on Your Journey: <br> Explore Our Visa Categories</h2>
         </div>
-        <div class="three-item-carousel owl-carousel owl-theme owl-dots-none nav-style-one">
-            <div class="visa-block-one">
-                <div class="inner-box">
-                    <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/visa-1.jpg" alt=""></figure>
-                    <div class="lower-content">
-                        <div class="icon-box"><i class="icon-12"></i></div>
-                        <h3><a href="visa-details-4.html">Student Visa</a></h3>
-                        <p>Sed gravida nisl a porta tincidunt. Integertheoo aliquam nisi sit amet.</p>
-                        <ul class="list-style-one clearfix">
-                            <li>Nulla nulla erat, gravida at leo</li>
-                            <li>Amet minim mollit no duis deserut</li>
-                            <li>dolor do amet sint Velit officia</li>
-                        </ul>
-                        <div class="link-btn">
-                            <a href="visa-details-4.html"><span>Read More</span></a>
+        <div class="row">
+            <div class="col-md-3 mt-3">
+                <div class="visa-block-one">
+                    <div class="inner-box">
+                        <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/visa-1.jpg" alt=""></figure>
+                        <div class="lower-content">
+                            <div class="icon-box"><i class="icon-12"></i></div>
+                            <h3><a href="visa-details-4.html">Work Visa</a></h3>
+                            <p>Sed gravida nisl a porta tincidunt. Integertheoo aliquam nisi sit amet.</p>
+                            <ul class="list-style-one clearfix">
+                                <li>Nulla nulla erat, gravida at leo</li>
+                                <li>Amet minim mollit no duis deserut</li>
+                                <li>dolor do amet sint Velit officia</li>
+                            </ul>
+                            <div class="link-btn">
+                                <a href="visa-details-4.html"><span>Read More</span></a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="visa-block-one">
-                <div class="inner-box">
-                    <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/visa-2.jpg" alt=""></figure>
-                    <div class="lower-content">
-                        <div class="icon-box"><i class="icon-13"></i></div>
-                        <h3><a href="visa-details-3.html">Residence Visa</a></h3>
-                        <p>Sed gravida nisl a porta tincidunt. Integertheoo aliquam nisi sit amet.</p>
-                        <ul class="list-style-one clearfix">
-                            <li>Quisque tincidunt porta libero</li>
-                            <li>Donec magna sem, consectetur</li>
-                            <li>Pellentesque consequat dignissim velit</li>
-                        </ul>
-                        <div class="link-btn">
-                            <a href="visa-details-3.html"><span>Read More</span></a>
+            <div class="col-md-3 mt-3">
+                <div class="visa-block-one">
+                    <div class="inner-box">
+                        <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/visa-1.jpg" alt=""></figure>
+                        <div class="lower-content">
+                            <div class="icon-box"><i class="icon-12"></i></div>
+                            <h3><a href="visa-details-4.html">Partner Work Visa</a></h3>
+                            <p>Sed gravida nisl a porta tincidunt. Integertheoo aliquam nisi sit amet.</p>
+                            <ul class="list-style-one clearfix">
+                                <li>Nulla nulla erat, gravida at leo</li>
+                                <li>Amet minim mollit no duis deserut</li>
+                                <li>dolor do amet sint Velit officia</li>
+                            </ul>
+                            <div class="link-btn">
+                                <a href="visa-details-4.html"><span>Read More</span></a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="visa-block-one">
-                <div class="inner-box">
-                    <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/visa-3.jpg" alt=""></figure>
-                    <div class="lower-content">
-                        <div class="icon-box"><i class="icon-14"></i></div>
-                        <h3><a href="visa-details.html">Business Visa</a></h3>
-                        <p>Sed gravida nisl a porta tincidunt. Integertheoo aliquam nisi sit amet.</p>
-                        <ul class="list-style-one clearfix">
-                            <li>Aliquam molestie risus sit amet ex</li>
-                            <li>vitae varius quam consequat</li>
-                            <li>Praesent in aliquam felis, vitae</li>
-                        </ul>
-                        <div class="link-btn">
-                            <a href="visa-details.html"><span>Read More</span></a>
+            <div class="col-md-3 mt-3">
+                <div class="visa-block-one">
+                    <div class="inner-box">
+                        <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/visa-1.jpg" alt=""></figure>
+                        <div class="lower-content">
+                            <div class="icon-box"><i class="icon-12"></i></div>
+                            <h3><a href="visa-details-4.html">Partner Visit Visa</a></h3>
+                            <p>Sed gravida nisl a porta tincidunt. Integertheoo aliquam nisi sit amet.</p>
+                            <ul class="list-style-one clearfix">
+                                <li>Nulla nulla erat, gravida at leo</li>
+                                <li>Amet minim mollit no duis deserut</li>
+                                <li>dolor do amet sint Velit officia</li>
+                            </ul>
+                            <div class="link-btn">
+                                <a href="visa-details-4.html"><span>Read More</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mt-3">
+                <div class="visa-block-one">
+                    <div class="inner-box">
+                        <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/visa-1.jpg" alt=""></figure>
+                        <div class="lower-content">
+                            <div class="icon-box"><i class="icon-12"></i></div>
+                            <h3><a href="visa-details-4.html">Dependant Visitor Visa</a></h3>
+                            <p>Sed gravida nisl a porta tincidunt. Integertheoo aliquam nisi sit amet.</p>
+                            <ul class="list-style-one clearfix">
+                                <li>Nulla nulla erat, gravida at leo</li>
+                                <li>Amet minim mollit no duis deserut</li>
+                                <li>dolor do amet sint Velit officia</li>
+                            </ul>
+                            <div class="link-btn">
+                                <a href="visa-details-4.html"><span>Read More</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mt-3">
+                <div class="visa-block-one">
+                    <div class="inner-box">
+                        <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/visa-1.jpg" alt=""></figure>
+                        <div class="lower-content">
+                            <div class="icon-box"><i class="icon-12"></i></div>
+                            <h3><a href="visa-details-4.html">Dependent Student Visa</a></h3>
+                            <p>Sed gravida nisl a porta tincidunt. Integertheoo aliquam nisi sit amet.</p>
+                            <ul class="list-style-one clearfix">
+                                <li>Nulla nulla erat, gravida at leo</li>
+                                <li>Amet minim mollit no duis deserut</li>
+                                <li>dolor do amet sint Velit officia</li>
+                            </ul>
+                            <div class="link-btn">
+                                <a href="visa-details-4.html"><span>Read More</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mt-3">
+                <div class="visa-block-one">
+                    <div class="inner-box">
+                        <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/visa-1.jpg" alt=""></figure>
+                        <div class="lower-content">
+                            <div class="icon-box"><i class="icon-12"></i></div>
+                            <h3><a href="visa-details-4.html">VOC Work Visa</a></h3>
+                            <p>Sed gravida nisl a porta tincidunt. Integertheoo aliquam nisi sit amet.</p>
+                            <ul class="list-style-one clearfix">
+                                <li>Nulla nulla erat, gravida at leo</li>
+                                <li>Amet minim mollit no duis deserut</li>
+                                <li>dolor do amet sint Velit officia</li>
+                            </ul>
+                            <div class="link-btn">
+                                <a href="visa-details-4.html"><span>Read More</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mt-3">
+                <div class="visa-block-one">
+                    <div class="inner-box">
+                        <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/visa-1.jpg" alt=""></figure>
+                        <div class="lower-content">
+                            <div class="icon-box"><i class="icon-12"></i></div>
+                            <h3><a href="visa-details-4.html">Student Visa</a></h3>
+                            <p>Sed gravida nisl a porta tincidunt. Integertheoo aliquam nisi sit amet.</p>
+                            <ul class="list-style-one clearfix">
+                                <li>Nulla nulla erat, gravida at leo</li>
+                                <li>Amet minim mollit no duis deserut</li>
+                                <li>dolor do amet sint Velit officia</li>
+                            </ul>
+                            <div class="link-btn">
+                                <a href="visa-details-4.html"><span>Read More</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mt-3">
+                <div class="visa-block-one">
+                    <div class="inner-box">
+                        <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/visa-1.jpg" alt=""></figure>
+                        <div class="lower-content">
+                            <div class="icon-box"><i class="icon-12"></i></div>
+                            <h3><a href="visa-details-4.html">Investor Visa</a></h3>
+                            <p>Sed gravida nisl a porta tincidunt. Integertheoo aliquam nisi sit amet.</p>
+                            <ul class="list-style-one clearfix">
+                                <li>Nulla nulla erat, gravida at leo</li>
+                                <li>Amet minim mollit no duis deserut</li>
+                                <li>dolor do amet sint Velit officia</li>
+                            </ul>
+                            <div class="link-btn">
+                                <a href="visa-details-4.html"><span>Read More</span></a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -167,17 +273,17 @@ get_header(); // Include the header
                 <div class="content_block_one">
                     <div class="content-box p_relative ml_110">
                         <div class="sec-title mb_30">
-                            <span class="sub-title">We are looking for</span>
-                            <h2>We became an exam preparation authority.</h2>
+                            <span class="sub-title">Discover Our Story:</span>
+                            <h2>Crafting Pathways to New Horizons</h2>
                         </div>
                         <div class="text mb_30">
-                            <p>Quisque dignissim enim diam, eget pulvinar ex viverra id. Nulla a lobortis lectus, id volutpat magna. Morbi consequat porttitor fermentum. Nulla vestibulum tincidunt viverra. Vestibulum accumsan molestie lorem, non laoreet massa. Duis at dui sem. Vivamus ut gravida libero. Proin porttitor viverra aliquet.</p>
+                            <p>We embody dedication and reliability, transforming aspirations into reality through seamless migration solutions. With a proven track record, we navigate the journey's complexities with precision. Let us make your dreams come true.</p>
                         </div>
                         <div class="list-inner mb_50 p_relative">
                             <ul class="list-style-one clearfix">
-                                <li>Nulla nulla erat, gravida at leo</li>
-                                <li>Amet minim mollit no duis deserut</li>
-                                <li>dolor do amet sint Velit officia</li>
+                                <li>Expertise and Experience</li>
+                                <li>Personalized Approach</li>
+                                <li>Proven Success</li>
                             </ul>
                             <ul class="list-style-one clearfix">
                                 <li>Scelerisque eleifend magna sit</li>
