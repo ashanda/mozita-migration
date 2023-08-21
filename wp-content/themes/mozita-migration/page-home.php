@@ -613,7 +613,7 @@ get_header(); // Include the header
 
 
 <!-- clients-section -->
-<section class="clients-section p_relative">
+<!-- <section class="clients-section p_relative">
     <div class="auto-container">
         <div class="inner-box p_relative pt_90">
             <ul class="clients-list">
@@ -625,7 +625,7 @@ get_header(); // Include the header
             </ul>
         </div>
     </div>
-</section>
+</section> -->
 <!-- clients-section end -->
 
 
