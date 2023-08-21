@@ -47,8 +47,10 @@
 	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/elements-css/education.css" rel="stylesheet">
 	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/elements-css/clients.css" rel="stylesheet">
 	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/elements-css/news.css" rel="stylesheet">
+	<!-- other page cdns -->
 	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/elements-css/testimonial.css" rel="stylesheet">
-
+	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/elements-css/page-title.css" rel="stylesheet">
+	<!-- other page cdns -->
 	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/responsive.css" rel="stylesheet">
 
 </head>
