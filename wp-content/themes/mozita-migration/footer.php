@@ -21,7 +21,7 @@
 			<div class="row clearfix">
 				<div class="col-lg-3 col-md-6 col-sm-12 footer-column">
 					<div class="footer-widget logo-widget">
-						<figure class="footer-logo"><a href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/footer-logo.png" alt=""></a></figure>
+						<figure class="footer-logo"><a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/footer-logo.png" alt=""></a></figure>
 						<div class="text mb_25">
 							<p>Sed gravida nisl a porta tincidunt. Integer aliquam nisi.</p>
 						</div>
@@ -31,10 +31,10 @@
 							<li><i class="icon-2"></i>380 St Kilda Road, Melbourne</li>
 						</ul>
 						<ul class="social-links clearfix">
-							<li><a href="index.html"><i class="icon-4"></i></a></li>
-							<li><a href="index.html"><i class="icon-5"></i></a></li>
-							<li><a href="index.html"><i class="icon-6"></i></a></li>
-							<li><a href="index.html"><i class="icon-7"></i></a></li>
+							<li><a href="<?php echo home_url(); ?>"><i class="icon-4"></i></a></li>
+							<li><a href="<?php echo home_url(); ?>"><i class="icon-5"></i></a></li>
+							<li><a href="<?php echo home_url(); ?>"><i class="icon-6"></i></a></li>
+							<li><a href="<?php echo home_url(); ?>"><i class="icon-7"></i></a></li>
 						</ul>
 					</div>
 				</div>
@@ -45,11 +45,11 @@
 						</div>
 						<div class="widget-content">
 							<ul class="links-list clearfix">
-								<li><a href="index.html">Employment & Jobs</a></li>
-								<li><a href="index.html">Government & Elections</a></li>
-								<li><a href="index.html">Real Estate & Buildings</a></li>
-								<li><a href="index.html">Health & Medical</a></li>
-								<li><a href="index.html">Trasport & Traffic</a></li>
+								<li><a href="<?php echo home_url(); ?>">Employment & Jobs</a></li>
+								<li><a href="<?php echo home_url(); ?>">Government & Elections</a></li>
+								<li><a href="<?php echo home_url(); ?>">Real Estate & Buildings</a></li>
+								<li><a href="<?php echo home_url(); ?>">Health & Medical</a></li>
+								<li><a href="<?php echo home_url(); ?>">Trasport & Traffic</a></li>
 							</ul>
 						</div>
 					</div>
@@ -61,11 +61,11 @@
 						</div>
 						<div class="widget-content">
 							<ul class="links-list clearfix">
-								<li><a href="index.html">Administration</a></li>
-								<li><a href="index.html">Fire Services</a></li>
-								<li><a href="index.html">Business</a></li>
-								<li><a href="index.html">Taxation</a></li>
-								<li><a href="index.html">Circular’s And Go’s</a></li>
+								<li><a href="<?php echo home_url(); ?>">Administration</a></li>
+								<li><a href="<?php echo home_url(); ?>">Fire Services</a></li>
+								<li><a href="<?php echo home_url(); ?>">Business</a></li>
+								<li><a href="<?php echo home_url(); ?>">Taxation</a></li>
+								<li><a href="<?php echo home_url(); ?>">Circular’s And Go’s</a></li>
 							</ul>
 						</div>
 					</div>
@@ -121,7 +121,7 @@
 		</div>
 		<div class="footer-bottom">
 			<div class="copyright">
-				<p>Copyright By &copy; <a href="index.html">immigratie</a> - 2023</p>
+				<p>Copyright By &copy; <a href="<?php echo home_url(); ?>">immigratie</a> - 2023</p>
 			</div>
 		</div>
 	</div>

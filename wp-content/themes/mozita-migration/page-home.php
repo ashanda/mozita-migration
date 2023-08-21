@@ -31,7 +31,7 @@ get_header(); // Include the header
                     <h2>Study In <span>Recognized</span> Universities!...</h2>
                     <p>MCS has been recruiting and prepping talented professionals for over twenty years. We provide a unique value proposition to both.</p>
                     <div class="btn-box">
-                        <a href="index.html" class="theme-btn btn-one"><span>More Details</span></a>
+                        <a href="<?php echo home_url(); ?>" class="theme-btn btn-one"><span>More Details</span></a>
                     </div>
                 </div>
             </div>
@@ -48,7 +48,7 @@ get_header(); // Include the header
                     <h2>Study In <span>Recognized</span> Universities!...</h2>
                     <p>MCS has been recruiting and prepping talented professionals for over twenty years. We provide a unique value proposition to both.</p>
                     <div class="btn-box">
-                        <a href="index.html" class="theme-btn btn-one"><span>More Details</span></a>
+                        <a href="<?php echo home_url(); ?>" class="theme-btn btn-one"><span>More Details</span></a>
                     </div>
                 </div>
             </div>
@@ -65,16 +65,16 @@ get_header(); // Include the header
                     <h2>Study In <span>Recognized</span> Universities!...</h2>
                     <p>MCS has been recruiting and prepping talented professionals for over twenty years. We provide a unique value proposition to both.</p>
                     <div class="btn-box">
-                        <a href="index.html" class="theme-btn btn-one"><span>More Details</span></a>
+                        <a href="<?php echo home_url(); ?>" class="theme-btn btn-one"><span>More Details</span></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <ul class="social-links clearfix">
-        <li><a href="index.html">facebook</a></li>
-        <li><a href="index.html">Twitter</a></li>
-        <li><a href="index.html">Instagram</a></li>
+        <li><a href="<?php echo home_url(); ?>">facebook</a></li>
+        <li><a href="<?php echo home_url(); ?>">Twitter</a></li>
+        <li><a href="<?php echo home_url(); ?>">Instagram</a></li>
     </ul>
 </section>
 <!-- banner-section end -->
@@ -95,15 +95,11 @@ get_header(); // Include the header
                         <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/visa-1.jpg" alt=""></figure>
                         <div class="lower-content">
                             <div class="icon-box"><i class="icon-12"></i></div>
-                            <h3><a href="visa-details-4.html">Work Visa</a></h3>
+                            <h3><a href="#">Work Visa</a></h3>
                             <p>Sed gravida nisl a porta tincidunt. Integertheoo aliquam nisi sit amet.</p>
-                            <ul class="list-style-one clearfix">
-                                <li>Nulla nulla erat, gravida at leo</li>
-                                <li>Amet minim mollit no duis deserut</li>
-                                <li>dolor do amet sint Velit officia</li>
-                            </ul>
+                            
                             <div class="link-btn">
-                                <a href="visa-details-4.html"><span>Read More</span></a>
+                                <a href="#"><span>Read More</span></a>
                             </div>
                         </div>
                     </div>
@@ -115,15 +111,11 @@ get_header(); // Include the header
                         <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/visa-1.jpg" alt=""></figure>
                         <div class="lower-content">
                             <div class="icon-box"><i class="icon-12"></i></div>
-                            <h3><a href="visa-details-4.html">Partner Work Visa</a></h3>
+                            <h3><a href="#">Partner Work Visa</a></h3>
                             <p>Sed gravida nisl a porta tincidunt. Integertheoo aliquam nisi sit amet.</p>
-                            <ul class="list-style-one clearfix">
-                                <li>Nulla nulla erat, gravida at leo</li>
-                                <li>Amet minim mollit no duis deserut</li>
-                                <li>dolor do amet sint Velit officia</li>
-                            </ul>
+                            
                             <div class="link-btn">
-                                <a href="visa-details-4.html"><span>Read More</span></a>
+                                <a href="#"><span>Read More</span></a>
                             </div>
                         </div>
                     </div>
@@ -135,15 +127,11 @@ get_header(); // Include the header
                         <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/visa-1.jpg" alt=""></figure>
                         <div class="lower-content">
                             <div class="icon-box"><i class="icon-12"></i></div>
-                            <h3><a href="visa-details-4.html">Partner Visit Visa</a></h3>
+                            <h3><a href="#">Partner Visit Visa</a></h3>
                             <p>Sed gravida nisl a porta tincidunt. Integertheoo aliquam nisi sit amet.</p>
-                            <ul class="list-style-one clearfix">
-                                <li>Nulla nulla erat, gravida at leo</li>
-                                <li>Amet minim mollit no duis deserut</li>
-                                <li>dolor do amet sint Velit officia</li>
-                            </ul>
+                            
                             <div class="link-btn">
-                                <a href="visa-details-4.html"><span>Read More</span></a>
+                                <a href="#"><span>Read More</span></a>
                             </div>
                         </div>
                     </div>
@@ -155,15 +143,11 @@ get_header(); // Include the header
                         <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/visa-1.jpg" alt=""></figure>
                         <div class="lower-content">
                             <div class="icon-box"><i class="icon-12"></i></div>
-                            <h3><a href="visa-details-4.html">Dependant Visitor Visa</a></h3>
+                            <h3><a href="#">Dependant Visitor Visa</a></h3>
                             <p>Sed gravida nisl a porta tincidunt. Integertheoo aliquam nisi sit amet.</p>
-                            <ul class="list-style-one clearfix">
-                                <li>Nulla nulla erat, gravida at leo</li>
-                                <li>Amet minim mollit no duis deserut</li>
-                                <li>dolor do amet sint Velit officia</li>
-                            </ul>
+                            
                             <div class="link-btn">
-                                <a href="visa-details-4.html"><span>Read More</span></a>
+                                <a href="#"><span>Read More</span></a>
                             </div>
                         </div>
                     </div>
@@ -175,15 +159,11 @@ get_header(); // Include the header
                         <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/visa-1.jpg" alt=""></figure>
                         <div class="lower-content">
                             <div class="icon-box"><i class="icon-12"></i></div>
-                            <h3><a href="visa-details-4.html">Dependent Student Visa</a></h3>
+                            <h3><a href="#">Dependent Student Visa</a></h3>
                             <p>Sed gravida nisl a porta tincidunt. Integertheoo aliquam nisi sit amet.</p>
-                            <ul class="list-style-one clearfix">
-                                <li>Nulla nulla erat, gravida at leo</li>
-                                <li>Amet minim mollit no duis deserut</li>
-                                <li>dolor do amet sint Velit officia</li>
-                            </ul>
+                            
                             <div class="link-btn">
-                                <a href="visa-details-4.html"><span>Read More</span></a>
+                                <a href="#"><span>Read More</span></a>
                             </div>
                         </div>
                     </div>
@@ -195,15 +175,11 @@ get_header(); // Include the header
                         <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/visa-1.jpg" alt=""></figure>
                         <div class="lower-content">
                             <div class="icon-box"><i class="icon-12"></i></div>
-                            <h3><a href="visa-details-4.html">VOC Work Visa</a></h3>
+                            <h3><a href="#">VOC Work Visa</a></h3>
                             <p>Sed gravida nisl a porta tincidunt. Integertheoo aliquam nisi sit amet.</p>
-                            <ul class="list-style-one clearfix">
-                                <li>Nulla nulla erat, gravida at leo</li>
-                                <li>Amet minim mollit no duis deserut</li>
-                                <li>dolor do amet sint Velit officia</li>
-                            </ul>
+                            
                             <div class="link-btn">
-                                <a href="visa-details-4.html"><span>Read More</span></a>
+                                <a href="#"><span>Read More</span></a>
                             </div>
                         </div>
                     </div>
@@ -215,15 +191,11 @@ get_header(); // Include the header
                         <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/visa-1.jpg" alt=""></figure>
                         <div class="lower-content">
                             <div class="icon-box"><i class="icon-12"></i></div>
-                            <h3><a href="visa-details-4.html">Student Visa</a></h3>
+                            <h3><a href="#">Student Visa</a></h3>
                             <p>Sed gravida nisl a porta tincidunt. Integertheoo aliquam nisi sit amet.</p>
-                            <ul class="list-style-one clearfix">
-                                <li>Nulla nulla erat, gravida at leo</li>
-                                <li>Amet minim mollit no duis deserut</li>
-                                <li>dolor do amet sint Velit officia</li>
-                            </ul>
+                            
                             <div class="link-btn">
-                                <a href="visa-details-4.html"><span>Read More</span></a>
+                                <a href="#"><span>Read More</span></a>
                             </div>
                         </div>
                     </div>
@@ -235,15 +207,11 @@ get_header(); // Include the header
                         <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/visa-1.jpg" alt=""></figure>
                         <div class="lower-content">
                             <div class="icon-box"><i class="icon-12"></i></div>
-                            <h3><a href="visa-details-4.html">Investor Visa</a></h3>
+                            <h3><a href="#">Investor Visa</a></h3>
                             <p>Sed gravida nisl a porta tincidunt. Integertheoo aliquam nisi sit amet.</p>
-                            <ul class="list-style-one clearfix">
-                                <li>Nulla nulla erat, gravida at leo</li>
-                                <li>Amet minim mollit no duis deserut</li>
-                                <li>dolor do amet sint Velit officia</li>
-                            </ul>
+                            
                             <div class="link-btn">
-                                <a href="visa-details-4.html"><span>Read More</span></a>
+                                <a href="#"><span>Read More</span></a>
                             </div>
                         </div>
                     </div>
@@ -286,13 +254,13 @@ get_header(); // Include the header
                                 <li>Proven Success</li>
                             </ul>
                             <ul class="list-style-one clearfix">
-                                <li>Scelerisque eleifend magna sit</li>
-                                <li>Pellentesque pretium elit augue</li>
-                                <li>Aenean in ipsum vel quam</li>
+                                <li>Comprehensive Services</li>
+                                <li>Streamlined Application Process</li>
+                                <li>Client-Centric Focus</li>
                             </ul>
                         </div>
                         <div class="btn-box">
-                            <a href="about.html" class="theme-btn btn-one"><span>More Details</span></a>
+                            <a href="#" class="theme-btn btn-one"><span>More Details</span></a>
                         </div>
                     </div>
                 </div>
@@ -313,8 +281,8 @@ get_header(); // Include the header
                     <div class="feature-block-one">
                         <div class="inner-box">
                             <div class="icon-box"><i class="icon-17"></i></div>
-                            <h3><a href="index.html">Visa</a></h3>
-                            <p>Sed gravida nisl a porta tincidunt. Integer aliquam nisi sit amet.</p>
+                            <h3><a href="<?php echo home_url(); ?>">Work</a></h3>
+                            <p>Unlock global job opportunities with our seamless work visa solutions.</p>
                         </div>
                     </div>
                 </div>
@@ -322,8 +290,8 @@ get_header(); // Include the header
                     <div class="feature-block-one">
                         <div class="inner-box">
                             <div class="icon-box"><i class="icon-18"></i></div>
-                            <h3><a href="index.html">Passport</a></h3>
-                            <p>Sed gravida nisl a porta tincidunt. Integer aliquam nisi sit amet.</p>
+                            <h3><a href="<?php echo home_url(); ?>">Study</a></h3>
+                            <p>Achieve your academic dreams through tailored student visa guidance.</p>
                         </div>
                     </div>
                 </div>
@@ -331,8 +299,8 @@ get_header(); // Include the header
                     <div class="feature-block-one">
                         <div class="inner-box">
                             <div class="icon-box"><i class="icon-19"></i></div>
-                            <h3><a href="index.html">Immigration</a></h3>
-                            <p>Sed gravida nisl a porta tincidunt. Integer aliquam nisi sit amet.</p>
+                            <h3><a href="<?php echo home_url(); ?>">Invest</a></h3>
+                            <p>Grow your wealth by navigating investor visa pathways with us.</p>
                         </div>
                     </div>
                 </div>
@@ -340,8 +308,8 @@ get_header(); // Include the header
                     <div class="feature-block-one">
                         <div class="inner-box">
                             <div class="icon-box"><i class="icon-20"></i></div>
-                            <h3><a href="index.html">Translation</a></h3>
-                            <p>Sed gravida nisl a porta tincidunt. Integer aliquam nisi sit amet.</p>
+                            <h3><a href="<?php echo home_url(); ?>">Live your Dream</a></h3>
+                            <p>Embrace a new life chapter with our expert migration assistance.</p>
                         </div>
                     </div>
                 </div>
@@ -369,9 +337,9 @@ get_header(); // Include the header
                     <p>Where did this incorrect belief that everyone dislikes praising happiness come from? Explain to me how this erroneous theory ended up being devised.</p>
                 </div>
                 <ul class="list-item p_relative clearfix">
-                    <li><a href="index.html">1. Entering & Leaving From Country <i class="icon-9"></i></a></li>
-                    <li><a href="index.html">2. Help & Support <i class="icon-9"></i></a></li>
-                    <li><a href="index.html">3. Country Citizenship <i class="icon-9"></i></a></li>
+                    <li><a href="<?php echo home_url(); ?>">1. Entering & Leaving From Country <i class="icon-9"></i></a></li>
+                    <li><a href="<?php echo home_url(); ?>">2. Help & Support <i class="icon-9"></i></a></li>
+                    <li><a href="<?php echo home_url(); ?>">3. Country Citizenship <i class="icon-9"></i></a></li>
                 </ul>
             </div>
         </div>
@@ -406,7 +374,7 @@ get_header(); // Include the header
                             <div class="inner-box">
                                 <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/countries-1.jpg" alt=""></figure>
                                 <div class="text">
-                                    <h3><a href="index.html">India <br />Visa</a></h3>
+                                    <h3><a href="<?php echo home_url(); ?>">India <br />Visa</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -414,7 +382,7 @@ get_header(); // Include the header
                             <div class="inner-box">
                                 <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/countries-2.jpg" alt=""></figure>
                                 <div class="text">
-                                    <h3><a href="index.html">Brazil <br />Visa</a></h3>
+                                    <h3><a href="<?php echo home_url(); ?>">Brazil <br />Visa</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -422,7 +390,7 @@ get_header(); // Include the header
                             <div class="inner-box">
                                 <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/countries-3.jpg" alt=""></figure>
                                 <div class="text">
-                                    <h3><a href="index.html">China <br />Visa</a></h3>
+                                    <h3><a href="<?php echo home_url(); ?>">China <br />Visa</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -430,7 +398,7 @@ get_header(); // Include the header
                             <div class="inner-box">
                                 <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/countries-4.jpg" alt=""></figure>
                                 <div class="text">
-                                    <h3><a href="index.html">Vietnam <br />Visa</a></h3>
+                                    <h3><a href="<?php echo home_url(); ?>">Vietnam <br />Visa</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -442,7 +410,7 @@ get_header(); // Include the header
                             <div class="inner-box">
                                 <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/countries-1.jpg" alt=""></figure>
                                 <div class="text">
-                                    <h3><a href="index.html">India <br />Visa</a></h3>
+                                    <h3><a href="<?php echo home_url(); ?>">India <br />Visa</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -450,7 +418,7 @@ get_header(); // Include the header
                             <div class="inner-box">
                                 <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/countries-3.jpg" alt=""></figure>
                                 <div class="text">
-                                    <h3><a href="index.html">China <br />Visa</a></h3>
+                                    <h3><a href="<?php echo home_url(); ?>">China <br />Visa</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -458,7 +426,7 @@ get_header(); // Include the header
                             <div class="inner-box">
                                 <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/countries-4.jpg" alt=""></figure>
                                 <div class="text">
-                                    <h3><a href="index.html">Vietnam <br />Visa</a></h3>
+                                    <h3><a href="<?php echo home_url(); ?>">Vietnam <br />Visa</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -466,7 +434,7 @@ get_header(); // Include the header
                             <div class="inner-box">
                                 <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/countries-2.jpg" alt=""></figure>
                                 <div class="text">
-                                    <h3><a href="index.html">Brazil <br />Visa</a></h3>
+                                    <h3><a href="<?php echo home_url(); ?>">Brazil <br />Visa</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -478,7 +446,7 @@ get_header(); // Include the header
                             <div class="inner-box">
                                 <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/countries-3.jpg" alt=""></figure>
                                 <div class="text">
-                                    <h3><a href="index.html">China <br />Visa</a></h3>
+                                    <h3><a href="<?php echo home_url(); ?>">China <br />Visa</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -486,7 +454,7 @@ get_header(); // Include the header
                             <div class="inner-box">
                                 <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/countries-4.jpg" alt=""></figure>
                                 <div class="text">
-                                    <h3><a href="index.html">Vietnam <br />Visa</a></h3>
+                                    <h3><a href="<?php echo home_url(); ?>">Vietnam <br />Visa</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -495,7 +463,7 @@ get_header(); // Include the header
                             <div class="inner-box">
                                 <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/countries-1.jpg" alt=""></figure>
                                 <div class="text">
-                                    <h3><a href="index.html">India <br />Visa</a></h3>
+                                    <h3><a href="<?php echo home_url(); ?>">India <br />Visa</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -503,7 +471,7 @@ get_header(); // Include the header
                             <div class="inner-box">
                                 <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/countries-2.jpg" alt=""></figure>
                                 <div class="text">
-                                    <h3><a href="index.html">Brazil <br />Visa</a></h3>
+                                    <h3><a href="<?php echo home_url(); ?>">Brazil <br />Visa</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -534,12 +502,12 @@ get_header(); // Include the header
                         </div>
                         <div class="static-content">
                             <h3>Oet <br />Coaching</h3>
-                            <div class="link"><a href="coaching-details-3.html"><i class="icon-9"></i></a></div>
+                            <div class="link"><a href="#"><i class="icon-9"></i></a></div>
                         </div>
                         <div class="overlay-content">
-                            <h3><a href="coaching-details-3.html">Oet Coaching</a></h3>
+                            <h3><a href="#">Oet Coaching</a></h3>
                             <p>Sed gravida nisl a porta tincidunt. Integer aliquam nisi sit amet magna.</p>
-                            <div class="link"><a href="coaching-details-3.html"><i class="icon-9"></i></a></div>
+                            <div class="link"><a href="#"><i class="icon-9"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -553,12 +521,12 @@ get_header(); // Include the header
                         </div>
                         <div class="static-content">
                             <h3>Pte <br />Coaching</h3>
-                            <div class="link"><a href="coaching-details-2.html"><i class="icon-9"></i></a></div>
+                            <div class="link"><a href="#"><i class="icon-9"></i></a></div>
                         </div>
                         <div class="overlay-content">
-                            <h3><a href="coaching-details-2.html">Pte Coaching</a></h3>
+                            <h3><a href="#">Pte Coaching</a></h3>
                             <p>Sed gravida nisl a porta tincidunt. Integer aliquam nisi sit amet magna.</p>
-                            <div class="link"><a href="coaching-details-2.html"><i class="icon-9"></i></a></div>
+                            <div class="link"><a href="#"><i class="icon-9"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -572,12 +540,12 @@ get_header(); // Include the header
                         </div>
                         <div class="static-content">
                             <h3>Gre <br />Coaching</h3>
-                            <div class="link"><a href="coaching-details-4.html"><i class="icon-9"></i></a></div>
+                            <div class="link"><a href="#"><i class="icon-9"></i></a></div>
                         </div>
                         <div class="overlay-content">
-                            <h3><a href="coaching-details-4.html">Gre Coaching</a></h3>
+                            <h3><a href="#">Gre Coaching</a></h3>
                             <p>Sed gravida nisl a porta tincidunt. Integer aliquam nisi sit amet magna.</p>
-                            <div class="link"><a href="coaching-details-4.html"><i class="icon-9"></i></a></div>
+                            <div class="link"><a href="#"><i class="icon-9"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -600,10 +568,10 @@ get_header(); // Include the header
                 <div class="chooseus-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                     <div class="inner-box">
                         <div class="icon-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/icon-1.png" alt=""></div>
-                        <h3><a href="index.html">Direct Interviews</a></h3>
+                        <h3><a href="<?php echo home_url(); ?>">Direct Interviews</a></h3>
                         <p>Where did this incorrect belief that everyone dislikes praising happiness come from?</p>
                         <div class="link-btn">
-                            <a href="index.html"><span>Read More</span><i class="icon-9"></i></a>
+                            <a href="<?php echo home_url(); ?>"><span>Read More</span><i class="icon-9"></i></a>
                         </div>
                     </div>
                 </div>
@@ -612,10 +580,10 @@ get_header(); // Include the header
                 <div class="chooseus-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                     <div class="inner-box">
                         <div class="icon-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/icon-2.png" alt=""></div>
-                        <h3><a href="index.html">Faster Processing</a></h3>
+                        <h3><a href="<?php echo home_url(); ?>">Faster Processing</a></h3>
                         <p>Where did this incorrect belief that everyone dislikes praising happiness come from?</p>
                         <div class="link-btn">
-                            <a href="index.html"><span>Read More</span><i class="icon-9"></i></a>
+                            <a href="<?php echo home_url(); ?>"><span>Read More</span><i class="icon-9"></i></a>
                         </div>
                     </div>
                 </div>
@@ -624,10 +592,10 @@ get_header(); // Include the header
                 <div class="chooseus-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
                     <div class="inner-box">
                         <div class="icon-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/icon-3.png" alt=""></div>
-                        <h3><a href="index.html">Visa Assistance</a></h3>
+                        <h3><a href="<?php echo home_url(); ?>">Visa Assistance</a></h3>
                         <p>Where did this incorrect belief that everyone dislikes praising happiness come from?</p>
                         <div class="link-btn">
-                            <a href="index.html"><span>Read More</span><i class="icon-9"></i></a>
+                            <a href="<?php echo home_url(); ?>"><span>Read More</span><i class="icon-9"></i></a>
                         </div>
                     </div>
                 </div>
@@ -636,10 +604,10 @@ get_header(); // Include the header
                 <div class="chooseus-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                     <div class="inner-box">
                         <div class="icon-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/icon-4.png" alt=""></div>
-                        <h3><a href="index.html">Cost-Effective</a></h3>
+                        <h3><a href="<?php echo home_url(); ?>">Cost-Effective</a></h3>
                         <p>Where did this incorrect belief that everyone dislikes praising happiness come from?</p>
                         <div class="link-btn">
-                            <a href="index.html"><span>Read More</span><i class="icon-9"></i></a>
+                            <a href="<?php echo home_url(); ?>"><span>Read More</span><i class="icon-9"></i></a>
                         </div>
                     </div>
                 </div>
@@ -671,12 +639,12 @@ get_header(); // Include the header
                             <div class="share-box">
                                 <div class="share-icon"><i class="icon-26"></i></div>
                                 <ul class="social-links clearfix">
-                                    <li><a href="index.html"><i class="icon-7"></i></a></li>
-                                    <li><a href="index.html"><i class="icon-6"></i></a></li>
-                                    <li><a href="index.html"><i class="icon-4"></i></a></li>
+                                    <li><a href="<?php echo home_url(); ?>"><i class="icon-7"></i></a></li>
+                                    <li><a href="<?php echo home_url(); ?>"><i class="icon-6"></i></a></li>
+                                    <li><a href="<?php echo home_url(); ?>"><i class="icon-4"></i></a></li>
                                 </ul>
                             </div>
-                            <h3><a href="team-details.html">Roman Frederick</a></h3>
+                            <h3><a href="#">Roman Frederick</a></h3>
                             <span class="designation">Regional Manager</span>
                         </div>
                     </div>
@@ -690,12 +658,12 @@ get_header(); // Include the header
                             <div class="share-box">
                                 <div class="share-icon"><i class="icon-26"></i></div>
                                 <ul class="social-links clearfix">
-                                    <li><a href="index.html"><i class="icon-7"></i></a></li>
-                                    <li><a href="index.html"><i class="icon-6"></i></a></li>
-                                    <li><a href="index.html"><i class="icon-4"></i></a></li>
+                                    <li><a href="<?php echo home_url(); ?>"><i class="icon-7"></i></a></li>
+                                    <li><a href="<?php echo home_url(); ?>"><i class="icon-6"></i></a></li>
+                                    <li><a href="<?php echo home_url(); ?>"><i class="icon-4"></i></a></li>
                                 </ul>
                             </div>
-                            <h3><a href="team-details.html">Jane Cooper</a></h3>
+                            <h3><a href="#">Jane Cooper</a></h3>
                             <span class="designation">Medical Assistant</span>
                         </div>
                     </div>
@@ -709,12 +677,12 @@ get_header(); // Include the header
                             <div class="share-box">
                                 <div class="share-icon"><i class="icon-26"></i></div>
                                 <ul class="social-links clearfix">
-                                    <li><a href="index.html"><i class="icon-7"></i></a></li>
-                                    <li><a href="index.html"><i class="icon-6"></i></a></li>
-                                    <li><a href="index.html"><i class="icon-4"></i></a></li>
+                                    <li><a href="<?php echo home_url(); ?>"><i class="icon-7"></i></a></li>
+                                    <li><a href="<?php echo home_url(); ?>"><i class="icon-6"></i></a></li>
+                                    <li><a href="<?php echo home_url(); ?>"><i class="icon-4"></i></a></li>
                                 </ul>
                             </div>
-                            <h3><a href="team-details.html">Esther Howard</a></h3>
+                            <h3><a href="#">Esther Howard</a></h3>
                             <span class="designation">President of Sales</span>
                         </div>
                     </div>
@@ -728,12 +696,12 @@ get_header(); // Include the header
                             <div class="share-box">
                                 <div class="share-icon"><i class="icon-26"></i></div>
                                 <ul class="social-links clearfix">
-                                    <li><a href="index.html"><i class="icon-7"></i></a></li>
-                                    <li><a href="index.html"><i class="icon-6"></i></a></li>
-                                    <li><a href="index.html"><i class="icon-4"></i></a></li>
+                                    <li><a href="<?php echo home_url(); ?>"><i class="icon-7"></i></a></li>
+                                    <li><a href="<?php echo home_url(); ?>"><i class="icon-6"></i></a></li>
+                                    <li><a href="<?php echo home_url(); ?>"><i class="icon-4"></i></a></li>
                                 </ul>
                             </div>
-                            <h3><a href="team-details.html">Jenny Wilson</a></h3>
+                            <h3><a href="#">Jenny Wilson</a></h3>
                             <span class="designation">Marketing Coordinator</span>
                         </div>
                     </div>
@@ -809,11 +777,11 @@ get_header(); // Include the header
     <div class="auto-container">
         <div class="inner-box p_relative pt_90">
             <ul class="clients-list">
-                <li class="clients-logo"><a href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/clients-1.png" alt=""></a></li>
-                <li class="clients-logo"><a href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/clients-2.png" alt=""></a></li>
-                <li class="clients-logo"><a href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/clients-3.png" alt=""></a></li>
-                <li class="clients-logo"><a href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/clients-4.png" alt=""></a></li>
-                <li class="clients-logo"><a href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/clients-5.png" alt=""></a></li>
+                <li class="clients-logo"><a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/clients-1.png" alt=""></a></li>
+                <li class="clients-logo"><a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/clients-2.png" alt=""></a></li>
+                <li class="clients-logo"><a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/clients-3.png" alt=""></a></li>
+                <li class="clients-logo"><a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/clients-4.png" alt=""></a></li>
+                <li class="clients-logo"><a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/clients-5.png" alt=""></a></li>
             </ul>
         </div>
     </div>
@@ -836,16 +804,16 @@ get_header(); // Include the header
             <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                 <div class="news-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                     <div class="inner-box">
-                        <figure class="image-box"><a href="blog-details.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/news/news-1.jpg" alt=""></a></figure>
+                        <figure class="image-box"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/news/news-1.jpg" alt=""></a></figure>
                         <div class="lower-content">
                             <ul class="post-info clearfix">
-                                <li><i class="icon-27"></i><a href="blog-details.html">By author</a></li>
+                                <li><i class="icon-27"></i><a href="#">By author</a></li>
                                 <li><i class="icon-28"></i>Feb 6, 2022 </li>
                             </ul>
-                            <h3><a href="blog-details.html">Unsatiable Entreaties May Collecting Power.</a></h3>
+                            <h3><a href="#">Unsatiable Entreaties May Collecting Power.</a></h3>
                             <p>Where did this incorrect belief that everyone dislikes praising happiness come from.</p>
                             <div class="link-btn">
-                                <a href="blog-details.html"><span>Read More</span></a>
+                                <a href="#"><span>Read More</span></a>
                             </div>
                         </div>
                     </div>
@@ -854,16 +822,16 @@ get_header(); // Include the header
             <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                 <div class="news-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                     <div class="inner-box">
-                        <figure class="image-box"><a href="blog-details.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/news/news-2.jpg" alt=""></a></figure>
+                        <figure class="image-box"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/news/news-2.jpg" alt=""></a></figure>
                         <div class="lower-content">
                             <ul class="post-info clearfix">
-                                <li><i class="icon-27"></i><a href="blog-details.html">By author</a></li>
+                                <li><i class="icon-27"></i><a href="#">By author</a></li>
                                 <li><i class="icon-28"></i>Feb 5, 2022 </li>
                             </ul>
-                            <h3><a href="blog-details.html">Why You Should Plan Your 2022 Trip Abroad</a></h3>
+                            <h3><a href="#">Why You Should Plan Your 2022 Trip Abroad</a></h3>
                             <p>Where did this incorrect belief that everyone dislikes praising happiness come from.</p>
                             <div class="link-btn">
-                                <a href="blog-details.html"><span>Read More</span></a>
+                                <a href="#"><span>Read More</span></a>
                             </div>
                         </div>
                     </div>
@@ -872,16 +840,16 @@ get_header(); // Include the header
             <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                 <div class="news-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                     <div class="inner-box">
-                        <figure class="image-box"><a href="blog-details.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/news/news-3.jpg" alt=""></a></figure>
+                        <figure class="image-box"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/news/news-3.jpg" alt=""></a></figure>
                         <div class="lower-content">
                             <ul class="post-info clearfix">
-                                <li><i class="icon-27"></i><a href="blog-details.html">By author</a></li>
+                                <li><i class="icon-27"></i><a href="#">By author</a></li>
                                 <li><i class="icon-28"></i>Feb 4, 2022 </li>
                             </ul>
-                            <h3><a href="blog-details.html">Going Digital Key to Small Business Success</a></h3>
+                            <h3><a href="#">Going Digital Key to Small Business Success</a></h3>
                             <p>Where did this incorrect belief that everyone dislikes praising happiness come from.</p>
                             <div class="link-btn">
-                                <a href="blog-details.html"><span>Read More</span></a>
+                                <a href="#"><span>Read More</span></a>
                             </div>
                         </div>
                     </div>

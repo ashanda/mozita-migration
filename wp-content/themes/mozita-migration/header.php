@@ -68,20 +68,20 @@
 							<ul class="info clearfix">
 								<li><i class="icon-1"></i><a href="mailto:info@yourmail.com">info@yourmail.com</a></li>
 								<li><i class="icon-2"></i>101 Springs Rd,
-Hornby,
-Christchurch 8042.II</li>
+									Hornby,
+									Christchurch 8042.II</li>
 								<li><i class="icon-3"></i>Mon _ Sat: 9.00 to 18.00</li>
 							</ul>
 						</div>
 						<div class="top-right">
 							<ul class="social-links clearfix">
-								<li><a href="index.html"><i class="icon-4"></i></a></li>
-								<li><a href="index.html"><i class="icon-5"></i></a></li>
-								<li><a href="index.html"><i class="icon-6"></i></a></li>
-								<li><a href="index.html"><i class="icon-7"></i></a></li>
+								<li><a href="<?php echo home_url(); ?>"><i class="icon-4"></i></a></li>
+								<li><a href="<?php echo home_url(); ?>"><i class="icon-5"></i></a></li>
+								<li><a href="<?php echo home_url(); ?>"><i class="icon-6"></i></a></li>
+								<li><a href="<?php echo home_url(); ?>"><i class="icon-7"></i></a></li>
 							</ul>
 							<div class="search-form">
-								<form action="index.html" method="post">
+								<form action="<?php echo home_url(); ?>" method="post">
 									<div class="form-group">
 										<input type="search" name="search-field" placeholder="Search ..." required>
 										<button type="submit"><i class="icon-8"></i></button>
@@ -89,7 +89,7 @@ Christchurch 8042.II</li>
 								</form>
 							</div>
 							<div class="btn-box">
-								<a href="index.html"><span>Appointment</span></a>
+								<a href="<?php echo home_url(); ?>"><span>Appointment</span></a>
 							</div>
 						</div>
 					</div>
@@ -99,7 +99,7 @@ Christchurch 8042.II</li>
 			<div class="header-lower">
 				<div class="outer-box clearfix">
 					<div class="logo-box">
-						<figure class="logo"><a href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt=""></a></figure>
+						<figure class="logo"><a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt=""></a></figure>
 					</div>
 					<div class="nav-outer">
 						<div class="menu-area clearfix">
@@ -112,17 +112,17 @@ Christchurch 8042.II</li>
 							<!-- <nav class="main-menu navbar-expand-md navbar-light">
 								<div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
 									<ul class="navigation clearfix">
-										<li class="dropdown"><a href="index.html">Home</a>
+										<li class="dropdown"><a href="<?php echo home_url(); ?>">Home</a>
 											<ul>
-												<li><a href="index.html">Home Page 01</a></li>
+												<li><a href="<?php echo home_url(); ?>">Home Page 01</a></li>
 												<li><a href="index-2.html">Home Page 02</a></li>
 												<li><a href="index-3.html">Home Page 03</a></li>
 												<li><a href="index-4.html">Home Page 04</a></li>
 												<li><a href="index-onepage.html">OnePage Home</a></li>
 												<li><a href="index-rtl.html">RTL Home</a></li>
-												<li class="dropdown"><a href="index.html">Header Style</a>
+												<li class="dropdown"><a href="<?php echo home_url(); ?>">Header Style</a>
 													<ul>
-														<li><a href="index.html">Header Style 01</a></li>
+														<li><a href="<?php echo home_url(); ?>">Header Style 01</a></li>
 														<li><a href="index-2.html">Header Style 02</a></li>
 														<li><a href="index-3.html">Header Style 03</a></li>
 														<li><a href="index-4.html">Header Style 04</a></li>
@@ -130,9 +130,9 @@ Christchurch 8042.II</li>
 												</li>
 											</ul>
 										</li>
-										<li class="dropdown"><a href="index.html">About</a>
+										<li class="dropdown"><a href="<?php echo home_url(); ?>">About</a>
 											<ul>
-												<li class="dropdown"><a href="index.html">Team</a>
+												<li class="dropdown"><a href="<?php echo home_url(); ?>">Team</a>
 													<ul>
 														<li><a href="team.html">Our Team</a></li>
 														<li><a href="team-details.html">Team Details</a></li>
@@ -186,7 +186,7 @@ Christchurch 8042.II</li>
 				<div class="auto-container">
 					<div class="outer-box">
 						<div class="logo-box">
-							<figure class="logo"><a href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt=""></a></figure>
+							<figure class="logo"><a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt=""></a></figure>
 						</div>
 						<div class="menu-area clearfix">
 							<nav class="main-menu clearfix">
@@ -210,7 +210,7 @@ Christchurch 8042.II</li>
 			<div class="close-btn"><i class="fas fa-times"></i></div>
 
 			<nav class="menu-box">
-				<div class="nav-logo"><a href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-2.png" alt="" title=""></a></div>
+				<div class="nav-logo"><a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-2.png" alt="" title=""></a></div>
 				<div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
 				<div class="contact-info">
 					<h4>Contact Info</h4>
@@ -222,11 +222,11 @@ Christchurch 8042.II</li>
 				</div>
 				<div class="social-links">
 					<ul class="clearfix">
-						<li><a href="index.html"><span class="fab fa-twitter"></span></a></li>
-						<li><a href="index.html"><span class="fab fa-facebook-square"></span></a></li>
-						<li><a href="index.html"><span class="fab fa-pinterest-p"></span></a></li>
-						<li><a href="index.html"><span class="fab fa-instagram"></span></a></li>
-						<li><a href="index.html"><span class="fab fa-youtube"></span></a></li>
+						<li><a href="<?php echo home_url(); ?>"><span class="fab fa-twitter"></span></a></li>
+						<li><a href="<?php echo home_url(); ?>"><span class="fab fa-facebook-square"></span></a></li>
+						<li><a href="<?php echo home_url(); ?>"><span class="fab fa-pinterest-p"></span></a></li>
+						<li><a href="<?php echo home_url(); ?>"><span class="fab fa-instagram"></span></a></li>
+						<li><a href="<?php echo home_url(); ?>"><span class="fab fa-youtube"></span></a></li>
 					</ul>
 				</div>
 			</nav>
