@@ -97,7 +97,7 @@ get_header(); // Include the header
                             <div class="icon-box"><i class="icon-12"></i></div>
                             <h3><a href="#">Work Visa</a></h3>
                             <p>Sed gravida nisl a porta tincidunt. Integertheoo aliquam nisi sit amet.</p>
-                            
+
                             <div class="link-btn">
                                 <a href="#"><span>Read More</span></a>
                             </div>
@@ -113,7 +113,7 @@ get_header(); // Include the header
                             <div class="icon-box"><i class="icon-12"></i></div>
                             <h3><a href="#">Partner Work Visa</a></h3>
                             <p>Sed gravida nisl a porta tincidunt. Integertheoo aliquam nisi sit amet.</p>
-                            
+
                             <div class="link-btn">
                                 <a href="#"><span>Read More</span></a>
                             </div>
@@ -129,7 +129,7 @@ get_header(); // Include the header
                             <div class="icon-box"><i class="icon-12"></i></div>
                             <h3><a href="#">Partner Visit Visa</a></h3>
                             <p>Sed gravida nisl a porta tincidunt. Integertheoo aliquam nisi sit amet.</p>
-                            
+
                             <div class="link-btn">
                                 <a href="#"><span>Read More</span></a>
                             </div>
@@ -145,7 +145,7 @@ get_header(); // Include the header
                             <div class="icon-box"><i class="icon-12"></i></div>
                             <h3><a href="#">Dependant Visitor Visa</a></h3>
                             <p>Sed gravida nisl a porta tincidunt. Integertheoo aliquam nisi sit amet.</p>
-                            
+
                             <div class="link-btn">
                                 <a href="#"><span>Read More</span></a>
                             </div>
@@ -161,7 +161,7 @@ get_header(); // Include the header
                             <div class="icon-box"><i class="icon-12"></i></div>
                             <h3><a href="#">Dependent Student Visa</a></h3>
                             <p>Sed gravida nisl a porta tincidunt. Integertheoo aliquam nisi sit amet.</p>
-                            
+
                             <div class="link-btn">
                                 <a href="#"><span>Read More</span></a>
                             </div>
@@ -177,7 +177,7 @@ get_header(); // Include the header
                             <div class="icon-box"><i class="icon-12"></i></div>
                             <h3><a href="#">VOC Work Visa</a></h3>
                             <p>Sed gravida nisl a porta tincidunt. Integertheoo aliquam nisi sit amet.</p>
-                            
+
                             <div class="link-btn">
                                 <a href="#"><span>Read More</span></a>
                             </div>
@@ -193,7 +193,7 @@ get_header(); // Include the header
                             <div class="icon-box"><i class="icon-12"></i></div>
                             <h3><a href="#">Student Visa</a></h3>
                             <p>Sed gravida nisl a porta tincidunt. Integertheoo aliquam nisi sit amet.</p>
-                            
+
                             <div class="link-btn">
                                 <a href="#"><span>Read More</span></a>
                             </div>
@@ -209,7 +209,7 @@ get_header(); // Include the header
                             <div class="icon-box"><i class="icon-12"></i></div>
                             <h3><a href="#">Investor Visa</a></h3>
                             <p>Sed gravida nisl a porta tincidunt. Integertheoo aliquam nisi sit amet.</p>
-                            
+
                             <div class="link-btn">
                                 <a href="#"><span>Read More</span></a>
                             </div>
@@ -330,16 +330,16 @@ get_header(); // Include the header
         <div class="content_block_two">
             <div class="content-box p_relative d_block">
                 <div class="sec-title light mb_20">
-                    <span class="sub-title">Reach Your Dream</span>
-                    <h2>Get the Right Help</h2>
+                    <span class="sub-title">Explore Your Eligibility</span>
+                    <h2>Am I Qualified to Apply?</h2>
                 </div>
                 <div class="text mb_25">
-                    <p>Where did this incorrect belief that everyone dislikes praising happiness come from? Explain to me how this erroneous theory ended up being devised.</p>
+                    <p>Choose your path and click the links below to determine if you qualify for a New Zealand Visa</p>
                 </div>
                 <ul class="list-item p_relative clearfix">
-                    <li><a href="<?php echo home_url(); ?>">1. Entering & Leaving From Country <i class="icon-9"></i></a></li>
-                    <li><a href="<?php echo home_url(); ?>">2. Help & Support <i class="icon-9"></i></a></li>
-                    <li><a href="<?php echo home_url(); ?>">3. Country Citizenship <i class="icon-9"></i></a></li>
+                    <li><a href="<?php echo home_url(); ?>">1. Work Visa Applicants <i class="icon-9"></i></a></li>
+                    <li><a href="<?php echo home_url(); ?>">2. Student Visa Applicants <i class="icon-9"></i></a></li>
+                    <li><a href="<?php echo home_url(); ?>">3. Business Visa Applicants <i class="icon-9"></i></a></li>
                 </ul>
             </div>
         </div>
@@ -348,228 +348,68 @@ get_header(); // Include the header
 <!-- dream-section end -->
 
 
-<!-- countries-section -->
-<section class="countries-section p_relative centred">
-    <div class="pattern-layer">
-        <div class="pattern-1" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/shape/shape-10.png);"></div>
-        <div class="pattern-2" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/shape/shape-11.png);"></div>
-    </div>
-    <div class="outer-container">
-        <div class="sec-title mb_30 centred">
-            <span class="sub-title">Countries We Offer</span>
-            <h2>Best Countries to Travel</h2>
-        </div>
-        <div class="tabs-box">
-            <div class="tab-btn-box mb_60">
-                <ul class="tab-btns tab-buttons clearfix">
-                    <li class="tab-btn active-btn" data-tab="#tab-1">Education</li>
-                    <li class="tab-btn" data-tab="#tab-2">Immigration</li>
-                    <li class="tab-btn" data-tab="#tab-3">Business</li>
-                </ul>
-            </div>
-            <div class="tabs-content">
-                <div class="tab active-tab" id="tab-1">
-                    <div class="content-box clearfix">
-                        <div class="countries-block-one">
-                            <div class="inner-box">
-                                <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/countries-1.jpg" alt=""></figure>
-                                <div class="text">
-                                    <h3><a href="<?php echo home_url(); ?>">India <br />Visa</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="countries-block-one">
-                            <div class="inner-box">
-                                <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/countries-2.jpg" alt=""></figure>
-                                <div class="text">
-                                    <h3><a href="<?php echo home_url(); ?>">Brazil <br />Visa</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="countries-block-one">
-                            <div class="inner-box">
-                                <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/countries-3.jpg" alt=""></figure>
-                                <div class="text">
-                                    <h3><a href="<?php echo home_url(); ?>">China <br />Visa</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="countries-block-one">
-                            <div class="inner-box">
-                                <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/countries-4.jpg" alt=""></figure>
-                                <div class="text">
-                                    <h3><a href="<?php echo home_url(); ?>">Vietnam <br />Visa</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab" id="tab-2">
-                    <div class="content-box clearfix">
-                        <div class="countries-block-one">
-                            <div class="inner-box">
-                                <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/countries-1.jpg" alt=""></figure>
-                                <div class="text">
-                                    <h3><a href="<?php echo home_url(); ?>">India <br />Visa</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="countries-block-one">
-                            <div class="inner-box">
-                                <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/countries-3.jpg" alt=""></figure>
-                                <div class="text">
-                                    <h3><a href="<?php echo home_url(); ?>">China <br />Visa</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="countries-block-one">
-                            <div class="inner-box">
-                                <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/countries-4.jpg" alt=""></figure>
-                                <div class="text">
-                                    <h3><a href="<?php echo home_url(); ?>">Vietnam <br />Visa</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="countries-block-one">
-                            <div class="inner-box">
-                                <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/countries-2.jpg" alt=""></figure>
-                                <div class="text">
-                                    <h3><a href="<?php echo home_url(); ?>">Brazil <br />Visa</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab" id="tab-3">
-                    <div class="content-box clearfix">
-                        <div class="countries-block-one">
-                            <div class="inner-box">
-                                <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/countries-3.jpg" alt=""></figure>
-                                <div class="text">
-                                    <h3><a href="<?php echo home_url(); ?>">China <br />Visa</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="countries-block-one">
-                            <div class="inner-box">
-                                <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/countries-4.jpg" alt=""></figure>
-                                <div class="text">
-                                    <h3><a href="<?php echo home_url(); ?>">Vietnam <br />Visa</a></h3>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="countries-block-one">
-                            <div class="inner-box">
-                                <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/countries-1.jpg" alt=""></figure>
-                                <div class="text">
-                                    <h3><a href="<?php echo home_url(); ?>">India <br />Visa</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="countries-block-one">
-                            <div class="inner-box">
-                                <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/countries-2.jpg" alt=""></figure>
-                                <div class="text">
-                                    <h3><a href="<?php echo home_url(); ?>">Brazil <br />Visa</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- countries-section end -->
-
-
-<!-- coaching-section -->
-<section class="coaching-section sec-pad">
-    <div class="pattern-layer" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/shape/shape-12.png);"></div>
+<!-- testimonial-style-two -->
+<section class="testimonial-style-two pb_150">
     <div class="auto-container">
-        <div class="sec-title mb_50">
-            <span class="sub-title">HOW WE HELP CLIENTS</span>
-            <h2>Your immigration class New <br />Orleans Saints deserves you.</h2>
+        <div class="sec-title centred mb_60">
+            <span class="sub-title">Testimonial</span>
+            <h2>What people say <br />about us</h2>
         </div>
-        <div class="row clearfix">
-            <div class="col-lg-4 col-md-6 col-sm-12 coaching-block">
-                <div class="coaching-block-one">
-                    <div class="inner-box">
-                        <div class="image-box clearfix">
-                            <figure class="image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/coaching-1.jpg" alt=""></figure>
-                            <figure class="image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/coaching-2.jpg" alt=""></figure>
-                        </div>
-                        <div class="static-content">
-                            <h3>Oet <br />Coaching</h3>
-                            <div class="link"><a href="#"><i class="icon-9"></i></a></div>
-                        </div>
-                        <div class="overlay-content">
-                            <h3><a href="#">Oet Coaching</a></h3>
-                            <p>Sed gravida nisl a porta tincidunt. Integer aliquam nisi sit amet magna.</p>
-                            <div class="link"><a href="#"><i class="icon-9"></i></a></div>
-                        </div>
+        <div class="two-item-carousel owl-carousel owl-theme owl-dots-none nav-style-one">
+            <div class="testimonial-block-one">
+                <div class="inner-box">
+                    <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/testimonial-2.jpg" alt=""></figure>
+                    <div class="content-box">
+                        <ul class="rating mb_15 clearfix">
+                            <li><i class="icon-15"></i></li>
+                            <li><i class="icon-15"></i></li>
+                            <li><i class="icon-15"></i></li>
+                            <li><i class="icon-15"></i></li>
+                            <li><i class="icon-15"></i></li>
+                        </ul>
+                        <h3>Thank you for immigr...</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et amet fringilla nulla in pulvinar orci sagittis est. Non a, convallis odio est.</p>
+                        <h5>Jemmy Catter / <span>CEO Founder</span></h5>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 coaching-block">
-                <div class="coaching-block-one">
-                    <div class="inner-box">
-                        <div class="image-box clearfix">
-                            <figure class="image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/coaching-3.jpg" alt=""></figure>
-                            <figure class="image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/coaching-4.jpg" alt=""></figure>
-                        </div>
-                        <div class="static-content">
-                            <h3>Pte <br />Coaching</h3>
-                            <div class="link"><a href="#"><i class="icon-9"></i></a></div>
-                        </div>
-                        <div class="overlay-content">
-                            <h3><a href="#">Pte Coaching</a></h3>
-                            <p>Sed gravida nisl a porta tincidunt. Integer aliquam nisi sit amet magna.</p>
-                            <div class="link"><a href="#"><i class="icon-9"></i></a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 coaching-block">
-                <div class="coaching-block-one">
-                    <div class="inner-box">
-                        <div class="image-box clearfix">
-                            <figure class="image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/coaching-5.jpg" alt=""></figure>
-                            <figure class="image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/coaching-6.jpg" alt=""></figure>
-                        </div>
-                        <div class="static-content">
-                            <h3>Gre <br />Coaching</h3>
-                            <div class="link"><a href="#"><i class="icon-9"></i></a></div>
-                        </div>
-                        <div class="overlay-content">
-                            <h3><a href="#">Gre Coaching</a></h3>
-                            <p>Sed gravida nisl a porta tincidunt. Integer aliquam nisi sit amet magna.</p>
-                            <div class="link"><a href="#"><i class="icon-9"></i></a></div>
-                        </div>
+            <div class="testimonial-block-one">
+                <div class="inner-box">
+                    <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/testimonial-3.jpg" alt=""></figure>
+                    <div class="content-box">
+                        <ul class="rating mb_15 clearfix">
+                            <li><i class="icon-15"></i></li>
+                            <li><i class="icon-15"></i></li>
+                            <li><i class="icon-15"></i></li>
+                            <li><i class="icon-15"></i></li>
+                            <li><i class="icon-15"></i></li>
+                        </ul>
+                        <h3>Thank you for immigr...</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et amet fringilla nulla in pulvinar orci sagittis est. Non a, convallis odio est.</p>
+                        <h5>Carwl William / <span>CTO</span></h5>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!-- coaching-section end -->
+<!-- testimonial-style-two end -->
 
 
 <!-- chooseus-section -->
 <section class="chooseus-section p_relative">
     <div class="auto-container">
         <div class="sec-title centred mb_60">
-            <span class="sub-title">Why Choose Us</span>
-            <h2>Offer custom-made services that <br />our customer needs.</h2>
+            <span class="sub-title">Why we stand out</span>
+            <h2>Going the Extra Mile: Serving You Better <br />with a Friendly Touch.</h2>
         </div>
         <div class="row clearfix">
             <div class="col-lg-3 col-md-6 col-sm-12 chooseus-block">
                 <div class="chooseus-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                     <div class="inner-box">
                         <div class="icon-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/icon-1.png" alt=""></div>
-                        <h3><a href="<?php echo home_url(); ?>">Direct Interviews</a></h3>
-                        <p>Where did this incorrect belief that everyone dislikes praising happiness come from?</p>
+                        <h3><a href="<?php echo home_url(); ?>">Personal Consultations</a></h3>
+                        <p>Direct interviews for tailored migration solutions.</p>
                         <div class="link-btn">
                             <a href="<?php echo home_url(); ?>"><span>Read More</span><i class="icon-9"></i></a>
                         </div>
@@ -581,7 +421,7 @@ get_header(); // Include the header
                     <div class="inner-box">
                         <div class="icon-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/icon-2.png" alt=""></div>
                         <h3><a href="<?php echo home_url(); ?>">Faster Processing</a></h3>
-                        <p>Where did this incorrect belief that everyone dislikes praising happiness come from?</p>
+                        <p>Accelerate your journey with our expedited visa processing.</p>
                         <div class="link-btn">
                             <a href="<?php echo home_url(); ?>"><span>Read More</span><i class="icon-9"></i></a>
                         </div>
@@ -592,8 +432,8 @@ get_header(); // Include the header
                 <div class="chooseus-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
                     <div class="inner-box">
                         <div class="icon-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/icon-3.png" alt=""></div>
-                        <h3><a href="<?php echo home_url(); ?>">Visa Assistance</a></h3>
-                        <p>Where did this incorrect belief that everyone dislikes praising happiness come from?</p>
+                        <h3><a href="<?php echo home_url(); ?>">Visa Expertise</a></h3>
+                        <p>Navigate the complexities with our comprehensive visa assistance.</p>
                         <div class="link-btn">
                             <a href="<?php echo home_url(); ?>"><span>Read More</span><i class="icon-9"></i></a>
                         </div>
@@ -604,8 +444,8 @@ get_header(); // Include the header
                 <div class="chooseus-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                     <div class="inner-box">
                         <div class="icon-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/icon-4.png" alt=""></div>
-                        <h3><a href="<?php echo home_url(); ?>">Cost-Effective</a></h3>
-                        <p>Where did this incorrect belief that everyone dislikes praising happiness come from?</p>
+                        <h3><a href="<?php echo home_url(); ?>">Continued Support</a></h3>
+                        <p>Quality after-service to ensure your successful settlement.</p>
                         <div class="link-btn">
                             <a href="<?php echo home_url(); ?>"><span>Read More</span><i class="icon-9"></i></a>
                         </div>
@@ -729,8 +569,8 @@ get_header(); // Include the header
     <div class="auto-container">
         <div class="content_block_three">
             <div class="content-box p_relative d_block">
-                <h2>Looking for Quality <span>Education In</span> Abroad?</h2>
-                <p>Where did this incorrect belief that everyone dislikes praising happiness come from? Explain to me how this erroneous theory ended up being devised.</p>
+                <h2>Turn Your New Zealand Dream into Reality: <span>Let Us Make It Happen</span></h2>
+                <p>Realize your aspirations in New Zealand with our expert migration services. Transform dreams into reality with our dedicated guidance.</p>
                 <ul class="country-list">
                     <li>
                         <div class="flag"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/flag-1.png" alt=""></div>
