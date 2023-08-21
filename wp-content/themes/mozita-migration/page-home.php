@@ -555,7 +555,7 @@ get_header(); // Include the header
 
 <!-- education-section -->
 <section class="education-section p_relative">
-    <div class="bg-layer-2" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/shape/shape-16.png);"></div>
+    <div class="bg-layer-2" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/shape/shape-16.jpg);"></div>
     <div class="bg-layer parallax-bg" data-parallax='{"y": 100}' style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/background/education-bg.jpg);"></div>
     <figure class="image-layer wow slideInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/men-1.png" alt=""></figure>
     <div class="shape">
