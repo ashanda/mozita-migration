@@ -26,7 +26,7 @@ define( 'DB_NAME', 'mozita-migration' );
 define( 'DB_USER', 'root' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'root' );
+define( 'DB_PASSWORD', '' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
@@ -37,6 +37,7 @@ define( 'DB_CHARSET', 'utf8' );
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
 
+define( 'FS_METHOD', 'direct' );
 /**#@+
  * Authentication unique keys and salts.
  *
