@@ -17,7 +17,7 @@ get_header(); // Include the header
         <div class="content-box">
             <h1>Our Team</h1>
             <ul class="bread-crumb clearfix">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="<?php echo home_url(); ?>">Home</a></li>
                 <li>Teams</li>
             </ul>
         </div>
@@ -38,12 +38,12 @@ get_header(); // Include the header
                             <div class="share-box">
                                 <div class="share-icon"><i class="icon-26"></i></div>
                                 <ul class="social-links clearfix">
-                                    <li><a href="index.html"><i class="icon-7"></i></a></li>
-                                    <li><a href="index.html"><i class="icon-6"></i></a></li>
-                                    <li><a href="index.html"><i class="icon-4"></i></a></li>
+                                    <li><a href="<?php echo home_url(); ?>"><i class="icon-7"></i></a></li>
+                                    <li><a href="<?php echo home_url(); ?>"><i class="icon-6"></i></a></li>
+                                    <li><a href="<?php echo home_url(); ?>"><i class="icon-4"></i></a></li>
                                 </ul>
                             </div>
-                            <h3><a href="team-details.html">Roman Frederick</a></h3>
+                            <h3><a href="#">Roman Frederick</a></h3>
                             <span class="designation">Regional Manager</span>
                         </div>
                     </div>
@@ -57,12 +57,12 @@ get_header(); // Include the header
                             <div class="share-box">
                                 <div class="share-icon"><i class="icon-26"></i></div>
                                 <ul class="social-links clearfix">
-                                    <li><a href="index.html"><i class="icon-7"></i></a></li>
-                                    <li><a href="index.html"><i class="icon-6"></i></a></li>
-                                    <li><a href="index.html"><i class="icon-4"></i></a></li>
+                                    <li><a href="<?php echo home_url(); ?>"><i class="icon-7"></i></a></li>
+                                    <li><a href="<?php echo home_url(); ?>"><i class="icon-6"></i></a></li>
+                                    <li><a href="<?php echo home_url(); ?>"><i class="icon-4"></i></a></li>
                                 </ul>
                             </div>
-                            <h3><a href="team-details.html">Jane Cooper</a></h3>
+                            <h3><a href="#">Jane Cooper</a></h3>
                             <span class="designation">Medical Assistant</span>
                         </div>
                     </div>
@@ -76,12 +76,12 @@ get_header(); // Include the header
                             <div class="share-box">
                                 <div class="share-icon"><i class="icon-26"></i></div>
                                 <ul class="social-links clearfix">
-                                    <li><a href="index.html"><i class="icon-7"></i></a></li>
-                                    <li><a href="index.html"><i class="icon-6"></i></a></li>
-                                    <li><a href="index.html"><i class="icon-4"></i></a></li>
+                                    <li><a href="<?php echo home_url(); ?>"><i class="icon-7"></i></a></li>
+                                    <li><a href="<?php echo home_url(); ?>"><i class="icon-6"></i></a></li>
+                                    <li><a href="<?php echo home_url(); ?>"><i class="icon-4"></i></a></li>
                                 </ul>
                             </div>
-                            <h3><a href="team-details.html">Esther Howard</a></h3>
+                            <h3><a href="#">Esther Howard</a></h3>
                             <span class="designation">President of Sales</span>
                         </div>
                     </div>
@@ -95,12 +95,12 @@ get_header(); // Include the header
                             <div class="share-box">
                                 <div class="share-icon"><i class="icon-26"></i></div>
                                 <ul class="social-links clearfix">
-                                    <li><a href="index.html"><i class="icon-7"></i></a></li>
-                                    <li><a href="index.html"><i class="icon-6"></i></a></li>
-                                    <li><a href="index.html"><i class="icon-4"></i></a></li>
+                                    <li><a href="<?php echo home_url(); ?>"><i class="icon-7"></i></a></li>
+                                    <li><a href="<?php echo home_url(); ?>"><i class="icon-6"></i></a></li>
+                                    <li><a href="<?php echo home_url(); ?>"><i class="icon-4"></i></a></li>
                                 </ul>
                             </div>
-                            <h3><a href="team-details.html">Jenny Wilson</a></h3>
+                            <h3><a href="#">Jenny Wilson</a></h3>
                             <span class="designation">Marketing Coordinator</span>
                         </div>
                     </div>
@@ -114,12 +114,12 @@ get_header(); // Include the header
                             <div class="share-box">
                                 <div class="share-icon"><i class="icon-26"></i></div>
                                 <ul class="social-links clearfix">
-                                    <li><a href="index.html"><i class="icon-7"></i></a></li>
-                                    <li><a href="index.html"><i class="icon-6"></i></a></li>
-                                    <li><a href="index.html"><i class="icon-4"></i></a></li>
+                                    <li><a href="<?php echo home_url(); ?>"><i class="icon-7"></i></a></li>
+                                    <li><a href="<?php echo home_url(); ?>"><i class="icon-6"></i></a></li>
+                                    <li><a href="<?php echo home_url(); ?>"><i class="icon-4"></i></a></li>
                                 </ul>
                             </div>
-                            <h3><a href="team-details.html">Roman Frederick</a></h3>
+                            <h3><a href="#">Roman Frederick</a></h3>
                             <span class="designation">UX/ UI</span>
                         </div>
                     </div>
@@ -133,12 +133,12 @@ get_header(); // Include the header
                             <div class="share-box">
                                 <div class="share-icon"><i class="icon-26"></i></div>
                                 <ul class="social-links clearfix">
-                                    <li><a href="index.html"><i class="icon-7"></i></a></li>
-                                    <li><a href="index.html"><i class="icon-6"></i></a></li>
-                                    <li><a href="index.html"><i class="icon-4"></i></a></li>
+                                    <li><a href="<?php echo home_url(); ?>"><i class="icon-7"></i></a></li>
+                                    <li><a href="<?php echo home_url(); ?>"><i class="icon-6"></i></a></li>
+                                    <li><a href="<?php echo home_url(); ?>"><i class="icon-4"></i></a></li>
                                 </ul>
                             </div>
-                            <h3><a href="team-details.html">Esther Howard</a></h3>
+                            <h3><a href="#">Esther Howard</a></h3>
                             <span class="designation">Product Designer</span>
                         </div>
                     </div>
@@ -152,12 +152,12 @@ get_header(); // Include the header
                             <div class="share-box">
                                 <div class="share-icon"><i class="icon-26"></i></div>
                                 <ul class="social-links clearfix">
-                                    <li><a href="index.html"><i class="icon-7"></i></a></li>
-                                    <li><a href="index.html"><i class="icon-6"></i></a></li>
-                                    <li><a href="index.html"><i class="icon-4"></i></a></li>
+                                    <li><a href="<?php echo home_url(); ?>"><i class="icon-7"></i></a></li>
+                                    <li><a href="<?php echo home_url(); ?>"><i class="icon-6"></i></a></li>
+                                    <li><a href="<?php echo home_url(); ?>"><i class="icon-4"></i></a></li>
                                 </ul>
                             </div>
-                            <h3><a href="team-details.html">Tome William</a></h3>
+                            <h3><a href="#">Tome William</a></h3>
                             <span class="designation">SEO</span>
                         </div>
                     </div>
@@ -171,12 +171,12 @@ get_header(); // Include the header
                             <div class="share-box">
                                 <div class="share-icon"><i class="icon-26"></i></div>
                                 <ul class="social-links clearfix">
-                                    <li><a href="index.html"><i class="icon-7"></i></a></li>
-                                    <li><a href="index.html"><i class="icon-6"></i></a></li>
-                                    <li><a href="index.html"><i class="icon-4"></i></a></li>
+                                    <li><a href="<?php echo home_url(); ?>"><i class="icon-7"></i></a></li>
+                                    <li><a href="<?php echo home_url(); ?>"><i class="icon-6"></i></a></li>
+                                    <li><a href="<?php echo home_url(); ?>"><i class="icon-4"></i></a></li>
                                 </ul>
                             </div>
-                            <h3><a href="team-details.html">Jenny Wilson</a></h3>
+                            <h3><a href="#">Jenny Wilson</a></h3>
                             <span class="designation">Content Writer</span>
                         </div>
                     </div>

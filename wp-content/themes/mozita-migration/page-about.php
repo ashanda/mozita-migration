@@ -17,7 +17,7 @@ get_header(); // Include the header
         <div class="content-box">
             <h1>About</h1>
             <ul class="bread-crumb clearfix">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="<?php echo home_url(); ?>">Home</a></li>
                 <li>About Immigratie</li>
             </ul>
         </div>
@@ -58,7 +58,7 @@ get_header(); // Include the header
                             </div>
                         </div>
                         <div class="btn-box">
-                            <a href="about.html" class="theme-btn btn-two"><span>More Details</span></a>
+                            <a href="#" class="theme-btn btn-two"><span>More Details</span></a>
                         </div>
                     </div>
                 </div>
@@ -92,7 +92,7 @@ get_header(); // Include the header
                     <div class="feature-block-one">
                         <div class="inner-box">
                             <div class="icon-box"><i class="icon-17"></i></div>
-                            <h3><a href="index.html">Visa</a></h3>
+                            <h3><a href="<?php echo home_url(); ?>">Visa</a></h3>
                             <p>Sed gravida nisl a porta tincidunt. Integer aliquam nisi sit amet.</p>
                         </div>
                     </div>
@@ -101,7 +101,7 @@ get_header(); // Include the header
                     <div class="feature-block-one">
                         <div class="inner-box">
                             <div class="icon-box"><i class="icon-18"></i></div>
-                            <h3><a href="index.html">Passport</a></h3>
+                            <h3><a href="<?php echo home_url(); ?>">Passport</a></h3>
                             <p>Sed gravida nisl a porta tincidunt. Integer aliquam nisi sit amet.</p>
                         </div>
                     </div>
@@ -110,7 +110,7 @@ get_header(); // Include the header
                     <div class="feature-block-one">
                         <div class="inner-box">
                             <div class="icon-box"><i class="icon-19"></i></div>
-                            <h3><a href="index.html">Immigration</a></h3>
+                            <h3><a href="<?php echo home_url(); ?>">Immigration</a></h3>
                             <p>Sed gravida nisl a porta tincidunt. Integer aliquam nisi sit amet.</p>
                         </div>
                     </div>
@@ -119,7 +119,7 @@ get_header(); // Include the header
                     <div class="feature-block-one">
                         <div class="inner-box">
                             <div class="icon-box"><i class="icon-20"></i></div>
-                            <h3><a href="index.html">Translation</a></h3>
+                            <h3><a href="<?php echo home_url(); ?>">Translation</a></h3>
                             <p>Sed gravida nisl a porta tincidunt. Integer aliquam nisi sit amet.</p>
                         </div>
                     </div>
@@ -173,7 +173,7 @@ get_header(); // Include the header
                             <div class="countries-block-four">
                                 <div class="inner-box">
                                     <div class="flag"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/flag-13.png" alt=""></div>
-                                    <h3><a href="index-3.html">United Kingdom</a></h3>
+                                    <h3><a href="#">United Kingdom</a></h3>
                                     <p>Vivamus ac ultricies ex. Donec lacinia lacus libero, sed feugiat diam
                                         laoreet eget</p>
                                     <div class="text">Visa Type :</div>
@@ -185,7 +185,7 @@ get_header(); // Include the header
                             <div class="countries-block-four">
                                 <div class="inner-box">
                                     <div class="flag"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/flag-14.png" alt=""></div>
-                                    <h3><a href="index-3.html">Bahamas</a></h3>
+                                    <h3><a href="#">Bahamas</a></h3>
                                     <p>Vivamus ac ultricies ex. Donec lacinia lacus libero, sed feugiat diam
                                         laoreet eget</p>
                                     <div class="text">Visa Type :</div>
@@ -197,7 +197,7 @@ get_header(); // Include the header
                             <div class="countries-block-four">
                                 <div class="inner-box">
                                     <div class="flag"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/flag-15.png" alt=""></div>
-                                    <h3><a href="index-3.html">Canada</a></h3>
+                                    <h3><a href="#">Canada</a></h3>
                                     <p>Vivamus ac ultricies ex. Donec lacinia lacus libero, sed feugiat diam
                                         laoreet eget</p>
                                     <div class="text">Visa Type :</div>
@@ -209,7 +209,7 @@ get_header(); // Include the header
                             <div class="countries-block-four">
                                 <div class="inner-box">
                                     <div class="flag"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/flag-16.png" alt=""></div>
-                                    <h3><a href="index-3.html">Brazil</a></h3>
+                                    <h3><a href="#">Brazil</a></h3>
                                     <p>Vivamus ac ultricies ex. Donec lacinia lacus libero, sed feugiat diam
                                         laoreet eget</p>
                                     <div class="text">Visa Type :</div>
@@ -225,7 +225,7 @@ get_header(); // Include the header
                             <div class="countries-block-four">
                                 <div class="inner-box">
                                     <div class="flag"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/flag-14.png" alt=""></div>
-                                    <h3><a href="index-3.html">Bahamas</a></h3>
+                                    <h3><a href="#">Bahamas</a></h3>
                                     <p>Vivamus ac ultricies ex. Donec lacinia lacus libero, sed feugiat diam
                                         laoreet eget</p>
                                     <div class="text">Visa Type :</div>
@@ -237,7 +237,7 @@ get_header(); // Include the header
                             <div class="countries-block-four">
                                 <div class="inner-box">
                                     <div class="flag"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/flag-13.png" alt=""></div>
-                                    <h3><a href="index-3.html">United Kingdom</a></h3>
+                                    <h3><a href="#">United Kingdom</a></h3>
                                     <p>Vivamus ac ultricies ex. Donec lacinia lacus libero, sed feugiat diam
                                         laoreet eget</p>
                                     <div class="text">Visa Type :</div>
@@ -249,7 +249,7 @@ get_header(); // Include the header
                             <div class="countries-block-four">
                                 <div class="inner-box">
                                     <div class="flag"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/flag-15.png" alt=""></div>
-                                    <h3><a href="index-3.html">Canada</a></h3>
+                                    <h3><a href="#">Canada</a></h3>
                                     <p>Vivamus ac ultricies ex. Donec lacinia lacus libero, sed feugiat diam
                                         laoreet eget</p>
                                     <div class="text">Visa Type :</div>
@@ -261,7 +261,7 @@ get_header(); // Include the header
                             <div class="countries-block-four">
                                 <div class="inner-box">
                                     <div class="flag"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/flag-16.png" alt=""></div>
-                                    <h3><a href="index-3.html">Brazil</a></h3>
+                                    <h3><a href="#">Brazil</a></h3>
                                     <p>Vivamus ac ultricies ex. Donec lacinia lacus libero, sed feugiat diam
                                         laoreet eget</p>
                                     <div class="text">Visa Type :</div>
@@ -277,7 +277,7 @@ get_header(); // Include the header
                             <div class="countries-block-four">
                                 <div class="inner-box">
                                     <div class="flag"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/flag-15.png" alt=""></div>
-                                    <h3><a href="index-3.html">Canada</a></h3>
+                                    <h3><a href="#">Canada</a></h3>
                                     <p>Vivamus ac ultricies ex. Donec lacinia lacus libero, sed feugiat diam
                                         laoreet eget</p>
                                     <div class="text">Visa Type :</div>
@@ -289,7 +289,7 @@ get_header(); // Include the header
                             <div class="countries-block-four">
                                 <div class="inner-box">
                                     <div class="flag"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/flag-13.png" alt=""></div>
-                                    <h3><a href="index-3.html">United Kingdom</a></h3>
+                                    <h3><a href="#">United Kingdom</a></h3>
                                     <p>Vivamus ac ultricies ex. Donec lacinia lacus libero, sed feugiat diam
                                         laoreet eget</p>
                                     <div class="text">Visa Type :</div>
@@ -301,7 +301,7 @@ get_header(); // Include the header
                             <div class="countries-block-four">
                                 <div class="inner-box">
                                     <div class="flag"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/flag-14.png" alt=""></div>
-                                    <h3><a href="index-3.html">Bahamas</a></h3>
+                                    <h3><a href="#">Bahamas</a></h3>
                                     <p>Vivamus ac ultricies ex. Donec lacinia lacus libero, sed feugiat diam
                                         laoreet eget</p>
                                     <div class="text">Visa Type :</div>
@@ -313,7 +313,7 @@ get_header(); // Include the header
                             <div class="countries-block-four">
                                 <div class="inner-box">
                                     <div class="flag"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/flag-16.png" alt=""></div>
-                                    <h3><a href="index-3.html">Brazil</a></h3>
+                                    <h3><a href="#">Brazil</a></h3>
                                     <p>Vivamus ac ultricies ex. Donec lacinia lacus libero, sed feugiat diam
                                         laoreet eget</p>
                                     <div class="text">Visa Type :</div>
@@ -329,7 +329,7 @@ get_header(); // Include the header
                             <div class="countries-block-four">
                                 <div class="inner-box">
                                     <div class="flag"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/flag-13.png" alt=""></div>
-                                    <h3><a href="index-3.html">United Kingdom</a></h3>
+                                    <h3><a href="#">United Kingdom</a></h3>
                                     <p>Vivamus ac ultricies ex. Donec lacinia lacus libero, sed feugiat diam
                                         laoreet eget</p>
                                     <div class="text">Visa Type :</div>
@@ -341,7 +341,7 @@ get_header(); // Include the header
                             <div class="countries-block-four">
                                 <div class="inner-box">
                                     <div class="flag"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/flag-16.png" alt=""></div>
-                                    <h3><a href="index-3.html">Brazil</a></h3>
+                                    <h3><a href="#">Brazil</a></h3>
                                     <p>Vivamus ac ultricies ex. Donec lacinia lacus libero, sed feugiat diam
                                         laoreet eget</p>
                                     <div class="text">Visa Type :</div>
@@ -353,7 +353,7 @@ get_header(); // Include the header
                             <div class="countries-block-four">
                                 <div class="inner-box">
                                     <div class="flag"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/flag-14.png" alt=""></div>
-                                    <h3><a href="index-3.html">Bahamas</a></h3>
+                                    <h3><a href="#">Bahamas</a></h3>
                                     <p>Vivamus ac ultricies ex. Donec lacinia lacus libero, sed feugiat diam
                                         laoreet eget</p>
                                     <div class="text">Visa Type :</div>
@@ -365,7 +365,7 @@ get_header(); // Include the header
                             <div class="countries-block-four">
                                 <div class="inner-box">
                                     <div class="flag"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/flag-15.png" alt=""></div>
-                                    <h3><a href="index-3.html">Canada</a></h3>
+                                    <h3><a href="#">Canada</a></h3>
                                     <p>Vivamus ac ultricies ex. Donec lacinia lacus libero, sed feugiat diam
                                         laoreet eget</p>
                                     <div class="text">Visa Type :</div>
@@ -403,7 +403,7 @@ get_header(); // Include the header
                             <div class="flag"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/flag-3.png" alt=""></div>
                         </div>
                         <div class="lower-content">
-                            <h5><a href="index-4.html">China <span>Visa</span></a></h5>
+                            <h5><a href="#">China <span>Visa</span></a></h5>
                             <span class="text">Avenue, Jersey</span>
                         </div>
                     </div>
@@ -418,7 +418,7 @@ get_header(); // Include the header
                             <div class="flag"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/flag-5.png" alt=""></div>
                         </div>
                         <div class="lower-content">
-                            <h5><a href="index-4.html">United Kingdom <span>Visa</span></a></h5>
+                            <h5><a href="#">United Kingdom <span>Visa</span></a></h5>
                             <span class="text">Asheville</span>
                         </div>
                     </div>
@@ -433,7 +433,7 @@ get_header(); // Include the header
                             <div class="flag"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/flag-8.png" alt=""></div>
                         </div>
                         <div class="lower-content">
-                            <h5><a href="index-4.html">Brazil <span>Visa</span></a></h5>
+                            <h5><a href="#">Brazil <span>Visa</span></a></h5>
                             <span class="text">Amsterdam</span>
                         </div>
                     </div>
@@ -448,7 +448,7 @@ get_header(); // Include the header
                             <div class="flag"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/flag-4.png" alt=""></div>
                         </div>
                         <div class="lower-content">
-                            <h5><a href="index-4.html">Australia <span>Visa</span></a></h5>
+                            <h5><a href="#">Australia <span>Visa</span></a></h5>
                             <span class="text">Queensland</span>
                         </div>
                     </div>
@@ -473,11 +473,11 @@ get_header(); // Include the header
                 <div class="chooseus-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                     <div class="inner-box">
                         <div class="icon-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/icon-1.png" alt=""></div>
-                        <h3><a href="index.html">Direct Interviews</a></h3>
+                        <h3><a href="<?php echo home_url(); ?>">Direct Interviews</a></h3>
                         <p>Where did this incorrect belief that everyone dislikes praising happiness come from?
                         </p>
                         <div class="link-btn">
-                            <a href="index.html"><span>Read More</span><i class="icon-9"></i></a>
+                            <a href="<?php echo home_url(); ?>"><span>Read More</span><i class="icon-9"></i></a>
                         </div>
                     </div>
                 </div>
@@ -486,11 +486,11 @@ get_header(); // Include the header
                 <div class="chooseus-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                     <div class="inner-box">
                         <div class="icon-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/icon-2.png" alt=""></div>
-                        <h3><a href="index.html">Faster Processing</a></h3>
+                        <h3><a href="<?php echo home_url(); ?>">Faster Processing</a></h3>
                         <p>Where did this incorrect belief that everyone dislikes praising happiness come from?
                         </p>
                         <div class="link-btn">
-                            <a href="index.html"><span>Read More</span><i class="icon-9"></i></a>
+                            <a href="<?php echo home_url(); ?>"><span>Read More</span><i class="icon-9"></i></a>
                         </div>
                     </div>
                 </div>
@@ -499,11 +499,11 @@ get_header(); // Include the header
                 <div class="chooseus-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
                     <div class="inner-box">
                         <div class="icon-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/icon-3.png" alt=""></div>
-                        <h3><a href="index.html">Visa Assistance</a></h3>
+                        <h3><a href="<?php echo home_url(); ?>">Visa Assistance</a></h3>
                         <p>Where did this incorrect belief that everyone dislikes praising happiness come from?
                         </p>
                         <div class="link-btn">
-                            <a href="index.html"><span>Read More</span><i class="icon-9"></i></a>
+                            <a href="<?php echo home_url(); ?>"><span>Read More</span><i class="icon-9"></i></a>
                         </div>
                     </div>
                 </div>
@@ -512,11 +512,11 @@ get_header(); // Include the header
                 <div class="chooseus-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                     <div class="inner-box">
                         <div class="icon-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/icon-4.png" alt=""></div>
-                        <h3><a href="index.html">Cost-Effective</a></h3>
+                        <h3><a href="<?php echo home_url(); ?>">Cost-Effective</a></h3>
                         <p>Where did this incorrect belief that everyone dislikes praising happiness come from?
                         </p>
                         <div class="link-btn">
-                            <a href="index.html"><span>Read More</span><i class="icon-9"></i></a>
+                            <a href="<?php echo home_url(); ?>"><span>Read More</span><i class="icon-9"></i></a>
                         </div>
                     </div>
                 </div>
@@ -532,11 +532,11 @@ get_header(); // Include the header
     <div class="auto-container">
         <div class="inner-box p_relative pt_90">
             <ul class="clients-list">
-                <li class="clients-logo"><a href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/clients-1.png" alt=""></a></li>
-                <li class="clients-logo"><a href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/clients-2.png" alt=""></a></li>
-                <li class="clients-logo"><a href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/clients-3.png" alt=""></a></li>
-                <li class="clients-logo"><a href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/clients-4.png" alt=""></a></li>
-                <li class="clients-logo"><a href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/clients-5.png" alt=""></a></li>
+                <li class="clients-logo"><a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/clients-1.png" alt=""></a></li>
+                <li class="clients-logo"><a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/clients-2.png" alt=""></a></li>
+                <li class="clients-logo"><a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/clients-3.png" alt=""></a></li>
+                <li class="clients-logo"><a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/clients-4.png" alt=""></a></li>
+                <li class="clients-logo"><a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/clients-5.png" alt=""></a></li>
             </ul>
         </div>
     </div>
@@ -564,12 +564,12 @@ get_header(); // Include the header
                             <div class="share-box">
                                 <div class="share-icon"><i class="icon-26"></i></div>
                                 <ul class="social-links clearfix">
-                                    <li><a href="index.html"><i class="icon-7"></i></a></li>
-                                    <li><a href="index.html"><i class="icon-6"></i></a></li>
-                                    <li><a href="index.html"><i class="icon-4"></i></a></li>
+                                    <li><a href="<?php echo home_url(); ?>"><i class="icon-7"></i></a></li>
+                                    <li><a href="<?php echo home_url(); ?>"><i class="icon-6"></i></a></li>
+                                    <li><a href="<?php echo home_url(); ?>"><i class="icon-4"></i></a></li>
                                 </ul>
                             </div>
-                            <h3><a href="team-details.html">Roman Frederick</a></h3>
+                            <h3><a href="#">Roman Frederick</a></h3>
                             <span class="designation">Regional Manager</span>
                         </div>
                     </div>
@@ -583,12 +583,12 @@ get_header(); // Include the header
                             <div class="share-box">
                                 <div class="share-icon"><i class="icon-26"></i></div>
                                 <ul class="social-links clearfix">
-                                    <li><a href="index.html"><i class="icon-7"></i></a></li>
-                                    <li><a href="index.html"><i class="icon-6"></i></a></li>
-                                    <li><a href="index.html"><i class="icon-4"></i></a></li>
+                                    <li><a href="<?php echo home_url(); ?>"><i class="icon-7"></i></a></li>
+                                    <li><a href="<?php echo home_url(); ?>"><i class="icon-6"></i></a></li>
+                                    <li><a href="<?php echo home_url(); ?>"><i class="icon-4"></i></a></li>
                                 </ul>
                             </div>
-                            <h3><a href="team-details.html">Jane Cooper</a></h3>
+                            <h3><a href="#">Jane Cooper</a></h3>
                             <span class="designation">Medical Assistant</span>
                         </div>
                     </div>
@@ -602,12 +602,12 @@ get_header(); // Include the header
                             <div class="share-box">
                                 <div class="share-icon"><i class="icon-26"></i></div>
                                 <ul class="social-links clearfix">
-                                    <li><a href="index.html"><i class="icon-7"></i></a></li>
-                                    <li><a href="index.html"><i class="icon-6"></i></a></li>
-                                    <li><a href="index.html"><i class="icon-4"></i></a></li>
+                                    <li><a href="<?php echo home_url(); ?>"><i class="icon-7"></i></a></li>
+                                    <li><a href="<?php echo home_url(); ?>"><i class="icon-6"></i></a></li>
+                                    <li><a href="<?php echo home_url(); ?>"><i class="icon-4"></i></a></li>
                                 </ul>
                             </div>
-                            <h3><a href="team-details.html">Esther Howard</a></h3>
+                            <h3><a href="#">Esther Howard</a></h3>
                             <span class="designation">President of Sales</span>
                         </div>
                     </div>
@@ -621,12 +621,12 @@ get_header(); // Include the header
                             <div class="share-box">
                                 <div class="share-icon"><i class="icon-26"></i></div>
                                 <ul class="social-links clearfix">
-                                    <li><a href="index.html"><i class="icon-7"></i></a></li>
-                                    <li><a href="index.html"><i class="icon-6"></i></a></li>
-                                    <li><a href="index.html"><i class="icon-4"></i></a></li>
+                                    <li><a href="<?php echo home_url(); ?>"><i class="icon-7"></i></a></li>
+                                    <li><a href="<?php echo home_url(); ?>"><i class="icon-6"></i></a></li>
+                                    <li><a href="<?php echo home_url(); ?>"><i class="icon-4"></i></a></li>
                                 </ul>
                             </div>
-                            <h3><a href="team-details.html">Jenny Wilson</a></h3>
+                            <h3><a href="#">Jenny Wilson</a></h3>
                             <span class="designation">Marketing Coordinator</span>
                         </div>
                     </div>
