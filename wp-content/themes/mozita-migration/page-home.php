@@ -557,7 +557,7 @@ get_header(); // Include the header
 <section class="education-section p_relative">
     <div class="bg-layer-2" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/shape/shape-16.jpg);"></div>
     <div class="bg-layer parallax-bg" data-parallax='{"y": 100}' style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/background/education-bg.jpg);"></div>
-    <figure class="image-layer wow slideInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/men-1.png" alt=""></figure>
+    <figure class="image-layer wow slideInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/mennew1.png" alt=""></figure>
     <div class="shape">
         <div class="shape-1" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/shape/shape-19.png);"></div>
         <div class="shape-2" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/shape/shape-19.png);"></div>
@@ -605,7 +605,7 @@ get_header(); // Include the header
     </div>
     <div class="auto-container">
         <div class="inner-box p_relative">
-            <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/passport-1.png" alt=""></figure>
+            <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/passportnew1.png" alt=""></figure>
         </div>
     </div>
 </section>
@@ -613,7 +613,7 @@ get_header(); // Include the header
 
 
 <!-- clients-section -->
-<section class="clients-section p_relative">
+<!-- <section class="clients-section p_relative">
     <div class="auto-container">
         <div class="inner-box p_relative pt_90">
             <ul class="clients-list">
@@ -625,7 +625,7 @@ get_header(); // Include the header
             </ul>
         </div>
     </div>
-</section>
+</section> -->
 <!-- clients-section end -->
 
 
