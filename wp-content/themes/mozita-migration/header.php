@@ -154,14 +154,21 @@
 
 							<nav class="main-menu navbar-expand-md navbar-light">
 								<?php
-								wp_nav_menu(array(
-									'theme_location' => 'primary-menu', // Replace 'primary-menu' with your menu location
-									'container' => 'div',
-									'container_class' => 'collapse navbar-collapse show clearfix',
-									'container_id' => 'navbarSupportedContent',
-									'menu_class' => 'navigation clearfix',
-									'fallback_cb' => false,
-								));
+								// wp_nav_menu(array(
+								// 	'theme_location' => 'primary-menu', // Replace 'primary-menu' with your menu location
+								// 	'container' => 'div',
+								// 	'container_class' => 'collapse navbar-collapse show clearfix',
+								// 	'container_id' => 'navbarSupportedContent',
+								// 	'menu_class' => 'navigation clearfix',
+								// 	'fallback_cb' => false,
+								// ));
+							
+								wp_nav_menu(
+									array(
+										'theme_location' => 'menu-1',
+										'menu_id'        => 'primary-menu',
+									)
+								);
 								?>
 							</nav>
 							<script>
