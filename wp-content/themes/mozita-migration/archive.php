@@ -1,96 +1,51 @@
 <?php
-
 /**
- * The template for displaying archive pages
+ * Template Name: News Page
  *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package Mozita_Migration
  */
 
-get_header();
+get_header(); // Include the header
+
 ?>
 
-<!-- page-title -->
-<section class="page-title centred p_relative">
-	<div class="bg-layer" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/background/page-title-3.jpg);"></div>
-	<div class="pattern-layer" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/shape/shape-67.png);"></div>
-	<div class="auto-container">
-		<div class="content-box">
-			<h1><?php the_title(); ?></h1>
-			<ul class="bread-crumb clearfix">
-				<li><a href="<?php echo home_url(); ?>">Home</a></li>
-				<li><?php the_title(); ?></li>
-			</ul>
-		</div>
-	</div>
-</section>
-<!-- page-title end -->
+	<main id="primary" class="site-main">
 
+		<?php if ( have_posts() ) : ?>
 
-<!-- sidebar-page-container -->
-<section class="sidebar-page-container blog-standard p_relative">
-	<div class="auto-container">
-		<div class="row clearfix">
+			<header class="page-header">
+				<?php
+				the_archive_title( '<h1 class="page-title">', '</h1>' );
+				the_archive_description( '<div class="archive-description">', '</div>' );
+				?>
+			</header><!-- .page-header -->
 
-			<div class="col-lg-8 col-md-12 col-sm-12 content-side">
-				<div class="blog-standard-content">
+			<?php
+			/* Start the Loop */
+			while ( have_posts() ) :
+				the_post();
 
-					<?php
-					// Custom WP Query to fetch blog posts for the loop
-					$args = array(
-						'post_type' => 'post', // You can change this to a custom post type if needed
-						'posts_per_page' => 2, // Number of posts to display
-					);
+				/*
+				 * Include the Post-Type-specific template for the content.
+				 * If you want to override this in a child theme, then include a file
+				 * called content-___.php (where ___ is the Post Type name) and that will be used instead.
+				 */
+				get_template_part( 'template-parts/content', get_post_type() );
 
-					$query = new WP_Query($args);
+			endwhile;
 
-					while ($query->have_posts()) :
-						$query->the_post();
-					?>
+			the_posts_navigation();
 
-						<div class="news-block-one">
-							<div class="inner-box">
-								<figure class="image-box"><a href="<?php the_permalink(); ?>"><img src="<?php echo get_the_post_thumbnail_url(); ?>" alt=""></a></figure>
-								<div class="lower-content">
-									<ul class="post-info clearfix">
-										<li><i class="icon-27"></i><a href="<?php the_permalink(); ?>"><?php the_author(); ?></a></li>
-										<li><i class="icon-56"></i><?php the_date('M j, Y'); ?> </li>
-										<li><i class="icon-57"></i><a href="<?php the_permalink(); ?>"><?php comments_number('0 Comments', '1 Comment', '% Comments'); ?></a></li>
-									</ul>
-									<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-									<p><?php the_excerpt(); ?></p>
-									<div class="link-btn">
-										<a href="<?php the_permalink(); ?>"><span><?php _e('Read More', 'your-theme-textdomain'); ?></span></a>
-									</div>
-								</div>
-							</div>
-						</div>
+		else :
 
-					<?php
-					endwhile;
-					wp_reset_postdata(); // Reset the query to prevent conflicts
-					?>
+			get_template_part( 'template-parts/content', 'none' );
 
-					<div class="pagination-wrapper pt_40">
-						<?php
-						// Pagination links
-						the_posts_pagination(array(
-							'prev_text' => '<i class="icon-58"></i>',
-							'next_text' => '<i class="icon-59"></i>',
-						));
-						?>
-					</div>
-				</div>
-			</div>
+		endif;
+		?>
 
-			<div class="col-lg-4 col-md-12 col-sm-12 sidebar-side">
-				<?php get_sidebar() ?>
-			</div>
-
-		</div>
-	</div>
-</section>
+	</main><!-- #main -->
 
 <?php
+get_sidebar();
 get_footer();
+
+get_footer(); // Include the footer
