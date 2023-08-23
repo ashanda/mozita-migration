@@ -52,7 +52,7 @@ get_header();
                                             <li><i class="icon-56"></i><?php the_date(); ?> </li>
                                         </ul>
                                         <h3><a href="blog-details.html"><?php the_title(); ?></a></h3>
-                                        <p><?php excerpt(); ?></p>
+                                        <p><?php the_excerpt();?></p>
                                         <div class="link-btn">
                                             <a href="<?php the_permalink() ?>"><span>Read More</span></a>
                                         </div>

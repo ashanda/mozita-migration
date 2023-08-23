@@ -32,57 +32,51 @@ get_header(); // Include the header
                 <div class="row clearfix">
                     <div class="col-lg-8 col-md-12 col-sm-12 content-side">
                         <div class="blog-standard-content">
+                            <!-- sidebar-page-container -->
+        <section class="sidebar-page-container blog-standard p_relative">
+            <div class="auto-container">
+                <div class="row clearfix">
+                    <div class="col-lg-8 col-md-12 col-sm-12 content-side">
+                        <div class="blog-standard-content">
+						<?php
+						
+						// checks if there are any posts that match the query
+						if (have_posts()) :
+						
+						// If there are posts matching the query then start the loop
+						while ( have_posts() ) : the_post();
+						
+							// the code between the while loop will be repeated for each post
+							?>
                             <div class="news-block-one">
                                 <div class="inner-box">
-                                    <figure class="image-box"><a href="single-news/"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/news/news-7.jpg" alt=""></a></figure>
+                                    <figure class="image-box"><a href="blog-details.html"><img src="assets/images/news/news-7.jpg" alt=""></a></figure>
                                     <div class="lower-content">
                                         <ul class="post-info clearfix">
-                                            <li><i class="icon-27"></i><a href="single-news/">Admin</a></li>
-                                            <li><i class="icon-56"></i>Feb 6, 2022 </li>
-                                            <li><i class="icon-57"></i><a href="single-news/">03 Comments</a></li>
+                                            <li><i class="icon-27"></i><a href="blog-details.html"><?php the_author(); ?></a></li>
+                                            <li><i class="icon-56"></i><?php the_date(); ?> </li>
                                         </ul>
-                                        <h3><a href="single-news/">Project Concepts or Related Queries Should be</a></h3>
-                                        <p>Nemo ipsam egestas volute turpis dolores and aliquam quaerat in which toil and pain procure him some great foresee the pain and trouble that are bound not know how to pursue pleasure rationally.</p>
+                                        <h3><a href="blog-details.html"><?php the_title(); ?></a></h3>
+                                        <p><?php the_excerpt();?></p>
                                         <div class="link-btn">
-                                            <a href="single-news/"><span>Read More</span></a>
+                                            <a href="<?php the_permalink() ?>"><span>Read More</span></a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="news-block-one">
-                                <div class="inner-box">
-                                    <figure class="image-box"><a href="single-news/"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/news/news-8.jpg" alt=""></a></figure>
-                                    <div class="lower-content">
-                                        <ul class="post-info clearfix">
-                                            <li><i class="icon-27"></i><a href="single-news/">Admin</a></li>
-                                            <li><i class="icon-56"></i>Feb 5, 2022 </li>
-                                            <li><i class="icon-57"></i><a href="single-news/">08 Comments</a></li>
-                                        </ul>
-                                        <h3><a href="single-news/">Customers Applying for Priority Visas.</a></h3>
-                                        <p>Nemo ipsam egestas volute turpis dolores and aliquam quaerat in which toil and pain procure him some great foresee the pain and trouble that are bound not know how to pursue pleasure rationally.</p>
-                                        <div class="link-btn">
-                                            <a href="single-news/"><span>Read More</span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="news-block-one">
-                                <div class="inner-box">
-                                    <figure class="image-box"><a href="single-news/"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/news/news-9.jpg" alt=""></a></figure>
-                                    <div class="lower-content">
-                                        <ul class="post-info clearfix">
-                                            <li><i class="icon-27"></i><a href="single-news/">Admin</a></li>
-                                            <li><i class="icon-56"></i>Feb 4, 2022 </li>
-                                            <li><i class="icon-57"></i><a href="single-news/">02 Comments</a></li>
-                                        </ul>
-                                        <h3><a href="single-news/">Travelling to Australia for Tourism or Business?</a></h3>
-                                        <p>Nemo ipsam egestas volute turpis dolores and aliquam quaerat in which toil and pain procure him some great foresee the pain and trouble that are bound not know how to pursue pleasure rationally.</p>
-                                        <div class="link-btn">
-                                            <a href="single-news/"><span>Read More</span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+
+							<?php
+								
+									// Stop the loop when all posts are displayed
+								endwhile;
+								
+								// If no posts were found
+								else :
+								?>
+								<p>Sorry no posts matched your criteria.</p>
+								<?php
+								endif;
+								?>
                             <div class="pagination-wrapper pt_40">
                                 <ul class="pagination">
                                     <li><a href="news/" class="current">1</a></li>
