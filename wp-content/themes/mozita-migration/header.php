@@ -70,7 +70,7 @@
 					<div class="top-inner">
 						<div class="top-left">
 							<ul class="info clearfix">
-								<li><i class="icon-1"></i><a href="mailto:info@yourmail.com">info@yourmail.com</a></li>
+								<li><i class="icon-1"></i><a href="mailto:info@mozitamigration.co.nz">info@mozitamigration.co.nz</a></li>
 								<li><i class="icon-2"></i>101 Springs Rd,
 									Hornby,
 									Christchurch 8042.II</li>
@@ -103,7 +103,7 @@
 			<div class="header-lower">
 				<div class="outer-box clearfix">
 					<div class="logo-box">
-						<figure class="logo"><a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt=""></a></figure>
+						<figure class="logo"><a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/Mozita Migration Logo.png" alt=""></a></figure>
 					</div>
 					<div class="nav-outer">
 						<div class="menu-area clearfix">
@@ -226,9 +226,9 @@
 				<div class="contact-info">
 					<h4>Contact Info</h4>
 					<ul>
-						<li>Chicago 12, Melborne City, USA</li>
-						<li><a href="tel:+8801682648101">+88 01682648101</a></li>
-						<li><a href="mailto:info@example.com">info@example.com</a></li>
+						<li>101 Springs Rd, Hornby, Christchurch 8042.</li>
+						<li><a href="tel:0800 820 820">0800 820 820</a></li>
+						<li><a href="mailto:info@mozitamigration.co.nz">info@mozitamigration.co.nz</a></li>
 					</ul>
 				</div>
 				<div class="social-links">

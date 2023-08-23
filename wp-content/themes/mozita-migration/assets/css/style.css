@@ -2749,6 +2749,10 @@
    opacity: 1;
  }
 
+ #mega-menu-wrap-menu-1 #mega-menu-menu-1 > li.mega-menu-item > a.mega-menu-link {
+  padding: 0px 0px 0px 0px;
+}
+
  @media only screen and (min-width: 1200px) {
 
    /* Show the submenu on hover */

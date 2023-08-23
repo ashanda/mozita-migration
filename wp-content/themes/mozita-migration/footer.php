@@ -26,9 +26,9 @@
 							<p>Sed gravida nisl a porta tincidunt. Integer aliquam nisi.</p>
 						</div>
 						<ul class="info clearfix mb_30">
-							<li><i class="icon-29"></i><a href="tel:88123456987231">+88 12345 6987 231</a></li>
-							<li><i class="icon-1"></i><a href="mailto:info@example.com">info@example.com</a></li>
-							<li><i class="icon-2"></i>380 St Kilda Road, Melbourne</li>
+							<li><i class="icon-29"></i><a href="tel:  0800 820 820">0800 820 820</a></li>
+							<li><i class="icon-1"></i><a href="mailto:info@mozitamigration.co.nz">info@mozitamigration.co.nz</a></li>
+							<li><i class="icon-2"></i>101 Springs Rd, Hornby, Christchurch 8042.II</li>
 						</ul>
 						<ul class="social-links clearfix">
 							<li><a href="<?php echo home_url(); ?>"><i class="icon-4"></i></a></li>
