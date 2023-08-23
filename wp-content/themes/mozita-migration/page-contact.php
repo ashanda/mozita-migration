@@ -127,7 +127,7 @@ get_header(); // Include the header
         <section class="google-map-section p_relative">
             <div class="auto-container">
                 <div class="map-inner p_relative d_block">
-                    <div 
+                    <!-- <div 
                         class="google-map" 
                         id="contact-google-map" 
                         data-map-lat="40.712776" 
@@ -138,7 +138,8 @@ get_header(); // Include the header
                             "marker-1": [40.712776, -74.005974, "<h4>Branch Office</h4><p>77/99 New York</p>"]
                         }'>
 
-                    </div>
+                    </div> -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2891.6959130187865!2d172.5344201768027!3d-43.55038028314041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d321faf105871ef%3A0xe75ab5caea3efd81!2sMozita%20Automotive%20-%20European%20-%20Japanese%20-%20American%20vehicle%20repair%20specialist%20%26%20WOF!5e0!3m2!1sen!2slk!4v1692777685041!5m2!1sen!2slk" width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </section>
