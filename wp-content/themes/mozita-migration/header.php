@@ -52,6 +52,7 @@
 	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/elements-css/blog.css" rel="stylesheet">
 	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/elements-css/contact.css" rel="stylesheet">
 	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/elements-css/sidebar.css" rel="stylesheet">
+	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/elements-css/visa-details.css" rel="stylesheet">
 	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/responsive.css" rel="stylesheet">
 
 </head>
