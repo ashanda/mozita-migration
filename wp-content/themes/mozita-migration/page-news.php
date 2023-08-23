@@ -1,0 +1,216 @@
+<?php
+
+/**
+ * Template Name: News Page
+ *
+ * This is the custom template for your News page.
+ */
+
+get_header(); // Include the header
+
+?>
+
+<!-- page-title -->
+<section class="page-title centred p_relative">
+            <div class="bg-layer" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/background/page-title-3.jpg);"></div>
+            <div class="pattern-layer" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/shape/shape-67.png);"></div>
+            <div class="auto-container">
+                <div class="content-box">
+                    <h1><?php the_title();?></h1>
+                    <ul class="bread-crumb clearfix">
+                        <li><a href="<?php echo home_url(); ?>">Home</a></li>
+                        <li><?php the_title();?></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- page-title end -->
+
+
+        <!-- sidebar-page-container -->
+        <section class="sidebar-page-container blog-standard p_relative">
+            <div class="auto-container">
+                <div class="row clearfix">
+                    <div class="col-lg-8 col-md-12 col-sm-12 content-side">
+                        <div class="blog-standard-content">
+                            <div class="news-block-one">
+                                <div class="inner-box">
+                                    <figure class="image-box"><a href="single-news/"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/news/news-7.jpg" alt=""></a></figure>
+                                    <div class="lower-content">
+                                        <ul class="post-info clearfix">
+                                            <li><i class="icon-27"></i><a href="single-news/">Admin</a></li>
+                                            <li><i class="icon-56"></i>Feb 6, 2022 </li>
+                                            <li><i class="icon-57"></i><a href="single-news/">03 Comments</a></li>
+                                        </ul>
+                                        <h3><a href="single-news/">Project Concepts or Related Queries Should be</a></h3>
+                                        <p>Nemo ipsam egestas volute turpis dolores and aliquam quaerat in which toil and pain procure him some great foresee the pain and trouble that are bound not know how to pursue pleasure rationally.</p>
+                                        <div class="link-btn">
+                                            <a href="single-news/"><span>Read More</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="news-block-one">
+                                <div class="inner-box">
+                                    <figure class="image-box"><a href="single-news/"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/news/news-8.jpg" alt=""></a></figure>
+                                    <div class="lower-content">
+                                        <ul class="post-info clearfix">
+                                            <li><i class="icon-27"></i><a href="single-news/">Admin</a></li>
+                                            <li><i class="icon-56"></i>Feb 5, 2022 </li>
+                                            <li><i class="icon-57"></i><a href="single-news/">08 Comments</a></li>
+                                        </ul>
+                                        <h3><a href="single-news/">Customers Applying for Priority Visas.</a></h3>
+                                        <p>Nemo ipsam egestas volute turpis dolores and aliquam quaerat in which toil and pain procure him some great foresee the pain and trouble that are bound not know how to pursue pleasure rationally.</p>
+                                        <div class="link-btn">
+                                            <a href="single-news/"><span>Read More</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="news-block-one">
+                                <div class="inner-box">
+                                    <figure class="image-box"><a href="single-news/"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/news/news-9.jpg" alt=""></a></figure>
+                                    <div class="lower-content">
+                                        <ul class="post-info clearfix">
+                                            <li><i class="icon-27"></i><a href="single-news/">Admin</a></li>
+                                            <li><i class="icon-56"></i>Feb 4, 2022 </li>
+                                            <li><i class="icon-57"></i><a href="single-news/">02 Comments</a></li>
+                                        </ul>
+                                        <h3><a href="single-news/">Travelling to Australia for Tourism or Business?</a></h3>
+                                        <p>Nemo ipsam egestas volute turpis dolores and aliquam quaerat in which toil and pain procure him some great foresee the pain and trouble that are bound not know how to pursue pleasure rationally.</p>
+                                        <div class="link-btn">
+                                            <a href="single-news/"><span>Read More</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pagination-wrapper pt_40">
+                                <ul class="pagination">
+                                    <li><a href="news/" class="current">1</a></li>
+                                    <li><a href="news/">2</a></li>
+                                    <li><a href="news/">3</a></li>
+                                    <li><a href="news/"><i class="icon-58"></i></a></li>
+                                    <li><a href="news/">5</a></li>
+                                    <li><a href="news/"><i class="icon-59"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 sidebar-side">
+                        <div class="default-sidebar blog-sidebar ml_10">
+                            <div class="sidebar-widget search-widget">
+                                <div class="widget-title">
+                                    <h3>Search</h3>
+                                </div>
+                                <div class="search-form">
+                                    <form action="news/" method="post">
+                                        <div class="form-group">
+                                            <input type="search" name="search-field" placeholder="Keyword ..." required>
+                                            <button type="submit"><i class="icon-8"></i></button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="sidebar-widget category-widget">
+                                <div class="widget-title">
+                                    <h3>Search</h3>
+                                </div>
+                                <div class="widget-content">
+                                    <ul class="category-list-two clearfix">
+                                        <li><a href="single-news/">Immigration</a></li>
+                                        <li><a href="single-news/">Application</a></li>
+                                        <li><a href="single-news/">Business Visa</a></li>
+                                        <li><a href="single-news/">Spouse/Family Visas</a></li>
+                                        <li><a href="single-news/">Working Visas</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="sidebar-widget post-widget">
+                                <div class="widget-title">
+                                    <h3>Popular Post</h3>
+                                </div>
+                                <div class="post-inner">
+                                    <div class="post">
+                                        <figure class="post-thumb"><a href="single-news/"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/news/post-1.jpg" alt=""></a></figure>
+                                        <h5><a href="single-news/">Kickstart Your Visa ApprovalWith 4 Easy Steps</a></h5>
+                                        <span class="post-date">December 30, 2020</span>
+                                    </div>
+                                    <div class="post">
+                                        <figure class="post-thumb"><a href="single-news/"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/news/post-2.jpg" alt=""></a></figure>
+                                        <h5><a href="single-news/">Customers Applying for Priority Visas.</a></h5>
+                                        <span class="post-date">December 25, 2020</span>
+                                    </div>
+                                    <div class="post">
+                                        <figure class="post-thumb"><a href="single-news/"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/news/post-3.jpg" alt=""></a></figure>
+                                        <h5><a href="single-news/">Travelling to Australia for Tourism or Business?</a></h5>
+                                        <span class="post-date">December 22, 2020</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sidebar-widget gallery-widget">
+                                <div class="widget-title">
+                                    <h3>Our Gallery</h3>
+                                </div>
+                                <div class="widget-content p_relative">
+                                    <ul class="image-list clearfix">
+                                        <li>
+                                            <figure class="image-box"><a href="<?php echo get_template_directory_uri(); ?>/assets/images/news/gallery-1.jpg" class="lightbox-image" data-fancybox="gallery"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/news/gallery-1.jpg" alt=""></a></figure>
+                                        </li>
+                                        <li>
+                                            <figure class="image-box"><a href="<?php echo get_template_directory_uri(); ?>/assets/images/news/gallery-2.jpg" class="lightbox-image" data-fancybox="gallery"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/news/gallery-2.jpg" alt=""></a></figure>
+                                        </li>
+                                        <li>
+                                            <figure class="image-box"><a href="<?php echo get_template_directory_uri(); ?>/assets/images/news/gallery-3.jpg" class="lightbox-image" data-fancybox="gallery"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/news/gallery-3.jpg" alt=""></a></figure>
+                                        </li>
+                                        <li>
+                                            <figure class="image-box"><a href="<?php echo get_template_directory_uri(); ?>/assets/images/news/gallery-4.jpg" class="lightbox-image" data-fancybox="gallery"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/news/gallery-4.jpg" alt=""></a></figure>
+                                        </li>
+                                        <li>
+                                            <figure class="image-box"><a href="<?php echo get_template_directory_uri(); ?>/assets/images/news/gallery-5.jpg" class="lightbox-image" data-fancybox="gallery"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/news/gallery-5.jpg" alt=""></a></figure>
+                                        </li>
+                                        <li>
+                                            <figure class="image-box"><a href="<?php echo get_template_directory_uri(); ?>/assets/images/news/gallery-6.jpg" class="lightbox-image" data-fancybox="gallery"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/news/gallery-6.jpg" alt=""></a></figure>
+                                        </li>
+                                        <li>
+                                            <figure class="image-box"><a href="<?php echo get_template_directory_uri(); ?>/assets/images/news/gallery-7.jpg" class="lightbox-image" data-fancybox="gallery"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/news/gallery-7.jpg" alt=""></a></figure>
+                                        </li>
+                                        <li>
+                                            <figure class="image-box"><a href="<?php echo get_template_directory_uri(); ?>/assets/images/news/gallery-8.jpg" class="lightbox-image" data-fancybox="gallery"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/news/gallery-8.jpg" alt=""></a></figure>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="sidebar-widget travel-widget">
+                                <div class="widget-content p_relative">
+                                    <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/travel-1.jpg" alt=""></figure>
+                                    <div class="content-box">
+                                        <h3>Travel Pass</h3>
+                                        <ul class="list-item clearfix">
+                                            <li>Application Form</li>
+                                            <li>Checklist</li>
+                                            <li>Guidelines</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sidebar-widget tags-widget">
+                                <div class="widget-title">
+                                    <h3>Popular Tags</h3>
+                                </div>
+                                <div class="widget-content">
+                                    <ul class="tags-list clearfix">
+                                        <li><a href="single-news/"># Agents</a></li>
+                                        <li><a href="single-news/"># Business</a></li>
+                                        <li><a href="single-news/"># Career</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- sidebar-page-container end -->
+<?php
+
+get_footer(); // Include the footer
