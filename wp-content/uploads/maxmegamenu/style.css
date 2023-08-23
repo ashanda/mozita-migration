@@ -1419,3 +1419,8 @@ ul.mega-sub-menu {
   font-weight: bold;
 }
 .wp-block {}
+
+.team-section {
+  padding: 150px 0px 150px 0px !important;
+  background: #FAFAFA;
+}

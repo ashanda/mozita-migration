@@ -2753,6 +2753,29 @@
   padding: 0px 0px 0px 0px;
 }
 
+.banner-carousel .content-box h2 {
+  width: 1050px;
+}
+
+.visa-block-one .inner-box .lower-content h3 {
+  font-size: 22px;
+}
+
+.team-section {
+  padding: 150px 0px 150px 0px !important;
+  background: #FAFAFA;
+}
+
+a.theme-btn.btn-one.b-special {
+  font-size: 18px;
+  padding: 12px 34px;
+  margin-top: 20px;
+}
+
+.bg-layer.parallax-bg.e-d{
+  z-index: 0;
+}
+
  @media only screen and (min-width: 1200px) {
 
    /* Show the submenu on hover */
@@ -2784,3 +2807,4 @@
 
    
  }
+
