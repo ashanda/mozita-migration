@@ -630,28 +630,11 @@ get_header(); // Include the header
 <!-- passport-section end -->
 
 
-<!-- clients-section -->
-<!-- <section class="clients-section p_relative">
-    <div class="auto-container">
-        <div class="inner-box p_relative pt_90">
-            <ul class="clients-list">
-                <li class="clients-logo"><a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/clients-1.png" alt=""></a></li>
-                <li class="clients-logo"><a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/clients-2.png" alt=""></a></li>
-                <li class="clients-logo"><a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/clients-3.png" alt=""></a></li>
-                <li class="clients-logo"><a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/clients-4.png" alt=""></a></li>
-                <li class="clients-logo"><a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/clients/clients-5.png" alt=""></a></li>
-            </ul>
-        </div>
-    </div>
-</section> -->
-<!-- clients-section end -->
-
-
 <!-- news-section -->
+
 <section class="news-section sec-pad">
     <div class="pattern-layer">
-        <div class="pattern-1" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/shape/shape-23.png);"></div>
-        <div class="pattern-2" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/shape/shape-24.png);"></div>
+        <!-- Patterns here -->
     </div>
     <div class="auto-container">
         <div class="sec-title centred mb_50">
@@ -659,64 +642,51 @@ get_header(); // Include the header
             <h2>World Immigration News & Updates</h2>
         </div>
         <div class="row clearfix">
-            <div class="col-lg-4 col-md-6 col-sm-12 news-block">
-                <div class="news-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                    <div class="inner-box">
-                        <figure class="image-box"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/news/news-1.jpg" alt=""></a></figure>
-                        <div class="lower-content">
-                            <ul class="post-info clearfix">
-                                <li><i class="icon-27"></i><a href="#">By author</a></li>
-                                <li><i class="icon-28"></i>Feb 6, 2022 </li>
-                            </ul>
-                            <h3><a href="#">Unsatiable Entreaties May Collecting Power.</a></h3>
-                            <p>Where did this incorrect belief that everyone dislikes praising happiness come from.</p>
-                            <div class="link-btn">
-                                <a href="#"><span>Read More</span></a>
+
+            <?php
+            // Custom WP Query to fetch latest blog posts
+            $args = array(
+                'post_type' => 'post', // You can change this to a custom post type if needed
+                'posts_per_page' => 3, // Number of posts to display
+            );
+
+            $query = new WP_Query($args);
+
+            while ($query->have_posts()) :
+                $query->the_post();
+            ?>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 news-block">
+                    <div class="news-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
+                        <div class="inner-box">
+                            <figure class="image-box"><a href="<?php the_permalink(); ?>"><img src="<?php echo get_the_post_thumbnail_url(); ?>" alt=""></a></figure>
+                            <div class="lower-content">
+                                <ul class="post-info clearfix">
+                                    <li><i class="icon-27"></i><a href="#"><?php the_author(); ?></a></li>
+                                    <li><i class="icon-28"></i><?php the_date('M j, Y'); ?> </li>
+                                </ul>
+                                <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                                <p><?php the_excerpt(); ?></p>
+                                <div class="link-btn">
+                                    <a href="<?php the_permalink(); ?>"><span><?php _e('Read More', 'your-theme-textdomain'); ?></span></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 news-block">
-                <div class="news-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
-                    <div class="inner-box">
-                        <figure class="image-box"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/news/news-2.jpg" alt=""></a></figure>
-                        <div class="lower-content">
-                            <ul class="post-info clearfix">
-                                <li><i class="icon-27"></i><a href="#">By author</a></li>
-                                <li><i class="icon-28"></i>Feb 5, 2022 </li>
-                            </ul>
-                            <h3><a href="#">Why You Should Plan Your 2022 Trip Abroad</a></h3>
-                            <p>Where did this incorrect belief that everyone dislikes praising happiness come from.</p>
-                            <div class="link-btn">
-                                <a href="#"><span>Read More</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 news-block">
-                <div class="news-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                    <div class="inner-box">
-                        <figure class="image-box"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/news/news-3.jpg" alt=""></a></figure>
-                        <div class="lower-content">
-                            <ul class="post-info clearfix">
-                                <li><i class="icon-27"></i><a href="#">By author</a></li>
-                                <li><i class="icon-28"></i>Feb 4, 2022 </li>
-                            </ul>
-                            <h3><a href="#">Going Digital Key to Small Business Success</a></h3>
-                            <p>Where did this incorrect belief that everyone dislikes praising happiness come from.</p>
-                            <div class="link-btn">
-                                <a href="#"><span>Read More</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+            <?php
+            endwhile;
+            wp_reset_postdata(); // Reset the query to prevent conflicts
+            ?>
+
         </div>
     </div>
 </section>
+
 <!-- news-section end -->
+
+
 
 <?php
 

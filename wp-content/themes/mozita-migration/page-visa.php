@@ -3,7 +3,6 @@
 /**
  * Template Name: Visa Page
  *
- * This is the custom template for your Visa page.
  */
 
 get_header(); // Include the header

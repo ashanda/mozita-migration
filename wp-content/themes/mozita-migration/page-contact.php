@@ -1,9 +1,8 @@
 <?php
 
 /**
- * Template Name: About Page
+ * Template Name: Contact Page
  *
- * This is the custom template for your About page.
  */
 
 get_header(); // Include the header

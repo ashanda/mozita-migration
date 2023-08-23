@@ -3,7 +3,6 @@
 /**
  * Template Name: News Page
  *
- * This is the custom template for your News page.
  */
 
 get_header(); // Include the header
