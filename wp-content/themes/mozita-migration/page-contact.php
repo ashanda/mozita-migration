@@ -15,10 +15,10 @@ get_header(); // Include the header
             <div class="pattern-layer" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/shape/shape-67.png);"></div>
             <div class="auto-container">
                 <div class="content-box">
-                    <h1>Contact Us</h1>
+                    <h1><?php the_title();?></h1>
                     <ul class="bread-crumb clearfix">
                         <li><a href="<?php echo home_url(); ?>">Home</a></li>
-                        <li>Contact Us</li>
+                        <li><?php the_title();?></li>
                     </ul>
                 </div>
             </div>
