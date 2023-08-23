@@ -40,12 +40,11 @@ get_header(); // Include the header
                 <div class="content_block_six">
                     <div class="content-box mr_20">
                         <div class="sec-title mb_20">
-                            <span class="sub-title">Who we are?</span>
+                            <span class="sub-title">About Mozita Migration</span>
                             <h2>Leading firm for immigration services.</h2>
                         </div>
                         <div class="text mb_30">
-                            <p>Sed gravida nisl a porta tincidunt. Integer aliquam nisi sit amet magna suscipit,
-                                fermentum mattis erat rutrum.Porta semper lacus cursus.</p>
+                            <p>Welcome to Mozita Migration, a proud member of the Mozita Group of companies. With a steadfast commitment to excellence, we are a reliable and dynamic migration consultancy that facilitates a seamless pathway for individuals seeking to make New Zealand their new home.</p>
                         </div>
                         <div class="inner-box mb_40">
                             <div class="single-item">

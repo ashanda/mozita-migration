@@ -14,13 +14,13 @@ get_header(); // Include the header
 <section class="banner-section p_relative">
     <div class="pattern-layer">
         <div class="pattern-1" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/shape/shape-1.png);"></div>
-        <div class="pattern-2" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/shape/shape-2.png);"></div>
-        <div class="pattern-3" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/shape/shape-3.png);"></div>
+        <div class="pattern-2" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/shape/mozita_migration_nz_flag.png);"></div>
+        <div class="pattern-3" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/shape/new-zealand-landscapes06.png);"></div>
         <div class="pattern-4" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/shape/shape-4.png);"></div>
     </div>
     <div class="banner-carousel owl-theme owl-carousel owl-dots-none">
         <div class="slide-item p_relative">
-            <figure class="image-layer"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/banner/banner-img-1.png" alt=""></figure>
+            <figure class="image-layer"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/banner/mozita_migration_nz_happy_students.png" alt=""></figure>
             <div class="auto-container">
                 <div class="content-box">
                     <div class="experience-inner">
@@ -37,7 +37,7 @@ get_header(); // Include the header
             </div>
         </div>
         <div class="slide-item p_relative">
-            <figure class="image-layer"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/banner/banner-img-1.png" alt=""></figure>
+            <figure class="image-layer"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/banner/mozita_migration_nz_happy_workers.png" alt=""></figure>
             <div class="auto-container">
                 <div class="content-box">
                     <div class="experience-inner">
@@ -54,7 +54,25 @@ get_header(); // Include the header
             </div>
         </div>
         <div class="slide-item p_relative">
-            <figure class="image-layer"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/banner/banner-img-1.png" alt=""></figure>
+            <figure class="image-layer"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/banner/mozita_migration_nz_dependant_visa.png" alt=""></figure>
+            <div class="auto-container">
+                <div class="content-box">
+                    <div class="experience-inner">
+                        <figure class="logo-imgag"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/logo-1.png" alt=""></figure>
+                        <div class="text">30 Years</div>
+                        <span>Experience</span>
+                    </div>
+                    <h2>Study In <span>Recognized</span> Universities!...</h2>
+                    <p>MCS has been recruiting and prepping talented professionals for over twenty years. We provide a unique value proposition to both.</p>
+                    <div class="btn-box">
+                        <a href="<?php echo home_url(); ?>" class="theme-btn btn-one"><span>More Details</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide-item p_relative">
+            <figure class="image-layer"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/banner/mozita_migration_nz_happy_couple.png" alt=""></figure>
             <div class="auto-container">
                 <div class="content-box">
                     <div class="experience-inner">
@@ -92,11 +110,11 @@ get_header(); // Include the header
             <div class="col-md-3 mt-3">
                 <div class="visa-block-one">
                     <div class="inner-box">
-                        <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/visa-1.jpg" alt=""></figure>
+                        <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/visanew-1 (1).png" alt=""></figure>
                         <div class="lower-content">
                             <div class="icon-box"><i class="icon-12"></i></div>
                             <h3><a href="#">Work Visa</a></h3>
-                            <p>Sed gravida nisl a porta tincidunt. Integertheoo aliquam nisi sit amet.</p>
+                            <p>We assist in obtaining foreign work permit.</p>
 
                             <div class="link-btn">
                                 <a href="#"><span>Read More</span></a>
@@ -108,11 +126,11 @@ get_header(); // Include the header
             <div class="col-md-3 mt-3">
                 <div class="visa-block-one">
                     <div class="inner-box">
-                        <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/visa-1.jpg" alt=""></figure>
+                        <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/visanew-1 (2).png" alt=""></figure>
                         <div class="lower-content">
                             <div class="icon-box"><i class="icon-12"></i></div>
                             <h3><a href="#">Partner Work Visa</a></h3>
-                            <p>Sed gravida nisl a porta tincidunt. Integertheoo aliquam nisi sit amet.</p>
+                            <p>We aid partners to work abroad alongside you.</p>
 
                             <div class="link-btn">
                                 <a href="#"><span>Read More</span></a>
@@ -124,11 +142,11 @@ get_header(); // Include the header
             <div class="col-md-3 mt-3">
                 <div class="visa-block-one">
                     <div class="inner-box">
-                        <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/visa-1.jpg" alt=""></figure>
+                        <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/visanew-1 (3).png" alt=""></figure>
                         <div class="lower-content">
                             <div class="icon-box"><i class="icon-12"></i></div>
                             <h3><a href="#">Partner Visit Visa</a></h3>
-                            <p>Sed gravida nisl a porta tincidunt. Integertheoo aliquam nisi sit amet.</p>
+                            <p>We facilitate partner visit visa applications.</p>
 
                             <div class="link-btn">
                                 <a href="#"><span>Read More</span></a>
@@ -140,11 +158,11 @@ get_header(); // Include the header
             <div class="col-md-3 mt-3">
                 <div class="visa-block-one">
                     <div class="inner-box">
-                        <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/visa-1.jpg" alt=""></figure>
+                        <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/visanew-1 (4).png" alt=""></figure>
                         <div class="lower-content">
                             <div class="icon-box"><i class="icon-12"></i></div>
                             <h3><a href="#">Dependant Visitor Visa</a></h3>
-                            <p>Sed gravida nisl a porta tincidunt. Integertheoo aliquam nisi sit amet.</p>
+                            <p>We help with family member visit visas.</p>
 
                             <div class="link-btn">
                                 <a href="#"><span>Read More</span></a>
@@ -156,11 +174,11 @@ get_header(); // Include the header
             <div class="col-md-3 mt-3">
                 <div class="visa-block-one">
                     <div class="inner-box">
-                        <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/visa-1.jpg" alt=""></figure>
+                        <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/visanew-1 (5).png" alt=""></figure>
                         <div class="lower-content">
                             <div class="icon-box"><i class="icon-12"></i></div>
                             <h3><a href="#">Dependent Student Visa</a></h3>
-                            <p>Sed gravida nisl a porta tincidunt. Integertheoo aliquam nisi sit amet.</p>
+                            <p>We support the dependent student visa process.</p>
 
                             <div class="link-btn">
                                 <a href="#"><span>Read More</span></a>
@@ -172,11 +190,11 @@ get_header(); // Include the header
             <div class="col-md-3 mt-3">
                 <div class="visa-block-one">
                     <div class="inner-box">
-                        <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/visa-1.jpg" alt=""></figure>
+                        <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/visanew-1 (6).png" alt=""></figure>
                         <div class="lower-content">
                             <div class="icon-box"><i class="icon-12"></i></div>
                             <h3><a href="#">VOC Work Visa</a></h3>
-                            <p>Sed gravida nisl a porta tincidunt. Integertheoo aliquam nisi sit amet.</p>
+                            <p>We guide through Variations of Conditions (VOC) </p>
 
                             <div class="link-btn">
                                 <a href="#"><span>Read More</span></a>
@@ -188,11 +206,11 @@ get_header(); // Include the header
             <div class="col-md-3 mt-3">
                 <div class="visa-block-one">
                     <div class="inner-box">
-                        <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/visa-1.jpg" alt=""></figure>
+                        <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/visanew-1 (9).png" alt=""></figure>
                         <div class="lower-content">
                             <div class="icon-box"><i class="icon-12"></i></div>
                             <h3><a href="#">Student Visa</a></h3>
-                            <p>Sed gravida nisl a porta tincidunt. Integertheoo aliquam nisi sit amet.</p>
+                            <p>We assist in securing foreign student visas.</p>
 
                             <div class="link-btn">
                                 <a href="#"><span>Read More</span></a>
@@ -204,11 +222,11 @@ get_header(); // Include the header
             <div class="col-md-3 mt-3">
                 <div class="visa-block-one">
                     <div class="inner-box">
-                        <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/visa-1.jpg" alt=""></figure>
+                        <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/visanew-1 (8).png" alt=""></figure>
                         <div class="lower-content">
                             <div class="icon-box"><i class="icon-12"></i></div>
                             <h3><a href="#">Investor Visa</a></h3>
-                            <p>Sed gravida nisl a porta tincidunt. Integertheoo aliquam nisi sit amet.</p>
+                            <p>We facilitate visas for foreign investors.</p>
 
                             <div class="link-btn">
                                 <a href="#"><span>Read More</span></a>
@@ -231,8 +249,8 @@ get_header(); // Include the header
             <div class="col-lg-6 col-md-12 col-sm-12 image-column">
                 <div class="image_block_one">
                     <div class="image-box p_relative d_block">
-                        <figure class="image image-1"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/about-1.jpg" alt=""></figure>
-                        <figure class="image image-2"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/about-2.jpg" alt=""></figure>
+                        <figure class="image image-1"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/aboutnew1.png" alt=""></figure>
+                        <figure class="image image-2"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/aboutnew2.png" alt=""></figure>
                         <figure class="certificate-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/certificate-1.png" alt=""></figure>
                     </div>
                 </div>
@@ -324,7 +342,7 @@ get_header(); // Include the header
 <section class="dream-section p_relative">
     <div class="bg-layer parallax-bg" data-parallax='{"y": 100}' style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/background/dream-bg.jpg);"></div>
     <div class="pattern-layer-2" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/shape/shape-9.png);"></div>
-    <figure class="image-layer"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/women-1.png" alt=""></figure>
+    <figure class="image-layer"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/am-I-qualified.png" alt=""></figure>
     <div class="pattern-layer" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/shape/shape-8.png);"></div>
     <div class="auto-container">
         <div class="content_block_two">
