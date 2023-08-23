@@ -3,7 +3,6 @@
 /**
  * Template Name: Services Page
  *
- * This is the custom template for your Services page.
  */
 
 get_header(); // Include the header

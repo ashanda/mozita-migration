@@ -195,3 +195,7 @@ add_action('wp_head', 'add_default_favicon');
 // 	));
 // }
 // add_action('after_setup_theme', 'register_my_menus');
+function custom_excerpt_length($length) {
+    return 35; // Change this value to your desired excerpt length in words
+}
+add_filter('excerpt_length', 'custom_excerpt_length', 999);
