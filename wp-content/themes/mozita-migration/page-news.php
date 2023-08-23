@@ -27,12 +27,7 @@ get_header(); // Include the header
 
 
         <!-- sidebar-page-container -->
-        <section class="sidebar-page-container blog-standard p_relative">
-            <div class="auto-container">
-                <div class="row clearfix">
-                    <div class="col-lg-8 col-md-12 col-sm-12 content-side">
-                        <div class="blog-standard-content">
-                            <!-- sidebar-page-container -->
+
         <section class="sidebar-page-container blog-standard p_relative">
             <div class="auto-container">
                 <div class="row clearfix">

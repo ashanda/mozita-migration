@@ -1,25 +1,24 @@
 <?php
+
 /**
- * The template for displaying archive pages
+ * Template Name: News Page
  *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package Mozita_Migration
  */
 
-get_header();
+get_header(); // Include the header
+
 ?>
 
-	 <!-- page-title -->
-        <section class="page-title centred p_relative">
-            <div class="bg-layer" style="background-image: url(assets/images/background/page-title-3.jpg);"></div>
-            <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-67.png);"></div>
+<!-- page-title -->
+<section class="page-title centred p_relative">
+            <div class="bg-layer" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/background/page-title-3.jpg);"></div>
+            <div class="pattern-layer" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/shape/shape-67.png);"></div>
             <div class="auto-container">
                 <div class="content-box">
                     <h1><?php the_title();?></h1>
                     <ul class="bread-crumb clearfix">
-                        <li><a href="index.html">Home</a></li>
-                        <li>Blog</li>
+                        <li><a href="<?php echo home_url(); ?>">Home</a></li>
+                        <li><?php the_title();?></li>
                     </ul>
                 </div>
             </div>
@@ -72,10 +71,6 @@ get_header();
 								<?php
 								endif;
 								?>
-
-                     
-                            
-
                             <div class="pagination-wrapper pt_40">
                                 <ul class="pagination">
                                     <li><a href="blog.html" class="current">1</a></li>
@@ -203,6 +198,6 @@ get_header();
             </div>
         </section>
         <!-- sidebar-page-container end -->
-
 <?php
-get_footer();
+
+get_footer(); // Include the footer
