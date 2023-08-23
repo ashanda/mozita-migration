@@ -66,59 +66,6 @@ get_header();
 							<li><a href="#"><i class="icon-7"></i></a></li>
 						</ul>
 					</div>
-					<div class="comments-box mb_60">
-						<div class="group-title pb_40">
-							<h3><?php _e('Comments', 'your-theme-textdomain'); ?>(<?php echo get_comments_number(); ?>)</h3>
-						</div>
-						<div class="comment-inner">
-							<?php
-							$comments = get_comments(array(
-								'post_id' => get_the_ID(),
-								'status' => 'approve'
-							));
-
-							foreach ($comments as $comment) :
-							?>
-								<div class="comment">
-									<figure class="comment-thumb">
-										<?php echo get_avatar($comment, 80); ?>
-									</figure>
-									<h5><?php echo get_comment_author(); ?> <span><?php echo get_comment_date(); ?></span></h5>
-									<p><?php echo get_comment_text(); ?></p>
-									<a href="<?php echo get_comment_link($comment); ?>" class="reply-btn"><img src="assets/images/icons/icon-16.png" alt=""></a>
-								</div>
-							<?php endforeach; ?>
-						</div>
-					</div>
-
-					<div class="comments-form-area">
-						<div class="group-title pb_20">
-							<h3><?php _e('Leave a Reply', 'your-theme-textdomain'); ?></h3>
-						</div>
-						<div class="form-inner">
-							<?php
-							$comment_form_args = array(
-								'title_reply' => '',
-								'comment_notes_before' => '',
-								'comment_notes_after' => '',
-								'fields' => array(
-									'author' => '<div class="col-lg-6 col-md-6 col-sm-12 form-group"><input type="text" name="author" placeholder="' . __('Name', 'your-theme-textdomain') . '" required=""></div>',
-									'email' => '<div class="col-lg-6 col-md-6 col-sm-12 form-group"><input type="email" name="email" placeholder="' . __('Email', 'your-theme-textdomain') . '" required=""></div>',
-									'url' => '<div class="col-lg-12 col-md-12 col-sm-12 form-group"><input type="text" name="url" placeholder="' . __('Website', 'your-theme-textdomain') . '"></div>'
-								),
-								'comment_field' => '<div class="col-lg-12 col-md-12 col-sm-12 form-group"><textarea name="comment" placeholder="' . __('Your Text Here', 'your-theme-textdomain') . '"></textarea></div>',
-								'class_submit' => 'theme-btn btn-two',
-								'submit_button' => '<div class="col-lg-12 col-md-12 col-sm-12 form-group message-btn">
-			<button type="submit" class="theme-btn btn-two"><span>Post Comment</span></button>
-		</div>
-		',
-							);
-
-							comment_form($comment_form_args);
-							?>
-						</div>
-					</div>
-
 
 				</div>
 			</div>

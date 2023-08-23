@@ -11,20 +11,19 @@ get_header(); // Include the header
 
 <!-- page-title -->
 <section class="page-title centred p_relative">
-    <div class="bg-layer" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/background/page-title-2.jpg);"></div>
+    <div class="bg-layer" style="background-image: url('<?php echo esc_url(get_the_post_thumbnail_url(null, 'full')); ?>');"></div>
     <div class="pattern-layer" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/shape/shape-67.png);"></div>
     <div class="auto-container">
         <div class="content-box">
-            <h1><?php the_title();?></h1>
+            <h1><?php the_title(); ?></h1>
             <ul class="bread-crumb clearfix">
                 <li><a href="<?php echo home_url(); ?>">Home</a></li>
-                <li><?php the_title();?></li>
+                <li><?php the_title(); ?></li>
             </ul>
         </div>
     </div>
 </section>
 <!-- page-title end -->
-
 
 <!-- visa-details -->
 <section class="visa-details p_relative">
@@ -34,12 +33,30 @@ get_header(); // Include the header
                 <div class="visa-sidebar default-sidebar">
                     <div class="sidebar-widget category-widget">
                         <ul class="category-list clearfix">
-                            <li><a href="#">Business Visa</a></li>
-                            <li><a href="#">Working Visas</a></li>
-                            <li><a href="#">Residence Visas</a></li>
-                            <li><a href="#">Student Visas</a></li>
-                            <li><a href="#">Spouse/Family Visas</a></li>
-                            <li><a href="#">Turist Visas</a></li>
+
+
+                            <?php
+                            // Query pages with the "Visa Page" template
+                            $args = array(
+                                'post_type' => 'page',
+                                'meta_key' => '_wp_page_template',
+                                'meta_value' => 'page-visa.php', // Replace with the actual template file name
+                            );
+
+                            $query = new WP_Query($args);
+
+                            if ($query->have_posts()) :
+                                while ($query->have_posts()) :
+                                    $query->the_post();
+                            ?>
+                                    <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+                            <?php
+                                endwhile;
+
+                                wp_reset_postdata();
+
+                            endif;
+                            ?>
                         </ul>
                     </div>
                     <div class="sidebar-widget travel-widget">
@@ -83,81 +100,115 @@ get_header(); // Include the header
                 <div class="visa-details-content">
                     <div class="content-one mb_60">
                         <div class="text mb_45">
-                            <h2>Student Visa</h2>
-                            <p>Sed gravida nisl a porta tincidunt. Integer aliquam nisi sit amet magna suscipit, fermentum mattis erat rutrum.Porta semper lacus cursus, feugiat primis ultrice and ligula risus auctor tempus feugiat dolor and lacinia.Vivamus ac ultricies ex. Donec lacinia lacus libero.</p>
+                            <h2><?php echo esc_html(get_field('title')); ?></h2>
+                            <p><?php echo esc_html(get_field('description')); ?></p>
                         </div>
-                        <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/visa-19.jpg" alt=""></figure>
+                        <?php
+                        // Get the custom image field value
+                        $content_image = get_field('content_image');
+
+                        // Check if the custom image has a value
+                        if ($content_image) {
+                            echo '<figure class="image-box">';
+                            echo '<img src="' . esc_url($content_image['url']) . '" alt="' . esc_attr($content_image['alt']) . '">';
+                            echo '</figure>';
+                        }
+
+                        ?>
+
                         <div class="lower-text">
-                            <p>A foreign national traveling to the United States to conduct temporary business needs a visitor visa (B-1) unless qualifying for entry under the Visa Waiver Program.</p>
+                            <?php
+                            $bottomImageText = get_field('bottom_image_text');
+                            if ($bottomImageText) {
+                                echo '<p>' . esc_html($bottomImageText) . '</p>';
+                            }
+                            ?>
                         </div>
+
+
                     </div>
-                    <div class="content-two mb_35">
-                        <div class="row clearfix">
-                            <div class="col-lg-6 col-md-6 col-sm-12 left-column">
-                                <div class="left-content">
-                                    <h3>Morente reiterates rule on proper wearing of uniform</h3>
-                                    <p>In a memorandum issued on Wednesday, Morente stated that the BI has been receiving complaints about officials and employees who are not wearing their complete uniform during their tour of duty.</p>
-                                    <p>stands for courtesy, accountability, responsibility, efficiency and service. “It is high time that law enforcement be professionalized,” said Morente. “We can implement our laws and policies, but as public servants, we are also expected to be courteous and responsible,” he added.</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 right-column">
-                                <div class="right-content">
-                                    <h3>Examples of temporary business include:</h3>
-                                    <ul class="list-item clearfix">
-                                        <li><a href="#">1. Attending business meetings or consultations <i class="icon-9"></i></a></li>
-                                        <li><a href="#">2. Attending a business convention or conference <i class="icon-9"></i></a></li>
-                                        <li><a href="#">3. Negotiating contracts <i class="icon-9"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="content-three">
-                        <div class="row clearfix">
-                            <div class="col-lg-4 col-md-6 col-sm-12 single-column">
-                                <div class="single-item">
-                                    <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/visa-13.jpg" alt=""></figure>
-                                    <div class="lower-content">
-                                        <h3>Visitor Visa B</h3>
-                                        <p>stands for courtesy, accountability, responsibility, efficiency and service.</p>
-                                        <ul class="list-item clearfix">
-                                            <li><a href="#">1. Overview</a></li>
-                                            <li><a href="#">2. How to Apply</a></li>
-                                            <li><a href="#">3. Fees</a></li>
-                                        </ul>
+                    <!-- middle sec -->
+                    <?php
+                    $middle_section = get_field('middle_section');
+                    if ($middle_section) : ?>
+                        <div class="content-two mb_35">
+                            <div class="row clearfix">
+                                <div class="col-lg-6 col-md-6 col-sm-12 left-column">
+                                    <div class="left-content">
+                                        <h3><?php echo ($middle_section['title']); ?></h3>
+                                        <p><?php echo ($middle_section['description']); ?></p>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-12 single-column">
-                                <div class="single-item">
-                                    <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/visa-14.jpg" alt=""></figure>
-                                    <div class="lower-content">
-                                        <h3>Visa Waiver Program</h3>
-                                        <p>stands for courtesy, accountability, responsibility, efficiency and service.</p>
+                                <div class="col-lg-6 col-md-6 col-sm-12 right-column">
+                                    <div class="right-content">
+                                        <h3><?php echo ($middle_section['points_section_title']); ?></h3>
+
                                         <ul class="list-item clearfix">
-                                            <li><a href="#">1. Overview</a></li>
-                                            <li><a href="#">2. How to Apply</a></li>
-                                            <li><a href="#">3. Fees</a></li>
+                                            <?php
+                                            $points = ($middle_section['points']);
+                                            if ($points) :
+                                                $counter = 1;
+                                                foreach ($points as $point) : ?>
+                                                    <li><a href="<?php echo esc_url($point['link']); ?>"><?php echo $counter . '. ' . esc_html($point['title']); ?> <i class="icon-9"></i></a></li>
+                                            <?php
+                                                    $counter++;
+                                                endforeach;
+                                            endif;
+                                            ?>
                                         </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-12 single-column">
-                                <div class="single-item">
-                                    <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/visa-15.jpg" alt=""></figure>
-                                    <div class="lower-content">
-                                        <h3>Bermudian Citizens</h3>
-                                        <p>stands for courtesy, accountability, responsibility, efficiency and service.</p>
-                                        <ul class="list-item clearfix">
-                                            <li><a href="#">1. Overview</a></li>
-                                            <li><a href="#">2. How to Apply</a></li>
-                                            <li><a href="#">3. Fees</a></li>
-                                        </ul>
+
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    <?php
+                    endif;
+                    ?>
+                    <!-- middle sec -->
+                    <?php
+                    $bottom_section = get_field('bottom_section');
+                    if ($bottom_section) : ?>
+                        <div class="content-three">
+                            <div class="row clearfix">
+                                <?php
+                                $cards = ($bottom_section['cards']);
+                                if ($cards) :
+                                    foreach ($cards as $card) :
+                                ?>
+                                        <div class="col-lg-4 col-md-6 col-sm-12 single-column">
+                                            <div class="single-item">
+                                                <figure class="image-box"><img src="<?php echo ($card['image']); ?>" alt=""></figure>
+                                                <div class="lower-content">
+                                                    <h3><?php echo ($card['title']); ?></h3>
+                                                    <p><?php echo ($card['description']); ?></p>
+                                                    <ul class="list-item clearfix">
+                                                        <?php
+                                                        $points = $card['points'];
+                                                        if ($points) :
+                                                            $point_number = 1; 
+                                                            foreach ($points as $point) :
+                                                        ?>
+                                                                <li><a href="<?php echo esc_url($point['link']); ?>"><?php echo $point_number . '. ' . esc_html($point['title']); ?></a></li>
+                                                        <?php
+                                                                $point_number++;
+                                                            endforeach;
+                                                        endif;
+                                                        ?>
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                <?php
+                                    endforeach;
+                                endif;
+                                ?>
+
+                            </div>
+                        </div>
+                    <?php
+                    endif;
+                    ?>
                 </div>
             </div>
         </div>
