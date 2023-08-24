@@ -101,7 +101,7 @@ get_header(); // Include the header
                     <div class="content-one mb_60">
                         <div class="text mb_45">
                             <h2><?php echo esc_html(get_field('title')); ?></h2>
-                            <p><?php echo esc_html(get_field('description')); ?></p>
+                            <?php echo (get_field('description')); ?>
                         </div>
                         <?php
                         // Get the custom image field value
@@ -120,7 +120,7 @@ get_header(); // Include the header
                             <?php
                             $bottomImageText = get_field('bottom_image_text');
                             if ($bottomImageText) {
-                                echo '<p>' . esc_html($bottomImageText) . '</p>';
+                                echo ($bottomImageText);
                             }
                             ?>
                         </div>
@@ -136,7 +136,7 @@ get_header(); // Include the header
                                 <div class="col-lg-12 col-md-12 col-sm-12 left-column">
                                     <div class="left-content">
                                         <h3><?php echo ($middle_section['title']); ?></h3>
-                                        <p><?php echo ($middle_section['description']); ?></p>
+                                        <?php echo ($middle_section['description']); ?>
                                     </div>
                                 </div>
                                 <!-- <div class="col-lg-6 col-md-6 col-sm-12 right-column">
