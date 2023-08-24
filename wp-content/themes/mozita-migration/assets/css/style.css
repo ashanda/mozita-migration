@@ -2776,6 +2776,10 @@ a.theme-btn.btn-one.b-special {
   z-index: 0;
 }
 
+.visa-block-one .inner-box .lower-content h3 {
+  font-size: 21px;
+}
+
  @media only screen and (min-width: 1200px) {
 
    /* Show the submenu on hover */
