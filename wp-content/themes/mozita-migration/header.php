@@ -126,7 +126,7 @@
 											</ul>
 										</li>
 										<li class="dropdown"><a href="<?php echo home_url(); ?>">New Zealand Visa</a>
-											<ul class="" style="width: -moz-available; background-color: #2795cf; border-radius:20px;">
+											<ul class="" style="width: -moz-available; width: -webkit-fill-available; background-color: #2795cf; border-radius:20px;">
 												<div class="row p-4 w-100">
 													<div class="col-sm-12 col-md-12 col-lg-4 border-end">
 														<h5 class="text-white fw-bold mb-3">Work Visa</h5>
