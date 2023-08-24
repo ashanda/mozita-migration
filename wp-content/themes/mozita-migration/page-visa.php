@@ -185,7 +185,7 @@ get_header(); // Include the header
                                                         <?php
                                                         $points = $card['points'];
                                                         if ($points) :
-                                                            $point_number = 1; 
+                                                            $point_number = 1;
                                                             foreach ($points as $point) :
                                                         ?>
                                                                 <li><a href="<?php echo esc_url($point['link']); ?>"><?php echo $point_number . '. ' . esc_html($point['title']); ?></a></li>
@@ -210,7 +210,78 @@ get_header(); // Include the header
                     endif;
                     ?>
 
-                    
+                    <!-- Updates section -->
+                    <?php
+                    $updates_section = get_field('updates_section');
+                    if ($updates_section) : ?>
+
+                        <div class="col-lg-12 col-md-12 col-sm-12 mt-3">
+                            <div class="updates-content">
+                                <h3 class="mb-3"><?php echo ($updates_section['updates_section_title']); ?></h3>
+
+                                <ul class="list-item clearfix">
+                                    <?php
+                                    $points = ($updates_section['points']);
+                                    if ($points) :
+                                        $counter = 1;
+                                        foreach ($points as $point) : ?>
+                                            <li>
+                                                <h6 class="fw-bold mb-2"> <i class="icon-13"></i>
+                                                    <?php echo esc_html($point['title']); ?></h6>
+                                                <p><?php echo esc_html($point['description']); ?></p>
+                                            </li>
+                                    <?php
+                                            $counter++;
+                                        endforeach;
+                                    endif;
+                                    ?>
+                                </ul>
+
+                            </div>
+                        </div>
+                    <?php
+                    endif;
+                    ?>
+
+                    <!-- Updates section -->
+                    <?php
+                    $summery_section = get_field('summery_section');
+                    if ($summery_section) : ?>
+
+                        <div class="col-lg-12 col-md-12 col-sm-12 mt-3">
+                            <div class="updates-content">
+                                <?php
+                                if ($summery_section['summery_section_title']) :
+                                ?>
+                                    <h3 class="mb-3"><?php echo ($summery_section['summery_section_title']); ?></h3>
+                                <?php
+                                endif;
+                                ?>
+                                <ul class="list-item clearfix">
+                                    <?php
+                                    $rows = ($summery_section['rows']);
+                                    if ($rows) :
+                                        $counter = 1;
+                                        foreach ($rows as $row) : ?>
+                                            <div class="py-2">
+                                                <h6 class="fw-bold mb-2">
+                                                    <?php echo esc_html($point['title']); ?>
+                                                </h6>
+                                                <p><?php echo esc_html($point['description']); ?></p>
+                                            </div>
+                                    <?php
+                                            $counter++;
+                                        endforeach;
+                                    endif;
+                                    ?>
+                                </ul>
+
+                            </div>
+                        </div>
+                    <?php
+                    endif;
+                    ?>
+
                 </div>
             </div>
         </div>
