@@ -169,10 +169,10 @@
 												</div>
 											</ul>
 										</li>
-										<li><a href="contact.html">Employer Service</a></li>
-										<li><a href="contact.html">Know the Country</a></li>
-										<li><a href="contact.html">News</a></li>
-										<li><a href="contact.html">Contact Us</a></li>
+										<li><a href="#">Employer Service</a></li>
+										<li><a href="#">Know the Country</a></li>
+										<li><a href="news">News</a></li>
+										<li><a href="contact">Contact Us</a></li>
 									</ul>
 								</div>
 							</nav>
