@@ -415,7 +415,7 @@ get_header(); // Include the header
     <div class="bg-layer parallax-bg" data-parallax='{"y": 100}' style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/background/dream-bg.jpg);"></div>
     <div class="pattern-layer-2" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/shape/shape-9.png);"></div>
     <figure class="image-layer"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/am-I-qualified (1).png"ot alt=""></figure>
-    <div class="pattern-layer" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/shape/shape-8.png);"></div>
+    <div class="pattern-layer d-none" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/shape/shape-8.png);"></div>
     <div class="auto-container">
         <div class="content_block_two">
             <div class="content-box p_relative d_block">
@@ -670,7 +670,7 @@ get_header(); // Include the header
 
     <div class="pattern-layer">
         <div class="pattern-1" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/shape/shape-17.png););"></div>
-        <div class="pattern-2" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/shape/shape-18.png);"></div>
+        <div class="pattern-2 d-none" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/shape/shape-18.png);"></div>
     </div>
 
     <div class="auto-container">
