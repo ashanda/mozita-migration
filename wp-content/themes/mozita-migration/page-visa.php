@@ -133,13 +133,13 @@ get_header(); // Include the header
                     if ($middle_section) : ?>
                         <div class="content-two mb_35">
                             <div class="row clearfix">
-                                <div class="col-lg-6 col-md-6 col-sm-12 left-column">
+                                <div class="col-lg-12 col-md-12 col-sm-12 left-column">
                                     <div class="left-content">
                                         <h3><?php echo ($middle_section['title']); ?></h3>
                                         <p><?php echo ($middle_section['description']); ?></p>
                                     </div>
                                 </div>
-                                <div class="col-lg-6 col-md-6 col-sm-12 right-column">
+                                <!-- <div class="col-lg-6 col-md-6 col-sm-12 right-column">
                                     <div class="right-content">
                                         <h3><?php echo ($middle_section['points_section_title']); ?></h3>
 
@@ -158,7 +158,7 @@ get_header(); // Include the header
                                         </ul>
 
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     <?php
@@ -209,6 +209,8 @@ get_header(); // Include the header
                     <?php
                     endif;
                     ?>
+
+                    
                 </div>
             </div>
         </div>
