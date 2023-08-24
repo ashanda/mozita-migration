@@ -115,35 +115,36 @@
 								<i class="icon-bar"></i>
 								<i class="icon-bar"></i>
 							</div>
-							<!-- <nav class="main-menu navbar-expand-md navbar-light">
+							<nav class="main-menu navbar-expand-md navbar-light">
 								<div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
 									<ul class="navigation clearfix">
-										<li class="dropdown"><a href="<?php echo home_url(); ?>">Home</a>
+										<li class="dropdown"><a href="<?php echo home_url(); ?>/about">About Us</a>
 											<ul>
-												<li><a href="<?php echo home_url(); ?>">Home Page 01</a></li>
-												<li><a href="index-2.html">Home Page 02</a></li>
-												<li><a href="index-3.html">Home Page 03</a></li>
-												<li><a href="index-4.html">Home Page 04</a></li>
-												<li><a href="index-onepage.html">OnePage Home</a></li>
-												<li><a href="index-rtl.html">RTL Home</a></li>
-												<li class="dropdown"><a href="<?php echo home_url(); ?>">Header Style</a>
-													<ul>
-														<li><a href="<?php echo home_url(); ?>">Header Style 01</a></li>
-														<li><a href="index-2.html">Header Style 02</a></li>
-														<li><a href="index-3.html">Header Style 03</a></li>
-														<li><a href="index-4.html">Header Style 04</a></li>
-													</ul>
-												</li>
+												<li><a href="">About Mozita</a></li>
+												<li><a href="index-2.html">Team</a></li>
+												<li><a href="index-3.html">Testimonials</a></li>
 											</ul>
 										</li>
-										<li class="dropdown"><a href="<?php echo home_url(); ?>">About</a>
-											<ul>
-												<li class="dropdown"><a href="<?php echo home_url(); ?>">Team</a>
+										<li class="dropdown"><a href="<?php echo home_url(); ?>">New Zealand Visa</a>
+											<ul >
+												<div class="row p-3 w-100">
+													<div class="col-md-4">
+														<h6>Work Visa</h6>
+													</div>
+													<div class="col-md-4">
+														<h6>Dependant Visa</h6>
+													</div>
+													<div class="col-md-4">
+														<h6>Other Visa Categories</h6>
+													</div>
+
+												</div>
+												<!-- <li class="dropdown"><a href="<?php echo home_url(); ?>">Team</a>
 													<ul>
 														<li><a href="team.html">Our Team</a></li>
 														<li><a href="team-details.html">Team Details</a></li>
 													</ul>
-												</li>
+												</li> -->
 												<li><a href="about.html">About Us</a></li>
 												<li><a href="faq.html">Faq’s</a></li>
 												<li><a href="error.html">404</a></li>
@@ -152,9 +153,9 @@
 										<li><a href="contact.html">Contact Us</a></li>
 									</ul>
 								</div>
-							</nav> -->
+							</nav>
 
-							<nav class="main-menu navbar-expand-md navbar-light">
+							<!-- <nav class="main-menu navbar-expand-md navbar-light">
 								<?php
 								// wp_nav_menu(array(
 								// 	'theme_location' => 'primary-menu', // Replace 'primary-menu' with your menu location
@@ -164,13 +165,14 @@
 								// 	'menu_class' => 'navigation clearfix',
 								// 	'fallback_cb' => false,
 								// ));
-							
-								wp_nav_menu(
-									array(
-										'theme_location' => 'menu-1',
-										'menu_id'        => 'primary-menu',
-									)
-								);
+
+								// wp_nav_menu(
+								// 	array(
+								// 		'theme_location' => 'menu-1',
+								// 		'menu_id'        => 'primary-menu',
+								// 	)
+								// );
+								// 
 								?>
 							</nav>
 							<script>
@@ -182,7 +184,7 @@
 										$(this).toggleClass('open');
 									});
 								});
-							</script>
+							</script> -->
 
 						</div>
 						<div class="support-box">
