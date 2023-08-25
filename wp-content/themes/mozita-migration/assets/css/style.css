@@ -2828,4 +2828,5 @@
  .main-menu .navigation>li>ul,
  .main-menu .navigation>li>.megamenu {
    background-color: #2795cf;
+   border-radius: 20px;
  }
