@@ -2749,36 +2749,36 @@
    opacity: 1;
  }
 
- #mega-menu-wrap-menu-1 #mega-menu-menu-1 > li.mega-menu-item > a.mega-menu-link {
-  padding: 0px 0px 0px 0px;
-}
+ #mega-menu-wrap-menu-1 #mega-menu-menu-1>li.mega-menu-item>a.mega-menu-link {
+   padding: 0px 0px 0px 0px;
+ }
 
-.banner-carousel .content-box h2 {
-  width: 1050px;
-}
+ .banner-carousel .content-box h2 {
+   width: 1050px;
+ }
 
-.visa-block-one .inner-box .lower-content h3 {
-  font-size: 22px;
-}
+ .visa-block-one .inner-box .lower-content h3 {
+   font-size: 22px;
+ }
 
-.team-section {
-  padding: 150px 0px 150px 0px !important;
-  background: #FAFAFA;
-}
+ .team-section {
+   padding: 150px 0px 150px 0px !important;
+   background: #FAFAFA;
+ }
 
-a.theme-btn.btn-one.b-special {
-  font-size: 18px;
-  padding: 12px 34px;
-  margin-top: 20px;
-}
+ a.theme-btn.btn-one.b-special {
+   font-size: 18px;
+   padding: 12px 34px;
+   margin-top: 20px;
+ }
 
-.bg-layer.parallax-bg.e-d{
-  z-index: 0;
-}
+ .bg-layer.parallax-bg.e-d {
+   z-index: 0;
+ }
 
-.visa-block-one .inner-box .lower-content h3 {
-  font-size: 21px;
-}
+ .visa-block-one .inner-box .lower-content h3 {
+   font-size: 21px;
+ }
 
  @media only screen and (min-width: 1200px) {
 
@@ -2809,6 +2809,17 @@ a.theme-btn.btn-one.b-special {
      display: block;
    }
 
-   
+
  }
 
+
+
+ /* new styles kasun */
+ @media only screen and (max-width: 576px) {
+   .visa-section .image-box {
+     display: none !important;
+   }
+   .visa-section .icon-box{
+    position: relative !important;
+   }
+ }

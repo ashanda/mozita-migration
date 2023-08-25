@@ -28,7 +28,7 @@ get_header(); // Include the header
                         <div class="text">30 Years</div>
                         <span>Experience</span>
                     </div>
-                    <h2>Work Visas for International<span>Opportunities</span>| Expert Migration Services</h2>
+                    <h2>Work Visas <span>For International Opportunities</span></h2>
                     <p>MCS has been recruiting and prepping talented professionals for over twenty years. We provide a unique value proposition to both.</p>
                     <div class="btn-box">
                         <a href="<?php echo home_url(); ?>" class="theme-btn btn-one"><span>More Details</span></a>
@@ -45,7 +45,7 @@ get_header(); // Include the header
                         <div class="text">30 Years</div>
                         <span>Experience</span>
                     </div>
-                    <h2>Partner Work Visas: <span>Building Futures Together</span> | Migration Experts</h2>
+                    <h2>Partner Work Visas <span>Building Futures Together</span></h2>
                     <p>Embark on joint professional and personal growth journeys with partner work visas. Our migration experts unite couples for fulfilling careers while nurturing relationships in exciting new environments.</p>
                     <div class="btn-box">
                         <a href="<?php echo home_url(); ?>" class="theme-btn btn-one"><span>More Details</span></a>
@@ -62,7 +62,7 @@ get_header(); // Include the header
                         <div class="text">30 Years</div>
                         <span>Experience</span>
                     </div>
-                    <h2>Discover Togetherness with <span>Partner Visit Visas</span> | Seamless Applications</h2>
+                    <h2>Partner Visit Visas <span>Discover Togetherness</span></h2>
                     <p>MCS has been recruiting and prepping talented professionals for over twenty years. We provide a unique value proposition to both.</p>
                     <div class="btn-box">
                         <a href="<?php echo home_url(); ?>" class="theme-btn btn-one"><span>More Details</span></a>
@@ -80,7 +80,7 @@ get_header(); // Include the header
                         <div class="text">30 Years</div>
                         <span>Experience</span>
                     </div>
-                    <h2>Embrace New Beginnings with <span>Dependent Visitor Visas</span> | Family Connections</h2>
+                    <h2>Dependent Visitor Visas <span>Embrace New Beginnings</span></h2>
                     <p>connected with family through dependent visitor visas. Our seamless applications help create lasting memories abroad while keeping loved ones close.</p>
                     <div class="btn-box">
                         <a href="<?php echo home_url(); ?>" class="theme-btn btn-one"><span>More Details</span></a>
@@ -98,7 +98,7 @@ get_header(); // Include the header
                         <div class="text">30 Years</div>
                         <span>Experience</span>
                     </div>
-                    <h2>Empowering Education: <span> Dependent Student Visas</span> | Academic Support</h2>
+                    <h2>Dependent Student Visas <span>Empowering Education</span></h2>
                     <p>loved ones' education with dependent student visas. Seamlessly support academic excellence abroad with our expert migration services.</p>
                     <div class="btn-box">
                         <a href="<?php echo home_url(); ?>" class="theme-btn btn-one"><span>More Details</span></a>
@@ -116,7 +116,7 @@ get_header(); // Include the header
                         <div class="text">30 Years</div>
                         <span>Experience</span>
                     </div>
-                    <h2>Navigating Pathways: <span> VOC Work Visas</span> | Expert Guidance</h2>
+                    <h2>VOC Work Visas <span>Navigating Pathways</span></h2>
                     <p>Advance professionally through VOC work visas. Our migration experts simplify complexities, guiding you to new opportunities and achievements in your field.</p>
                     <div class="btn-box">
                         <a href="<?php echo home_url(); ?>" class="theme-btn btn-one"><span>More Details</span></a>
@@ -134,7 +134,7 @@ get_header(); // Include the header
                         <div class="text">30 Years</div>
                         <span>Experience</span>
                     </div>
-                    <h2>Education Beyond Borders: <span> Student Visas</span> | Comprehensive Support</h2>
+                    <h2>Student Visas <span>Education Beyond Borders</span></h2>
                     <p>Access world-class education via student visas. Our comprehensive migration support helps aspiring students achieve academic dreams abroad.</p>
                     <div class="btn-box">
                         <a href="<?php echo home_url(); ?>" class="theme-btn btn-one"><span>More Details</span></a>
@@ -152,7 +152,7 @@ get_header(); // Include the header
                         <div class="text">30 Years</div>
                         <span>Experience</span>
                     </div>
-                    <h2>Invest in Your Tomorrow: <span> Investor Visas</span> | Wealth and Growth</h2>
+                    <h2>Investor Visas <span>Invest in Your Tomorrow</span></h2>
                     <p>Expand horizons with investor visas for wealth and growth. Our dedicated team ensures seamless applications, paving the way for prosperous investments.</p>
                     <div class="btn-box">
                         <a href="<?php echo home_url(); ?>" class="theme-btn btn-one"><span>More Details</span></a>
@@ -362,7 +362,7 @@ get_header(); // Include the header
 
 
 <!-- feature-section -->
-<section class="feature-section">
+<section class="feature-section d-none d-md-block">
     <div class="auto-container">
         <div class="inner-container">
             <div class="shape" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/shape/shape-7.png);"></div>
@@ -406,7 +406,7 @@ get_header(); // Include the header
             </div>
         </div>
     </div>
-</section>g
+</section>
 <!-- feature-section end -->
 
 
@@ -414,7 +414,7 @@ get_header(); // Include the header
 <section class="dream-section p_relative">
     <div class="bg-layer parallax-bg" data-parallax='{"y": 100}' style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/background/dream-bg.jpg);"></div>
     <div class="pattern-layer-2" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/shape/shape-9.png);"></div>
-    <figure class="image-layer"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/am-I-qualified (1).png"ot alt=""></figure>
+    <figure class="image-layer"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/am-I-qualified (1).png" ot alt=""></figure>
     <div class="pattern-layer" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/shape/shape-8.png);"></div>
     <div class="auto-container">
         <div class="content_block_two">
@@ -577,7 +577,7 @@ get_header(); // Include the header
                             <h3><a href="#">Roman Frederick</a></h3>
                             <span class="designation">Regional Manager</span>
                             <div class="btn-box">
-                            <a href="#" class="theme-btn btn-one b-special"><span>More</span></a>
+                                <a href="#" class="theme-btn btn-one b-special"><span>More</span></a>
                             </div>
                         </div>
                     </div>
@@ -599,7 +599,7 @@ get_header(); // Include the header
                             <h3><a href="#">Jane Cooper</a></h3>
                             <span class="designation">Medical Assistant</span>
                             <div class="btn-box">
-                            <a href="#" class="theme-btn btn-one b-special"><span>More</span></a>
+                                <a href="#" class="theme-btn btn-one b-special"><span>More</span></a>
                             </div>
                         </div>
                     </div>
@@ -621,7 +621,7 @@ get_header(); // Include the header
                             <h3><a href="#">Esther Howard</a></h3>
                             <span class="designation">President of Sales</span>
                             <div class="btn-box">
-                            <a href="#" class="theme-btn btn-one b-special"><span>More</span></a>
+                                <a href="#" class="theme-btn btn-one b-special"><span>More</span></a>
                             </div>
                         </div>
                     </div>
@@ -643,7 +643,7 @@ get_header(); // Include the header
                             <h3><a href="#">Jenny Wilson</a></h3>
                             <span class="designation">Marketing Coordinator</span>
                             <div class="btn-box">
-                            <a href="#" class="theme-btn btn-one b-special"><span>More</span></a>
+                                <a href="#" class="theme-btn btn-one b-special"><span>More</span></a>
                             </div>
                         </div>
                     </div>
@@ -659,14 +659,14 @@ get_header(); // Include the header
 <section class="education-section p_relative">
 
     <div class="bg-layer-2" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/shape/shape-16.jpg);"></div>
-            <div class="bg-layer parallax-bg e-d" data-parallax='{"y": 100}' style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/background/education-bg.jpg);"></div>
-            <figure class="image-layer wow slideInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/mennew1 (1).png" alt=""></figure>
-    
+    <div class="bg-layer parallax-bg e-d" data-parallax='{"y": 100}' style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/background/education-bg.jpg);"></div>
+    <figure class="image-layer wow slideInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/mennew1 (1).png" alt=""></figure>
+
 
     <div class="shape">
-                <div class="shape-1" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/shape/shape-19.png);"></div>
-                <div class="shape-2" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/shape/shape-19.png);"></div>
-            </div>
+        <div class="shape-1" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/shape/shape-19.png);"></div>
+        <div class="shape-2" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/shape/shape-19.png);"></div>
+    </div>
 
     <div class="pattern-layer">
         <div class="pattern-1" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/shape/shape-17.png););"></div>
@@ -674,31 +674,31 @@ get_header(); // Include the header
     </div>
 
     <div class="auto-container">
-                <div class="content_block_three">
-                    <div class="content-box p_relative d_block">
-                        <h2>Turn Your New Zealand Dream into Reality: <span>Let Us Make It Happen</span></h2>
-                        <p>Realize your aspirations in New Zealand with our expert migration services. Transform dreams into reality with our dedicated guidance.</p>
-                        <ul class="country-list">
-                            <li>
-                                <div class="flag"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/flag-1.png" alt=""></div>
-                                <span>United Kingdom</span>
-                            </li>
-                            <li>
-                                <div class="flag"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/flag-2.png" alt=""></div>
-                                <span>Canada</span>
-                            </li>
-                            <li>
-                                <div class="flag"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/flag-3.png" alt=""></div>
-                                <span>China</span>
-                            </li>
-                            <li>
-                                <div class="flag"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/flag-4.png" alt=""></div>
-                                <span>Australia</span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+        <div class="content_block_three">
+            <div class="content-box p_relative d_block">
+                <h2>Turn Your New Zealand Dream into Reality: <span>Let Us Make It Happen</span></h2>
+                <p>Realize your aspirations in New Zealand with our expert migration services. Transform dreams into reality with our dedicated guidance.</p>
+                <ul class="country-list">
+                    <li>
+                        <div class="flag"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/flag-1.png" alt=""></div>
+                        <span>United Kingdom</span>
+                    </li>
+                    <li>
+                        <div class="flag"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/flag-2.png" alt=""></div>
+                        <span>Canada</span>
+                    </li>
+                    <li>
+                        <div class="flag"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/flag-3.png" alt=""></div>
+                        <span>China</span>
+                    </li>
+                    <li>
+                        <div class="flag"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/flag-4.png" alt=""></div>
+                        <span>Australia</span>
+                    </li>
+                </ul>
             </div>
+        </div>
+    </div>
 </section>
 <!-- education-section end -->
 
@@ -744,7 +744,7 @@ get_header(); // Include the header
                 </div>
             </div>
         </section> -->
-        <!-- education-section end -->
+<!-- education-section end -->
 
 <!-- passport-section -->
 <section class="passport-section centred p_relative">
