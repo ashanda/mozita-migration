@@ -414,7 +414,7 @@ get_header(); // Include the header
 <section class="dream-section p_relative">
     <div class="bg-layer parallax-bg" data-parallax='{"y": 100}' style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/background/dream-bg.jpg);"></div>
     <div class="pattern-layer-2" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/shape/shape-9.png);"></div>
-    <figure class="image-layer"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/am-I-qualified (1).png"ot alt=""></figure>
+    <figure class="image-layer"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/am-I-qualified (1).png" ot alt=""></figure>
     <div class="pattern-layer d-none" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/shape/shape-8.png);"></div>
     <div class="auto-container">
         <div class="content_block_two">
@@ -560,7 +560,7 @@ get_header(); // Include the header
             <span class="sub-title">Expert Team Members</span>
             <h2>Our Team at Your Service</h2>
         </div>
-        <div class="row clearfix">
+        <!-- <div class="row clearfix">
             <div class="col-lg-3 col-md-6 col-sm-12 team-block">
                 <div class="team-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                     <div class="inner-box">
@@ -645,6 +645,90 @@ get_header(); // Include the header
                             <div class="btn-box">
                                 <a href="#" class="theme-btn btn-one b-special"><span>More</span></a>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <div class="four-item-carousel owl-carousel owl-theme owl-dots-none nav-style-two">
+
+            <div class="team-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                <div class="inner-box">
+                    <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/team/team-1.jpg" alt=""></figure>
+                    <div class="lower-content">
+                        <div class="share-box">
+                            <div class="share-icon"><i class="icon-26"></i></div>
+                            <ul class="social-links clearfix">
+                                <li><a href="<?php echo home_url(); ?>"><i class="icon-7"></i></a></li>
+                                <li><a href="<?php echo home_url(); ?>"><i class="icon-6"></i></a></li>
+                                <li><a href="<?php echo home_url(); ?>"><i class="icon-4"></i></a></li>
+                            </ul>
+                        </div>
+                        <h3><a href="#">Roman Frederick</a></h3>
+                        <span class="designation">Regional Manager</span>
+                        <div class="btn-box">
+                            <a href="#" class="theme-btn btn-one b-special"><span>More</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="team-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
+                <div class="inner-box">
+                    <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/team/team-2.jpg" alt=""></figure>
+                    <div class="lower-content">
+                        <div class="share-box">
+                            <div class="share-icon"><i class="icon-26"></i></div>
+                            <ul class="social-links clearfix">
+                                <li><a href="<?php echo home_url(); ?>"><i class="icon-7"></i></a></li>
+                                <li><a href="<?php echo home_url(); ?>"><i class="icon-6"></i></a></li>
+                                <li><a href="<?php echo home_url(); ?>"><i class="icon-4"></i></a></li>
+                            </ul>
+                        </div>
+                        <h3><a href="#">Jane Cooper</a></h3>
+                        <span class="designation">Medical Assistant</span>
+                        <div class="btn-box">
+                            <a href="#" class="theme-btn btn-one b-special"><span>More</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="team-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
+                <div class="inner-box">
+                    <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/team/team-3.jpg" alt=""></figure>
+                    <div class="lower-content">
+                        <div class="share-box">
+                            <div class="share-icon"><i class="icon-26"></i></div>
+                            <ul class="social-links clearfix">
+                                <li><a href="<?php echo home_url(); ?>"><i class="icon-7"></i></a></li>
+                                <li><a href="<?php echo home_url(); ?>"><i class="icon-6"></i></a></li>
+                                <li><a href="<?php echo home_url(); ?>"><i class="icon-4"></i></a></li>
+                            </ul>
+                        </div>
+                        <h3><a href="#">Esther Howard</a></h3>
+                        <span class="designation">President of Sales</span>
+                        <div class="btn-box">
+                            <a href="#" class="theme-btn btn-one b-special"><span>More</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="team-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                <div class="inner-box">
+                    <figure class="image-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/team/team-4.jpg" alt=""></figure>
+                    <div class="lower-content">
+                        <div class="share-box">
+                            <div class="share-icon"><i class="icon-26"></i></div>
+                            <ul class="social-links clearfix">
+                                <li><a href="<?php echo home_url(); ?>"><i class="icon-7"></i></a></li>
+                                <li><a href="<?php echo home_url(); ?>"><i class="icon-6"></i></a></li>
+                                <li><a href="<?php echo home_url(); ?>"><i class="icon-4"></i></a></li>
+                            </ul>
+                        </div>
+                        <h3><a href="#">Jenny Wilson</a></h3>
+                        <span class="designation">Marketing Coordinator</span>
+                        <div class="btn-box">
+                            <a href="#" class="theme-btn btn-one b-special"><span>More</span></a>
                         </div>
                     </div>
                 </div>
