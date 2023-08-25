@@ -26,7 +26,7 @@ get_header(); // Include the header
 
 
         <!-- contact-style-two -->
-        <section class="contact-style-two p_relative">
+        <section class="contact-style-two p_relative" style="padding-bottom: 50px;">
             <div class="auto-container">
                 <div class="row clearfix">
                     <div class="col-lg-6 col-md-12 col-sm-12 content-column">
@@ -43,6 +43,11 @@ get_header(); // Include the header
                                 <h3>Location</h3>
                                 <p>141, First Floor, 12 St Roots Terrace, Los Angeles 90010 Unitd States of America.</p>
                             </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 form-column">
+                    <div class="content-box">
+                            
                             <div class="inner-box">
                                 <div class="row clearfix">
                                     <div class="col-lg-6 col-md-6 col-sm-12 single-column">
@@ -76,9 +81,7 @@ get_header(); // Include the header
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12 col-sm-12 form-column">
-                        <div class="form-inner">
+                        <!-- <div class="form-inner">
                             <div class="sec-title mb_40">
                                 <span class="sub-title">Let’s Connect</span>
                                 <h2>Send Your Message</h2>
@@ -115,7 +118,7 @@ get_header(); // Include the header
                                     </div>
                                 </div>
                             </form>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
