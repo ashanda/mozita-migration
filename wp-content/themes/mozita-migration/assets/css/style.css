@@ -2819,7 +2819,13 @@
    .visa-section .image-box {
      display: none !important;
    }
-   .visa-section .icon-box{
-    position: relative !important;
+
+   .visa-section .icon-box {
+     position: relative !important;
    }
+ }
+
+ .main-menu .navigation>li>ul,
+ .main-menu .navigation>li>.megamenu {
+   background-color: #2795cf;
  }
