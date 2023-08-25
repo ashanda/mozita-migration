@@ -121,7 +121,7 @@
 										<li class="dropdown"><a href="<?php echo home_url(); ?>/about">About Us</a>
 											<ul>
 												<li><a href="about-us">About Mozita</a></li>
-												<li><a href="team">Team</a></li>
+												<!-- <li><a href="team">Team</a></li> -->
 												<li><a href="testimonials">Testimonials</a></li>
 											</ul>
 										</li>
