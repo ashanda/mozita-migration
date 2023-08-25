@@ -54,7 +54,8 @@
 	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/elements-css/sidebar.css" rel="stylesheet">
 	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/elements-css/visa-details.css" rel="stylesheet">
 	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/elements-css/error.css" rel="stylesheet">
-
+	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/elements-css/coaching-details.css" rel="stylesheet">
+	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/elements-css/countries-details.css" rel="stylesheet">
 	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/responsive.css" rel="stylesheet">
 
 </head>
