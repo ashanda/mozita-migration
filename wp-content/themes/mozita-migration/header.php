@@ -120,9 +120,9 @@
 									<ul class="navigation clearfix">
 										<li class="dropdown"><a href="<?php echo home_url(); ?>/about">About Us</a>
 											<ul>
-												<li><a href="">About Mozita</a></li>
-												<li><a href="">Team</a></li>
-												<li><a href="">Testimonials</a></li>
+												<li><a href="about-us">About Mozita</a></li>
+												<li><a href="team">Team</a></li>
+												<li><a href="testimonials">Testimonials</a></li>
 											</ul>
 										</li>
 										<li class="dropdown"><a href="<?php echo home_url(); ?>">New Zealand Visa</a>
@@ -130,36 +130,36 @@
 												<div class="row p-4 w-100">
 													<div class="col-sm-12 col-md-12 col-lg-4 border-end">
 														<h5 class="text-white fw-bold mb-3">Work Visa</h5>
-														<li><a class="text-white" href="">Triangular Accridated Work Visa</a></li>
-														<li><a class="text-white" href="">Direct Placements</a></li>
-														<li><a class="text-white" href="">VOC Work Visa</a></li>
+														<li><a class="text-white" href="triangular-accridated-work-visa">Triangular Accridated Work Visa</a></li>
+														<li><a class="text-white" href="direct-placements-2">Direct Placements</a></li>
+														<li><a class="text-white" href="voc-work-visa">VOC Work Visa</a></li>
 
 													</div>
 													<div class="col-sm-12 col-md-12 col-lg-4 border-end">
 														<h5 class="text-white fw-bold mb-3">Dependant Visa</h5>
-														<li><a class="text-white" href="">Partner Work Visa</a></li>
-														<li><a class="text-white" href="">V Dependant Visitor Visa
+														<li><a class="text-white" href="direct-placements">Partner Work Visa</a></li>
+														<li><a class="text-white" href="v-dependant-visitor-visa">V Dependant Visitor Visa
 															</a></li>
-														<li><a class="text-white" href="">Dependent Student Visa</a></li>
-														<li><a class="text-white" href="">Dependant Work Visa</a></li>
+														<li><a class="text-white" href="dependent-student-visa">Dependent Student Visa</a></li>
+														<li><a class="text-white" href="dependant-work-visa">Dependant Work Visa</a></li>
 													</div>
 													<div class="col-sm-12 col-md-12 col-lg-4">
 														<h5 class="text-white fw-bold mb-3">Other Visa Categories</h5>
 														<div class="row">
 															<div class="col-4">
-																<a href="">
+																<a href="student-visa">
 																	<img class="w-100" src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/support-1.jpg" alt="">
 																	<h6 class="text-center text-light">Student Visas</h6>
 																</a>
 															</div>
 															<div class="col-4">
-																<a href="">
+																<a href="investor-visa">
 																	<img class="w-100" src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/support-1.jpg" alt="">
 																	<h6 class="text-center text-light">Investor Visas</h6>
 																</a>
 															</div>
 															<div class="col-4">
-																<a href="">
+																<a href="pr-citizenship">
 																	<img class="w-100" src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/support-1.jpg" alt="">
 																	<h6 class="text-center text-light">PR & Citizenship</h6>
 																</a>
@@ -169,8 +169,8 @@
 												</div>
 											</ul>
 										</li>
-										<li><a href="#">Employer Service</a></li>
-										<li><a href="#">Know the Country</a></li>
+										<li><a href="employer-services">Employer Service</a></li>
+										<li><a href="know-the-country">Know the Country</a></li>
 										<li><a href="<?php echo home_url(); ?>/news">News</a></li>
 										<li><a href="<?php echo home_url(); ?>/contact">Contact Us</a></li>
 									</ul>
