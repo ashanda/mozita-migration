@@ -17,7 +17,7 @@ get_header(); // Include the header
         <div class="content-box">
             <h1><?php the_title(); ?></h1>
             <ul class="bread-crumb clearfix">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="<?php echo home_url(); ?>">Home</a></li>
                 <li><?php the_title(); ?></li>
             </ul>
         </div>
