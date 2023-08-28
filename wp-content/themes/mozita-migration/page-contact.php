@@ -33,15 +33,15 @@ get_header(); // Include the header
                         <div class="content-box">
                             <div class="sec-title mb_30">
                                 <span class="sub-title">Quick Contact</span>
-                                <h2>Have Questions? <br />Don't Hesitate to Contact Us</h2>
+                                <h2>Got questions? <br />Feel free to get in touch with us anytime.</h2>
                             </div>
                             <div class="text mb_30">
-                                <p>Sed gravida nisl a porta tincidunt. Integer aliquam nisi sit amet magna suscipit, fermentum mattis erat rutrum.Porta semper lacus cursus, feugiat primis ultrice and ligula risus auctor tempus feugiat dolor and lacinia</p>
+                                <p>Connect with Mozita Migration today. Our dedicated team is here to answer your questions and guide you towards a successful migration journey.</p>
                             </div>
                             <div class="location-box pb_40 mb_110">
                                 <div class="icon-box"><i class="icon-61"></i></div>
                                 <h3>Location</h3>
-                                <p>141, First Floor, 12 St Roots Terrace, Los Angeles 90010 Unitd States of America.</p>
+                                <p>101 Springs Rd, Hornby, Christchurch 8042.II</p>
                             </div>
                         </div>
                     </div>
@@ -57,11 +57,11 @@ get_header(); // Include the header
                                             <ul class="info-list clearfix">
                                                 <li>
                                                     <h5>Phone:</h5>
-                                                    <p><a href="tel:18963648018">+1 89-636-48018</a></p>
+                                                    <p><a href="tel:18963648018">0800 820 820</a></p>
                                                 </li>
                                                 <li>
                                                     <h5>Email:</h5>
-                                                    <p><a href="mailto:yourmail@info.com">yourmail@info.com</a></p>
+                                                    <p><a href="mailto:yourmail@info.com">info@mozitamigration.co.nz</a></p>
                                                 </li>
                                             </ul>
                                         </div>
