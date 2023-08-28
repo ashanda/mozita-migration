@@ -35,11 +35,12 @@ get_header(); // Include the header
                 <div class="content_block_two">
                     <div class="content-box p_relative d_block">
                         <div class="sec-title mb_20">
-                            <span class="sub-title">Reach Your Dream</span>
-                            <h2>Get the Right Help</h2>
+                            <span class="sub-title">Empowering Employers:</span>
+                            <h2>Our Comprehensive Migration Solutions</h2>
                         </div>
                         <div class="text mb_25">
-                            <p>Where did this incorrect belief that everyone dislikes praising happiness come from? Explain to me how this erroneous theory ended up being devised.</p>
+                            <p>In the dynamic landscape of global workforce mobility, finding the right talent for your business can be a transformative step. At Mozita Migration, we understand the challenges employers face in recruiting from overseas and navigating the intricacies of the employee visa process. Our employer services extend beyond just immigration support; we offer a holistic approach that encompasses recruiting, visa processing, accreditation, and ongoing support. In this guide, we will unveil the array of services we provide to employers, ensuring a seamless and successful international recruitment journey.
+</p>
                         </div>
                         <ul class="list-item p_relative mb_40 clearfix">
                             <li><a href="#">1. Entering & Leaving From Country <i class="icon-9"></i></a></li>
