@@ -38,7 +38,7 @@ get_header(); // Include the header
                     // Custom WP Query to fetch blog posts for the loop
                     $args = array(
                         'post_type' => 'post', // You can change this to a custom post type if needed
-                        'posts_per_page' => 2, // Number of posts to display
+                        'posts_per_page' => 5, // Number of posts to display
                     );
 
                     $query = new WP_Query($args);
