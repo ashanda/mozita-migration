@@ -2780,6 +2780,15 @@
    font-size: 21px;
  }
 
+ .visa-block-one .inner-box .lower-content h3 {
+  display: block;
+  font-size: 22px;
+  line-height: 34px;
+  font-weight: 600;
+  min-height: 60px;
+  margin-bottom: 20px;
+}
+
  @media only screen and (min-width: 1200px) {
 
    /* Show the submenu on hover */
