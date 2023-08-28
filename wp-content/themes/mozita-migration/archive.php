@@ -1,8 +1,5 @@
 <?php
-/**
- * Template Name: News Page
- *
- */
+
 
 get_header(); // Include the header
 
