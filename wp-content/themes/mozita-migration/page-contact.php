@@ -10,7 +10,7 @@ get_header(); // Include the header
 ?>
    <!-- page-title -->
    <section class="page-title centred p_relative">
-            <div class="bg-layer" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/background/page-title.jpg);"></div>
+            <div class="bg-layer" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/background/14.png);"></div>
             <div class="pattern-layer" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/shape/shape-67.png);"></div>
             <div class="auto-container">
                 <div class="content-box">
