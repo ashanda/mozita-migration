@@ -133,15 +133,15 @@
 												<div class="row p-4 w-100">
 													<div class="col-sm-12 col-md-12 col-lg-4 border-end">
 														<h5 class="text-white fw-bold mb-3">Work Visa</h5>
-														<li><a class="text-white" href="triangular-accridated-work-visa">Triangular Accridated Work Visa</a></li>
+														<li><a class="text-white" href="new-zealand-accredited-employer-work-visa">Triangular Accridated Work Visa</a></li>
 														<li><a class="text-white" href="direct-placements-2">Direct Placements</a></li>
 														<li><a class="text-white" href="voc-work-visa">VOC Work Visa</a></li>
 
 													</div>
 													<div class="col-sm-12 col-md-12 col-lg-4 border-end">
 														<h5 class="text-white fw-bold mb-3">Dependant Visa</h5>
-														<li><a class="text-white" href="direct-placements">Partner Work Visa</a></li>
-														<li><a class="text-white" href="v-dependant-visitor-visa">V Dependant Visitor Visa
+														<li><a class="text-white" href="partner-visit-visa">Partner Work Visa</a></li>
+														<li><a class="text-white" href="v-dependant-visitor-visa">Dependant Visitor Visa
 															</a></li>
 														<li><a class="text-white" href="dependent-student-visa">Dependent Student Visa</a></li>
 														<li><a class="text-white" href="dependant-work-visa">Dependant Work Visa</a></li>
