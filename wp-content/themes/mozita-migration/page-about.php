@@ -45,7 +45,7 @@ get_header(); // Include the header
                         <div class="text mb_30">
                             <p>Welcome to Mozita Migration, a proud member of the Mozita Group of companies. With a steadfast commitment to excellence, we are a reliable and dynamic migration consultancy that facilitates a seamless pathway for individuals seeking to make New Zealand their new home.</p>
                         </div>
-                        <div class="inner-box mb_40">
+                        <!-- <div class="inner-box mb_40">
                             <div class="single-item">
                                 <div class="icon-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/icon-13.png" alt=""></div>
                                 <h5>Overseas education and study visa consultants.</h5>
@@ -54,10 +54,10 @@ get_header(); // Include the header
                                 <div class="icon-box"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/icon-14.png" alt=""></div>
                                 <h5>Top-ranked universities guarantee admissions.</h5>
                             </div>
-                        </div>
-                        <div class="btn-box">
+                        </div> -->
+                        <!-- <div class="btn-box">
                             <a href="#" class="theme-btn btn-two"><span>More Details</span></a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -79,6 +79,24 @@ get_header(); // Include the header
 </section>
 <!-- about-style-three end -->
 
+<div class="container-fluid p-5">
+    <div class="title-inner mb_50">
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                <div class="sec-title about-sec">
+                    <span class="sub-title">Our Services</span>
+                    <h2>Our comprehensive range of visa services caters to diverse needs</h2>
+                </div>
+            </div>
+
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                <div class="text about-sec-section-text">
+                    <p class="ab-des">including work visas, partner visas, dependent visitor visas, VOC work visas, student visas, and investor visas. With a team of experienced professionals and the support of skilled immigration lawyers, we pride ourselves on a fast and efficient visa process that ensures your migration journey is smooth and successful.</p>
+                </div>
+            </div> 
+        </div>
+    </div>
+</div>
 
 <!-- feature-section -->
 <section class="feature-section about-page alternat-3 pb_150">

@@ -27,43 +27,6 @@ get_header(); // Include the header
 <!-- page-title end -->
 
 
-<!-- dream-style-three -->
-<section class="dream-style-three p_relative">
-    <div class="auto-container">
-        <div class="row clearfix">
-            <div class="col-lg-6 col-md-12 col-sm-12 content-column">
-                <div class="content_block_two">
-                    <div class="content-box p_relative d_block">
-                        <div class="sec-title mb_20">
-                            <span class="sub-title">Empowering Employers:</span>
-                            <h2>Our Comprehensive Migration Solutions</h2>
-                        </div>
-                        <div class="text mb_25">
-                            <p>In the dynamic landscape of global workforce mobility, finding the right talent for your business can be a transformative step. At Mozita Migration, we understand the challenges employers face in recruiting from overseas and navigating the intricacies of the employee visa process. Our employer services extend beyond just immigration support; we offer a holistic approach that encompasses recruiting, visa processing, accreditation, and ongoing support. In this guide, we will unveil the array of services we provide to employers, ensuring a seamless and successful international recruitment journey.
-</p>
-                        </div>
-                        <ul class="list-item p_relative mb_40 clearfix">
-                            <li><a href="#">1. Entering & Leaving From Country <i class="icon-9"></i></a></li>
-                            <li><a href="#">2. Help & Support <i class="icon-9"></i></a></li>
-                            <li><a href="#">3. Country Citizenship <i class="icon-9"></i></a></li>
-                        </ul>
-                        <div class="btn-box">
-                            <a href="#" class="theme-btn"><span>More Details</span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-12 col-sm-12 image-column">
-                <div class="image-box pl_3">
-                    <figure class="image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/dream-1.jpg" alt=""></figure>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- dream-style-three end -->
-
-
 <!-- coaching-section -->
 <section class="coaching-section pb_150">
     <div class="auto-container">
@@ -132,6 +95,42 @@ get_header(); // Include the header
     </div>
 </section>
 <!-- coaching-section end -->
+
+
+<!-- dream-style-three -->
+<section class="dream-style-three p_relative">
+    <div class="auto-container">
+        <div class="row clearfix">
+            <div class="col-lg-6 col-md-12 col-sm-12 content-column">
+                <div class="content_block_two">
+                    <div class="content-box p_relative d_block">
+                        <div class="sec-title mb_20">
+                            <span class="sub-title">Empowering Employers:</span>
+                            <h2>Our Comprehensive Migration Solutions</h2>
+                        </div>
+                        <div class="text mb_25">
+                            <p>In the dynamic landscape of global workforce mobility, finding the right talent for your business can be a transformative step. At Mozita Migration, we understand the challenges employers face in recruiting from overseas and navigating the intricacies of the employee visa process. Our employer services extend beyond just immigration support; we offer a holistic approach that encompasses recruiting, visa processing, accreditation, and ongoing support. In this guide, we will unveil the array of services we provide to employers, ensuring a seamless and successful international recruitment journey.</p>
+                        </div>
+                        <ul class="list-item p_relative mb_40 clearfix">
+                            <li><a href="#">1. Entering & Leaving From Country <i class="icon-9"></i></a></li>
+                            <li><a href="#">2. Help & Support <i class="icon-9"></i></a></li>
+                            <li><a href="#">3. Country Citizenship <i class="icon-9"></i></a></li>
+                        </ul>
+                        <div class="btn-box">
+                            <a href="#" class="theme-btn"><span>More Details</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 image-column">
+                <div class="image-box pl_3">
+                    <figure class="image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/resource/dream-1.jpg" alt=""></figure>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- dream-style-three end -->
 
 
 <!-- coaching-style-three -->

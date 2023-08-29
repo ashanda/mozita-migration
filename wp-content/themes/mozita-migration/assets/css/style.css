@@ -2789,6 +2789,15 @@
   margin-bottom: 20px;
 }
 
+.text.about-sec-section-text p.ab-des {
+  color: #07407D;
+  margin: auto 0;
+}
+
+section.education-section.alternat-2.p_relative.abput-sec-three {
+  padding: 120px 0;
+}
+
  @media only screen and (min-width: 1200px) {
 
    /* Show the submenu on hover */
